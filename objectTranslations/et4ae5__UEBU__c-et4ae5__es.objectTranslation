@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Unidad comercial activada por el usuario</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Unidades comerciales activadas por el usuario</value>
+    </caseValues>
+    <fields>
+        <label>Unidad comercial</label>
+        <name>et4ae5__BU__c</name>
+        <relationshipLabel>Unidades comerciales activadas por el usuario</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Id. de la unidad comercial</label>
+        <name>et4ae5__Business_Unit_ID__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de unidad comercial</label>
+        <name>et4ae5__Business_Unit_Name__c</name>
+    </fields>
+    <fields>
+        <label>Activado</label>
+        <name>et4ae5__Enabled__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de unidad comercial</nameFieldLabel>
+</CustomObjectTranslation>

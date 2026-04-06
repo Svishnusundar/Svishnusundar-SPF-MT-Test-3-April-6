@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Planlægningspolitikken</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Planlægningspolitik</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Planlægningspolitik</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Planlægningspolitikkerne</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Planlægningspolitikker</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Planlægningspolitikker</value>
+    </caseValues>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Bekræftelsestilstand</label>
+        <name>FSL__Commit_Mode__c</name>
+        <picklistValues>
+            <masterLabel>AlwaysCommit</masterLabel>
+            <translation><!-- AlwaysCommit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollback</masterLabel>
+            <translation><!-- Rollback --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Dagsoptimering</label>
+        <name>FSL__Daily_Optimization__c</name>
+    </fields>
+    <fields>
+        <label>Beskrivelse</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Ret overlapninger</label>
+        <name>FSL__Fix_Overlaps__c</name>
+    </fields>
+    <fields>
+        <label>Service Clustering Weight (lukket pilot)</label>
+        <name>FSL__Service_Clustering_Weight__c</name>
+    </fields>
+    <fields>
+        <label>Service Priority Weight (lukket pilot)</label>
+        <name>FSL__Service_Priority_Weight__c</name>
+    </fields>
+    <fields>
+        <label>Travel Mode (lukket pilotprogram)</label>
+        <name>FSL__Travel_Mode__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Navn på planlægningspolitik</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Politikobjektivers vægt kan ikke være negativ</errorMessage>
+        <name>FSL__Deny_Objectives_Negative_Weight</name>
+    </validationRules>
+    <webLinks>
+        <label>Dyb klon (frarådet)</label>
+        <name>FSL__Deep_Clone</name>
+    </webLinks>
+    <webLinks>
+        <label>Elementoptæller (frarådet)</label>
+        <name>FSL__test2</name>
+    </webLinks>
+</CustomObjectTranslation>

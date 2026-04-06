@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>スケジュールポリシー</value>
+    </caseValues>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label>コミットモード</label>
+        <name>FSL__Commit_Mode__c</name>
+        <picklistValues>
+            <masterLabel>AlwaysCommit</masterLabel>
+            <translation><!-- AlwaysCommit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollback</masterLabel>
+            <translation><!-- Rollback --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>全日最適化</label>
+        <name>FSL__Daily_Optimization__c</name>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>重複を解消</label>
+        <name>FSL__Fix_Overlaps__c</name>
+    </fields>
+    <fields>
+        <label>サービスクラスター化の加重 (終了したパイロット)</label>
+        <name>FSL__Service_Clustering_Weight__c</name>
+    </fields>
+    <fields>
+        <label>サービス優先度の加重 (終了したパイロット)</label>
+        <name>FSL__Service_Priority_Weight__c</name>
+    </fields>
+    <fields>
+        <label>移動モード (終了したパイロット)</label>
+        <name>FSL__Travel_Mode__c</name>
+    </fields>
+    <nameFieldLabel>スケジュールポリシー名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>ポリシー目的の加重は負の値にできません</errorMessage>
+        <name>FSL__Deny_Objectives_Negative_Weight</name>
+    </validationRules>
+    <webLinks>
+        <label>ディープコピー (非推奨)</label>
+        <name>FSL__Deep_Clone</name>
+    </webLinks>
+    <webLinks>
+        <label>項目カウンター (非推奨)</label>
+        <name>FSL__test2</name>
+    </webLinks>
+</CustomObjectTranslation>

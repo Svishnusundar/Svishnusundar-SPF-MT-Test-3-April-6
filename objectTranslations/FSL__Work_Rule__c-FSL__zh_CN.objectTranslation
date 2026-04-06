@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>工作规则</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>活动</label>
+        <name>FSL__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Compare a numeric service property with a numeric resource property --></help>
+        <label>布尔值运算符</label>
+        <name>FSL__Boolean_Operator__c</name>
+        <picklistValues>
+            <masterLabel>&lt;</masterLabel>
+            <translation><!-- &lt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;=</masterLabel>
+            <translation><!-- &lt;= --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>=</masterLabel>
+            <translation><!-- = --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;</masterLabel>
+            <translation><!-- &gt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;=</masterLabel>
+            <translation><!-- &gt;= --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Determines the length of the breaks created. 
+Leave this field empty if you don&apos;t want to create breaks. --></help>
+        <label>休息持续时间 (分钟)</label>
+        <name>FSL__Break_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines the minimum break start time (in the format: {HH:MM}) to create breaks. 
+Leave this field empty if you don&apos;t want to create breaks. --></help>
+        <label>休息开始</label>
+        <name>FSL__Break_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- The object containing the custom field that&apos;s used for the count. --></help>
+        <label>计数对象</label>
+        <name>FSL__CountObject__c</name>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation><!-- Service Appointment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Order</masterLabel>
+            <translation><!-- Work Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Order Line Item</masterLabel>
+            <translation><!-- Work Order Line Item --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The time resolution for the count. --></help>
+        <label>计数时间解析度</label>
+        <name>FSL__CountTimeResolution__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The type of item counted in the work rule. --></help>
+        <label>计数类型</label>
+        <name>FSL__CountType__c</name>
+        <picklistValues>
+            <masterLabel>Assignments</masterLabel>
+            <translation><!-- Assignments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Value</masterLabel>
+            <translation><!-- Custom Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duration</masterLabel>
+            <translation><!-- Duration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter a number if you want to limit the number of additional service resources that can be added to the crew. Leave empty if any number of service resources can be added. --></help>
+        <label>最大额外服务资源</label>
+        <name>FSL__Crew_Max_Extra_Resources__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, compare the Minimum Crew Size field on the Work Order or Work Order Line Item to the actual available Service Crew Members. 
+Otherwise, compare the Minimum Crew Size to the Crew Size field on the Service Crew. --></help>
+        <label>考虑服务班组成员关系</label>
+        <name>FSL__Crew_Resources_Availability__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name of the custom field on the count object. --></help>
+        <label>自定义字段名称</label>
+        <name>FSL__CustomFieldName__c</name>
+    </fields>
+    <fields>
+        <help><!-- A limit for the count. A limit on the service resource overrides this value. --></help>
+        <label>默认限制</label>
+        <name>FSL__DefaultLimit__c</name>
+    </fields>
+    <fields>
+        <label>描述</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>启用加班</label>
+        <name>FSL__Enable_Overtime__c</name>
+    </fields>
+    <fields>
+        <help><!-- The junction object used to link service resources to the object that the service appointment matching field references --></help>
+        <label>链接对象</label>
+        <name>FSL__Enhanced_Match_Linking_Object__c</name>
+    </fields>
+    <fields>
+        <label>评估订单</label>
+        <name>FSL__Evaluation_Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, gap between services will be based on the minimum gap field, without travel calculations. --></help>
+        <label>固定时隙</label>
+        <name>FSL__Is_Fixed_Gap__c</name>
+    </fields>
+    <fields>
+        <label>值为真</label>
+        <name>FSL__Match_Constant_Boolean_Value__c</name>
+    </fields>
+    <fields>
+        <label>匹配技能级别</label>
+        <name>FSL__Match_Skill_Level__c</name>
+    </fields>
+    <fields>
+        <label>技能类型逻辑</label>
+        <name>FSL__Matching_Skills_Operator__c</name>
+        <picklistValues>
+            <masterLabel>All Skills Match (AND)</masterLabel>
+            <translation><!-- All Skills Match (AND) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>At Least One Skill Matches (OR)</masterLabel>
+            <translation><!-- At Least One Skill Matches (OR) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>从总部出差类型的最大数量</label>
+        <name>FSL__Maximum_Travel_From_Home_Type__c</name>
+        <picklistValues>
+            <masterLabel>Distance</masterLabel>
+            <translation><!-- Distance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Time</masterLabel>
+            <translation><!-- Travel Time --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Determines what distance or how many minutes the resource can travel from home to reach a service --></help>
+        <label>从总部出差的最大数量</label>
+        <name>FSL__Maximum_Travel_From_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines the minimum gap between services. If fixed gap is enabled, determines the gap between the services. --></help>
+        <label>最小时隙 (分钟)</label>
+        <name>FSL__Minimum_Gap__c</name>
+    </fields>
+    <fields>
+        <label>对象小组字段</label>
+        <name>FSL__Object_Group_Field__c</name>
+    </fields>
+    <fields>
+        <label>传递空值</label>
+        <name>FSL__Pass_Empty_Values__c</name>
+    </fields>
+    <fields>
+        <label>资源小组字段</label>
+        <name>FSL__Resource_Group_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- A numeric field on the service resource to count against. --></help>
+        <label>资源属性</label>
+        <name>FSL__Resource_Property__c</name>
+        <picklistValues>
+            <masterLabel>IsActive</masterLabel>
+            <translation><!-- IsActive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IsCapacityBased</masterLabel>
+            <translation><!-- IsCapacityBased --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The service appointment lookup field that you&apos;re matching --></help>
+        <label>服务预约匹配字段</label>
+        <name>FSL__Service_Appointment_Matching_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- The reference field on the linking object that is matched with the service appointment matching field --></help>
+        <label>链接对象参考字段</label>
+        <name>FSL__Service_Linking_Object_Reference_Field__c</name>
+    </fields>
+    <fields>
+        <label>服务属性</label>
+        <name>FSL__Service_Property__c</name>
+        <picklistValues>
+            <masterLabel>ArrivalWindowEndTime</masterLabel>
+            <translation><!-- ArrivalWindowEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowStartTime</masterLabel>
+            <translation><!-- ArrivalWindowStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedEndTime</masterLabel>
+            <translation><!-- SchedEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedStartTime</masterLabel>
+            <translation><!-- SchedStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ServiceTerritory</masterLabel>
+            <translation><!-- ServiceTerritory --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>服务计划时间属性</label>
+        <name>FSL__Service_Schedule_Time_Property__c</name>
+        <picklistValues>
+            <masterLabel>SchedEndTime</masterLabel>
+            <translation><!-- SchedEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedEndTime__c</masterLabel>
+            <translation><!-- SchedEndTime__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedStartTime</masterLabel>
+            <translation><!-- SchedStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedStartTime__c</masterLabel>
+            <translation><!-- SchedStartTime__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>服务时间运算符</label>
+        <name>FSL__Service_Time_Operator__c</name>
+        <picklistValues>
+            <masterLabel>Before</masterLabel>
+            <translation><!-- Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before or Equal to</masterLabel>
+            <translation><!-- Before or Equal to --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equal to</masterLabel>
+            <translation><!-- Equal to --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Later than or Equal to</masterLabel>
+            <translation><!-- Later than or Equal to --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>服务时间属性</label>
+        <name>FSL__Service_Time_Property__c</name>
+        <picklistValues>
+            <masterLabel>ArrivalWindowEndTime</masterLabel>
+            <translation><!-- ArrivalWindowEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowEndTime__c</masterLabel>
+            <translation><!-- ArrivalWindowEndTime__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowStartTime</masterLabel>
+            <translation><!-- ArrivalWindowStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowStartTime__c</masterLabel>
+            <translation><!-- ArrivalWindowStartTime__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DueDate</masterLabel>
+            <translation><!-- DueDate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DueDate__c</masterLabel>
+            <translation><!-- DueDate__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EarliestStartTime</masterLabel>
+            <translation><!-- EarliestStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EarliestStartTime__c</masterLabel>
+            <translation><!-- EarliestStartTime__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>技能类型开发人员姓名</label>
+        <name>FSL__Skill_Type__c</name>
+    </fields>
+    <fields>
+        <label>一天的开始时间</label>
+        <name>FSL__Start_of_Day__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines how many minutes prior to the resource&apos;s calendar start of day will be available for travel (on the resource&apos;s expense).
+When empty, any amount of travel prior to start of work day is valid. --></help>
+        <label>从总部出差 (分钟)</label>
+        <name>FSL__Travel_From_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines how many minutes following the resource&apos;s calendar end of day will be available for travel (on the resource&apos;s expense).
+When empty, any amount of travel following the end of work day is valid. --></help>
+        <label>出站到总部 (分钟)</label>
+        <name>FSL__Travel_To_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Date-Time field name on the Linking Object which represents its end time --></help>
+        <label>结束日期字段名称</label>
+        <name>FSL__WorkRule_End_DateTime_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Date-Time field name on the Linking Object which represents its start time --></help>
+        <label>开始日期字段名称</label>
+        <name>FSL__WorkRule_Start_DateTime_Field__c</name>
+    </fields>
+    <fields>
+        <label>工作位置启用主要</label>
+        <name>FSL__Working_Location_Enable_Primary__c</name>
+    </fields>
+    <fields>
+        <label>时间阶段</label>
+        <name>FSL__isTimephased__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>Record_Type__c</name>
+    </fields>
+    <nameFieldLabel>工作规则名称</nameFieldLabel>
+    <recordTypes>
+        <description>对于指定服务区域内的服务资源，根据指定的条件，设置工作量的限制。</description>
+        <label>Field Service - 工作容量规则</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>根据项目数量限制服务资源，例如服务预约、预约持续时间或自定义字段值</description>
+        <label>Field Service - 计数规则</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>将服务预约对象属性与服务资源对象列表中的属性相匹配</description>
+        <label>字段服务—扩展匹配</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>请确保服务预约的已分配资源并非其中一个已排除资源</description>
+        <label>Field Service - 已排除资源</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>匹配服务资源工作区域</description>
+        <label>Field Service - 工作区域</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>请确保服务资源对服务预约可用</description>
+        <label>Field Service - 服务资源可用性</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>请验证布尔值属性设置为真或假</description>
+        <label>Field Service - 匹配布尔值</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>匹配班组规模与服务父级最小班组规模</description>
+        <label>Field Service - 服务班组资源可用性</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>匹配服务预约对象与服务资源对象之间的属性</description>
+        <label>Field Service - 匹配字段</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>通过重新定位支持，匹配服务预约对象与服务资源对象之间的区域</description>
+        <label>Field Service - 匹配区域</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>匹配服务预约的所需技能与服务资源的技能</description>
+        <label>Field Service - 匹配技能</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>显示距离总部的服务资源出行距离\时间</description>
+        <label>Field Service - 从总部出差的最大数量</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>请确保服务预约的已分配资源是其中一个所需资源</description>
+        <label>Field Service - 所需资源</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>请确保服务预约计划在客户确定的走访时间内。</description>
+        <label>Field Service - 服务预约访问小时</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>请确保允许在传播的时间空档上计划服务预约</description>
+        <label>Field Service - TimeSlot 已指派工作</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>根据服务预约日期时间属性，限制计划时间时段</description>
+        <label>Field Service - 匹配时间规则</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>在服务预约时间属性是“SchedEndTime”时，时间运算符应是“之前或等于”。</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>持续时间必须为正</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>从总部出差的最大数量必须为正</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>最小时隙不得为负</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>时间必须按照如下格式：HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>时间必须按照如下格式：HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

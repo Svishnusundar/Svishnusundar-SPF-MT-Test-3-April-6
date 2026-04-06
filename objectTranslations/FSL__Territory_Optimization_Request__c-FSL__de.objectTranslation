@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Regions-Optimierungsanforderung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Regions-Optimierungsanforderungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Regions-Optimierungsanforderung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Regions-Optimierungsanforderungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Regions-Optimierungsanforderung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Regions-Optimierungsanforderungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Regions-Optimierungsanforderung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Regions-Optimierungsanforderungen</value>
+    </caseValues>
+    <fields>
+        <label>Antwortzeit nach (mit Fenster)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>Antwortzeit vor (mit Fenster)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>Antwortzeit nach (ohne Fenster)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>Antwortzeit vor (ohne Fenster)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>Durchschn. Weg p. Service m. Heimw. nach</label>
+        <name>FSL__AvgTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Durchschn. Weg p. Service m. Heimw. vor</label>
+        <name>FSL__AvgTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Durchschn. Weg p. Service o. Heimw. nach</label>
+        <name>FSL__AvgTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Durchschn. Weg p. Service o. Heimw. vor</label>
+        <name>FSL__AvgTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Nicht kapazitätsbasierte Services nach</label>
+        <name>FSL__NonCapacityBasedServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Nicht kapazitätsbasierte Services vor</label>
+        <name>FSL__NonCapacityBasedServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Andere zugewiesene Termine nach</label>
+        <name>FSL__NumOfScheduledSasToCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Andere zugewiesene Termine vor</label>
+        <name>FSL__NumOfScheduledSasToCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Belegschaften zugewiesene Termine nach</label>
+        <name>FSL__NumOfScheduledSasToCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Belegschaften zugewiesene Termine vor</label>
+        <name>FSL__NumOfScheduledSasToCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Der Ressource zugewiesene Termine nach</label>
+        <name>FSL__NumOfScheduledSasToResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Der Ressource zugewiesene Termine vor</label>
+        <name>FSL__NumOfScheduledSasToResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Termine der bevorzugten Ressource nach</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrAfter__c</name>
+    </fields>
+    <fields>
+        <label>Termine der bevorzugten Ressource vor</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrBefore__c</name>
+    </fields>
+    <fields>
+        <label>Bevorzugter Ressour. zugewiesene Termine</label>
+        <name>FSL__NumberOfSasWithPreferredResource__c</name>
+    </fields>
+    <fields>
+        <label>Andere nicht geplante Ressourcen nach</label>
+        <name>FSL__NumberOfUnscheduledCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Andere nicht geplante Ressourcen vor</label>
+        <name>FSL__NumberOfUnscheduledCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Nicht geplante Belegschaften nach</label>
+        <name>FSL__NumberOfUnscheduledCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Nicht geplante Belegschaften vor</label>
+        <name>FSL__NumberOfUnscheduledCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Nicht geplante Ressourcen nach</label>
+        <name>FSL__NumberOfUnscheduledResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Nicht geplante Ressourcen vor</label>
+        <name>FSL__NumberOfUnscheduledResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Optimierungsanforderung</label>
+        <name>FSL__Optimization_Request__c</name>
+        <relationshipLabel>Regions-Optimierungsanforderungen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Serviceregion</label>
+        <name>FSL__ServiceTerritory__c</name>
+        <relationshipLabel>Regions-Optimierungsanforderungen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Verfügbarkeiten von Belegschaften</label>
+        <name>FSL__TotalCrewWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Mittagspause nach</label>
+        <name>FSL__TotalLunchBreakDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Mittagspause vor</label>
+        <name>FSL__TotalLunchBreakDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Nichtverfügbarkeit mit Weg nach</label>
+        <name>FSL__TotalNaWithGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Nichtverfügbarkeit mit Weg vor</label>
+        <name>FSL__TotalNaWithGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Nichtverfügbarkeit ohne Weg nach</label>
+        <name>FSL__TotalNaWoGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Nichtverfügbarkeit ohne Weg vor</label>
+        <name>FSL__TotalNaWoGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Anzahl kapazitätsbasierter Ressourcen</label>
+        <name>FSL__TotalNumberOfCapacityBasedResources__c</name>
+    </fields>
+    <fields>
+        <label>Anzahl der Belegschaften</label>
+        <name>FSL__TotalNumberOfCrews__c</name>
+    </fields>
+    <fields>
+        <label>Optimierbare Termine</label>
+        <name>FSL__TotalNumberOfOptimizableServices__c</name>
+    </fields>
+    <fields>
+        <label>Verankerte Termine</label>
+        <name>FSL__TotalNumberOfPinnedServices__c</name>
+    </fields>
+    <fields>
+        <label>Anzahl der Ressourcen</label>
+        <name>FSL__TotalNumberOfResources__c</name>
+    </fields>
+    <fields>
+        <label>Geplante Termine nach</label>
+        <name>FSL__TotalNumberOfScheduledServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Geplante Termine vor</label>
+        <name>FSL__TotalNumberOfScheduledServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Termine mit Ankunftsfenster</label>
+        <name>FSL__TotalNumberOfServicesWithWindow__c</name>
+    </fields>
+    <fields>
+        <label>Termine ohne Ankunftsfenster</label>
+        <name>FSL__TotalNumberOfServicesWithoutWindow__c</name>
+    </fields>
+    <fields>
+        <label>Überstunden von Belegschaften</label>
+        <name>FSL__TotalOvertimeForCrews__c</name>
+    </fields>
+    <fields>
+        <label>Überstunden von Ressourcen</label>
+        <name>FSL__TotalOvertimeForResources__c</name>
+    </fields>
+    <fields>
+        <label>Geplante Überstunden nach</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Geplante Überstunden vor</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Gesamtweg nach primärer STM nach</label>
+        <name>FSL__TotalTravelByPrimaryMembershipAfter__c</name>
+    </fields>
+    <fields>
+        <label>Gesamtweg nach primärer STM vor</label>
+        <name>FSL__TotalTravelByPrimaryMembershipBefore__c</name>
+    </fields>
+    <fields>
+        <label>Entfernung vom Basisstandort nach</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Entfernung vom Basisstandort vor</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Entfernung zum Basisstandort nach</label>
+        <name>FSL__TotalTravelDistanceToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Entfernung zum Basisstandort vor</label>
+        <name>FSL__TotalTravelDistanceToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Entfernung zwischen Terminen nach</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Entfernung zwischen Terminen vor</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Gesamtweg mit Heimweg nach</label>
+        <name>FSL__TotalTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Gesamtweg mit Heimweg vor</label>
+        <name>FSL__TotalTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Wegzeit vom Basisstandort vor</label>
+        <name>FSL__TotalTravelTimeFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Wegzeit vom Basisstandort vor</label>
+        <name>FSL__TotalTravelTimeFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Wegzeit zum Basisstandort nach</label>
+        <name>FSL__TotalTravelTimeToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Wegzeit zum Basisstandort vor</label>
+        <name>FSL__TotalTravelTimeToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Wegzeit zwischen Terminen nach</label>
+        <name>FSL__TotalTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Wegzeit zwischen Terminen vor</label>
+        <name>FSL__TotalTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ressourcenverfügbarkeit</label>
+        <name>FSL__TotalWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Dauer geplanter Termine nach</label>
+        <name>FSL__TotalWorkDurationScheduledAfter__c</name>
+    </fields>
+    <fields>
+        <label>Dauer geplanter Termine vor</label>
+        <name>FSL__TotalWorkDurationScheduledBefore__c</name>
+    </fields>
+    <fields>
+        <label>Dauer aller Termine</label>
+        <name>FSL__TotalWorkTime__c</name>
+    </fields>
+    <fields>
+        <label>Wegzeit auf Kosten der Ressource nach</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Wegzeit auf Kosten der Ressource vor</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Eingeschr Verf v Services m aufgeh Plang</label>
+        <name>FSL__UnscheduledServicesLimitedAvailability__c</name>
+    </fields>
+    <fields>
+        <label>Regelverstoß bei. Service m aufgeh Plang</label>
+        <name>FSL__UnscheduledServicesRuleViolation__c</name>
+    </fields>
+    <fields>
+        <label>Gesamtnutzung nach</label>
+        <name>FSL__UtilizationTotalAfter__c</name>
+    </fields>
+    <fields>
+        <label>Gesamtnutzung vor</label>
+        <name>FSL__UtilizationTotalBefore__c</name>
+    </fields>
+    <fields>
+        <label>Nutzung reiner Servicezeit nach</label>
+        <name>FSL__UtilizationWrenchAfter__c</name>
+    </fields>
+    <fields>
+        <label>Nutzung reiner Servicezeit vor</label>
+        <name>FSL__UtilizationWrenchBefore__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nummer der Regions-Optimierungsanforderu</nameFieldLabel>
+</CustomObjectTranslation>

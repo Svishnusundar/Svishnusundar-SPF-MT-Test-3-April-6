@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>緊急の要求</value>
+    </caseValues>
+    <fields>
+        <label>取引先</label>
+        <name>PublicSector__Account__c</name>
+        <relationshipLabel>緊急の要求</relationshipLabel>
+    </fields>
+    <fields>
+        <label>配送先住所</label>
+        <name>PublicSector__Address__c</name>
+        <relationshipLabel>緊急の要求</relationshipLabel>
+    </fields>
+    <fields>
+        <label>事業主申込書</label>
+        <name>PublicSector__BusinessApplication__c</name>
+        <relationshipLabel>緊急の要求</relationshipLabel>
+    </fields>
+    <fields>
+        <label>連絡先住所</label>
+        <name>PublicSector__Contact_Address__c</name>
+    </fields>
+    <fields>
+        <label>日付は必須</label>
+        <name>PublicSector__DateRequired__c</name>
+    </fields>
+    <fields>
+        <label>配送の手順</label>
+        <name>PublicSector__DeliveryInstructions__c</name>
+    </fields>
+    <fields>
+        <label>配送時の健康または安全上の懸念</label>
+        <name>PublicSector__DeliverySafetyConcerns__c</name>
+    </fields>
+    <fields>
+        <label>殺菌剤の品質</label>
+        <name>PublicSector__DisinfectantQuantity__c</name>
+    </fields>
+    <fields>
+        <label>持ち込み日</label>
+        <name>PublicSector__DropOffDate__c</name>
+    </fields>
+    <fields>
+        <label>メール</label>
+        <name>PublicSector__Email__c</name>
+    </fields>
+    <fields>
+        <label>フェイスシールドの品質</label>
+        <name>PublicSector__FaceShieldsQuantity__c</name>
+    </fields>
+    <fields>
+        <label>手袋の数量 (手術用または実験用)</label>
+        <name>PublicSector__GlovesQuantity__c</name>
+    </fields>
+    <fields>
+        <label>安全または保護ゴーグルの品質</label>
+        <name>PublicSector__GogglesQuantity__c</name>
+    </fields>
+    <fields>
+        <label>ガウンの数量 (手術用または実験用)</label>
+        <name>PublicSector__GownsQuantity__c</name>
+    </fields>
+    <fields>
+        <label>手指消毒液の品質</label>
+        <name>PublicSector__HandSanitizerQuantity__c</name>
+    </fields>
+    <fields>
+        <label>個人申込書</label>
+        <name>PublicSector__IndividualApplication__c</name>
+        <relationshipLabel>緊急の要求</relationshipLabel>
+    </fields>
+    <fields>
+        <label>寄付の持ち込み</label>
+        <name>PublicSector__IsDropOffDonation__c</name>
+    </fields>
+    <fields>
+        <label>マスクの数量 (手術用または実験用)</label>
+        <name>PublicSector__MasksQuantity__c</name>
+    </fields>
+    <fields>
+        <label>組織の住所</label>
+        <name>PublicSector__OrganizationAddress__c</name>
+    </fields>
+    <fields>
+        <label>組織名</label>
+        <name>PublicSector__OrganizationName__c</name>
+    </fields>
+    <fields>
+        <label>組織種別</label>
+        <name>PublicSector__OrganizationType__c</name>
+        <picklistValues>
+            <masterLabel>Acute Psychiatric Hospital (APH)</masterLabel>
+            <translation><!-- Acute Psychiatric Hospital (APH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adult Day Health Care (ADHC)</masterLabel>
+            <translation><!-- Adult Day Health Care (ADHC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ambulatory Surgical Center (ASC)</masterLabel>
+            <translation><!-- Ambulatory Surgical Center (ASC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Dependency Recovery Hospital (CDRH)</masterLabel>
+            <translation><!-- Chemical Dependency Recovery Hospital (CDRH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chronic Dialysis Clinic (CDC)</masterLabel>
+            <translation><!-- Chronic Dialysis Clinic (CDC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congregate Living Health Facility (CLHF)</masterLabel>
+            <translation><!-- Congregate Living Health Facility (CLHF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End Stage Renal Dialysis (CDC/ESRD)</masterLabel>
+            <translation><!-- End Stage Renal Dialysis (CDC/ESRD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Acute Care Hospital (GACH)</masterLabel>
+            <translation><!-- General Acute Care Hospital (GACH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Health Agency (HHA)</masterLabel>
+            <translation><!-- Home Health Agency (HHA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospice Facility (HOFA)</masterLabel>
+            <translation><!-- Hospice Facility (HOFA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate Care Facility (ICF)</masterLabel>
+            <translation><!-- Intermediate Care Facility (ICF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pediatric Day Health &amp; Respite Care Facility (PDHRC)</masterLabel>
+            <translation><!-- Pediatric Day Health &amp; Respite Care Facility (PDHRC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Care Clinic (PCC)</masterLabel>
+            <translation><!-- Primary Care Clinic (PCC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled Nursing Facility (SNF)</masterLabel>
+            <translation><!-- Skilled Nursing Facility (SNF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgical Clinic (SURGC)</masterLabel>
+            <translation><!-- Surgical Clinic (SURGC) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>電話</label>
+        <name>PublicSector__Phone__c</name>
+    </fields>
+    <fields>
+        <label>受け取り日</label>
+        <name>PublicSector__PickUpDate__c</name>
+    </fields>
+    <fields>
+        <label>主連絡先名</label>
+        <name>PublicSector__PrimaryContactName__c</name>
+    </fields>
+    <fields>
+        <label>主連絡先 電話</label>
+        <name>PublicSector__PrimaryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label>主連絡先 役職</label>
+        <name>PublicSector__PrimaryContactTitle__c</name>
+    </fields>
+    <fields>
+        <label>要求の詳細</label>
+        <name>PublicSector__RequestDetails__c</name>
+    </fields>
+    <fields>
+        <label>要求理由</label>
+        <name>PublicSector__RequestReason__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation><!-- Disabled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elderly</masterLabel>
+            <translation><!-- Elderly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homeless</masterLabel>
+            <translation><!-- Homeless --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isolated</masterLabel>
+            <translation><!-- Isolated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarantined</masterLabel>
+            <translation><!-- Quarantined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>要求する滞在期間</label>
+        <name>PublicSector__RequestedLengthOfStay__c</name>
+    </fields>
+    <fields>
+        <label>要求するサービス</label>
+        <name>PublicSector__RequestedService__c</name>
+        <picklistValues>
+            <masterLabel>Food Delivery</masterLabel>
+            <translation><!-- Food Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicine / Medical Supplies Delivery</masterLabel>
+            <translation><!-- Medicine / Medical Supplies Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary Housing</masterLabel>
+            <translation><!-- Temporary Housing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Well-Being Check</masterLabel>
+            <translation><!-- Well-Being Check --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>要求する滞在開始日</label>
+        <name>PublicSector__RequestedStartDateOfStay__c</name>
+    </fields>
+    <fields>
+        <label>要求者名</label>
+        <name>PublicSector__RequestorName__c</name>
+    </fields>
+    <fields>
+        <label>呼吸器防護具の数量 (N95 マスク)</label>
+        <name>PublicSector__RespiratorN95MaskQuantity__c</name>
+    </fields>
+    <fields>
+        <label>副連絡先名</label>
+        <name>PublicSector__SecondaryContactName__c</name>
+    </fields>
+    <fields>
+        <label>副連絡先 電話</label>
+        <name>PublicSector__SecondaryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label>副連絡先 役職</label>
+        <name>PublicSector__SecondaryContactTitle__c</name>
+    </fields>
+    <fields>
+        <label>役職</label>
+        <name>PublicSector__Title__c</name>
+    </fields>
+    <fields>
+        <label>人工呼吸器の品質</label>
+        <name>PublicSector__VentilatorQuantity__c</name>
+    </fields>
+    <fields>
+        <label>ウィルス綿棒の品質</label>
+        <name>PublicSector__ViralSwabsQuantity__c</name>
+    </fields>
+    <nameFieldLabel>緊急の要求</nameFieldLabel>
+    <recordTypes>
+        <label>緊急支援の要求</label>
+        <name>PublicSector__Emergency_Assistance_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>緊急用品の寄付</label>
+        <name>PublicSector__Emergency_Supplies_Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <label>緊急用品の要求</label>
+        <name>PublicSector__Emergency_Supplies_Request</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DBM Report Grouping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DBM Report Groupings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Data Source --></label>
+        <name>Data_Source__c</name>
+        <picklistValues>
+            <masterLabel>custom</masterLabel>
+            <translation><!-- custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>months</masterLabel>
+            <translation><!-- months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>picklist</masterLabel>
+            <translation><!-- picklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>priorities</masterLabel>
+            <translation><!-- priorities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>quarters</masterLabel>
+            <translation><!-- quarters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sobject</masterLabel>
+            <translation><!-- sobject --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>user</masterLabel>
+            <translation><!-- user --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Display as Link --></label>
+        <name>Display_as_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enumerate Entries --></label>
+        <name>Enumerate_Entries__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping Number --></label>
+        <name>Grouping_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Report__c</name>
+        <relationshipLabel><!-- DBM Report Groupings --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

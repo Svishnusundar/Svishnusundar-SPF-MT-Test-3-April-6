@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Champ de masquage</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Champs de masquage</value>
+    </caseValues>
+    <fields>
+        <label>Nom d&apos;API</label>
+        <name>datamask__API_Name__c</name>
+    </fields>
+    <fields>
+        <label>Actif</label>
+        <name>datamask__Active__c</name>
+    </fields>
+    <fields>
+        <label>Modèle personnalisé</label>
+        <name>datamask__Custom_Pattern__c</name>
+    </fields>
+    <fields>
+        <label>Personnalisé</label>
+        <name>datamask__Custom__c</name>
+    </fields>
+    <fields>
+        <label>Date max</label>
+        <name>datamask__Date_Max__c</name>
+    </fields>
+    <fields>
+        <label>Date min</label>
+        <name>datamask__Date_Min__c</name>
+    </fields>
+    <fields>
+        <label>Longueur du champ</label>
+        <name>datamask__Field_Length__c</name>
+    </fields>
+    <fields>
+        <label>Type de champ</label>
+        <name>datamask__Field_Type__c</name>
+    </fields>
+    <fields>
+        <label>Catégorie de masquage</label>
+        <name>datamask__Masking_Category__c</name>
+    </fields>
+    <fields>
+        <label>Objet de masquage</label>
+        <name>datamask__Masking_Object__c</name>
+        <relationshipLabel>Champs de masquage</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Type de masquage</label>
+        <name>datamask__Masking_Type__c</name>
+    </fields>
+    <fields>
+        <label>Données du modèle</label>
+        <name>datamask__Pattern_Data__c</name>
+    </fields>
+    <fields>
+        <label>Plage max</label>
+        <name>datamask__Range_Max__c</name>
+    </fields>
+    <fields>
+        <label>Plage min</label>
+        <name>datamask__Range_Min__c</name>
+    </fields>
+    <fields>
+        <label>Obligatoire</label>
+        <name>datamask__Required__c</name>
+    </fields>
+    <fields>
+        <label>Unique</label>
+        <name>datamask__Unique__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

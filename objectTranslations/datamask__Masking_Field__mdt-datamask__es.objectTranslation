@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Campo de enmascaramiento</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Campos de enmascaramiento</value>
+    </caseValues>
+    <fields>
+        <label>Nombre de API</label>
+        <name>datamask__API_Name__c</name>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>datamask__Active__c</name>
+    </fields>
+    <fields>
+        <label>Patrón personalizado</label>
+        <name>datamask__Custom_Pattern__c</name>
+    </fields>
+    <fields>
+        <label>Personalizados</label>
+        <name>datamask__Custom__c</name>
+    </fields>
+    <fields>
+        <label>Fecha máxima</label>
+        <name>datamask__Date_Max__c</name>
+    </fields>
+    <fields>
+        <label>Fecha mínima</label>
+        <name>datamask__Date_Min__c</name>
+    </fields>
+    <fields>
+        <label>Longitud de campo</label>
+        <name>datamask__Field_Length__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de campo</label>
+        <name>datamask__Field_Type__c</name>
+    </fields>
+    <fields>
+        <label>Categoría de enmascaramiento</label>
+        <name>datamask__Masking_Category__c</name>
+    </fields>
+    <fields>
+        <label>Objeto de enmascaramiento</label>
+        <name>datamask__Masking_Object__c</name>
+        <relationshipLabel>Campos de enmascaramiento</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo de enmascaramiento</label>
+        <name>datamask__Masking_Type__c</name>
+    </fields>
+    <fields>
+        <label>Datos de patrón</label>
+        <name>datamask__Pattern_Data__c</name>
+    </fields>
+    <fields>
+        <label>Intervalo máximo</label>
+        <name>datamask__Range_Max__c</name>
+    </fields>
+    <fields>
+        <label>Intervalo mínimo</label>
+        <name>datamask__Range_Min__c</name>
+    </fields>
+    <fields>
+        <label>Obligatorio</label>
+        <name>datamask__Required__c</name>
+    </fields>
+    <fields>
+        <label>Exclusivo</label>
+        <name>datamask__Unique__c</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

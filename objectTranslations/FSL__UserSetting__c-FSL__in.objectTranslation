@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pengaturan Pengguna</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pengaturan Pengguna</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Ketinggian Ketiadaan Tumpang Tindih</label>
+        <name>FSL__Absence_Overlap_Height__c</name>
+        <picklistValues>
+            <masterLabel>full</masterLabel>
+            <translation><!-- full --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>partial</masterLabel>
+            <translation><!-- partial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Properti Horizon Tanggal</label>
+        <name>FSL__Date_Horizon_Properties__c</name>
+    </fields>
+    <fields>
+        <label>Hari Dalam Tampilan Utilisasi</label>
+        <name>FSL__DaysInUtilizationView__c</name>
+    </fields>
+    <fields>
+        <label>Panel Kiri Default</label>
+        <name>FSL__DefaultLeftPanel__c</name>
+    </fields>
+    <fields>
+        <label>Durasi Penarikan Ketidaktersediaan</label>
+        <name>FSL__Drag_Na_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Label Penarikan Ketidaktersediaan</label>
+        <name>FSL__Drag_Na_Label__c</name>
+    </fields>
+    <fields>
+        <label>Jenis Penarikan Ketidaktersediaan</label>
+        <name>FSL__Drag_Na_Type__c</name>
+    </fields>
+    <fields>
+        <label>Wilayah Favorit</label>
+        <name>FSL__FavoriteTerritories__c</name>
+    </fields>
+    <fields>
+        <label>Saring Kandidat</label>
+        <name>FSL__Filter_Candidates__c</name>
+    </fields>
+    <fields>
+        <label>Keterampilan Sumber Daya</label>
+        <name>FSL__Filter_Resources_BySkills__c</name>
+    </fields>
+    <fields>
+        <label>Filter</label>
+        <name>FSL__Filters__c</name>
+    </fields>
+    <fields>
+        <label>Palet Gantt</label>
+        <name>FSL__Gantt_Palette__c</name>
+        <relationshipLabel>Pengaturan Pengguna</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Kebijakan Bagan Gantt</label>
+        <name>FSL__Gantt_Policy__c</name>
+        <relationshipLabel>Pengaturan Pengguna</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Jam Selesai Tampilan Gantt</label>
+        <name>FSL__Gantt_View_Finish_Hour__c</name>
+    </fields>
+    <fields>
+        <label>Jam Mulai Tampilan Gantt</label>
+        <name>FSL__Gantt_View_Start_Hour__c</name>
+    </fields>
+    <fields>
+        <label>Sembunyikan Menjadwalkan Pengenalan Agen</label>
+        <name>FSL__HideSchedulingAgentIntro__c</name>
+    </fields>
+    <fields>
+        <label>Soroti Akhir Pekan</label>
+        <name>FSL__Highlight_Weekeneds__c</name>
+    </fields>
+    <fields>
+        <label>Pengguliran Horizontal di Gantt</label>
+        <name>FSL__HorizontalScrolling__c</name>
+    </fields>
+    <fields>
+        <label>Masukkan Akhir Pekan</label>
+        <name>FSL__Include_Weekends__c</name>
+    </fields>
+    <fields>
+        <label>Polygon Tersembunyi</label>
+        <name>FSL__Invisible_Polygons__c</name>
+    </fields>
+    <fields>
+        <label>Tampilan Gantt Terakhir</label>
+        <name>FSL__LastGanttView__c</name>
+    </fields>
+    <fields>
+        <label>Tanggal Terakhir Dilihat di Gantt</label>
+        <name>FSL__LastViewedGanttDate__c</name>
+    </fields>
+    <fields>
+        <label>Persentase Lebar Panel Kiri</label>
+        <name>FSL__Left_Panel_Width_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>Muatan Hari Ini</label>
+        <name>FSL__Load_On_Today__c</name>
+    </fields>
+    <fields>
+        <label>Kunci Gantt</label>
+        <name>FSL__Lock_Gantt__c</name>
+    </fields>
+    <fields>
+        <label>Durasi Absensi Minimum Jangka Panjang</label>
+        <name>FSL__Longterm_Min_Absence_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Durasi Layanan Minimum Jangka Panjang</label>
+        <name>FSL__Longterm_Min_Service_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Bulan pada tampilan</label>
+        <name>FSL__Longterm_Num_Of_Months__c</name>
+    </fields>
+    <fields>
+        <label>Pengelompokan Penanda</label>
+        <name>FSL__Map_Markers_Cluster__c</name>
+    </fields>
+    <fields>
+        <label>Petakan Penanda Objek</label>
+        <name>FSL__Map_Object_Markers__c</name>
+    </fields>
+    <fields>
+        <label>Laporan Peta</label>
+        <name>FSL__Map_Reports__c</name>
+    </fields>
+    <fields>
+        <label>Cocokan Tanggal Gantt</label>
+        <name>FSL__Match_Gantt_Dates__c</name>
+    </fields>
+    <fields>
+        <label>Kriteria Optimalisasi Janji Temu Layanan</label>
+        <name>FSL__Optimization_Request_Filter_Field__c</name>
+    </fields>
+    <fields>
+        <label>Filter Sumber Daya</label>
+        <name>FSL__Resource_Filter__c</name>
+    </fields>
+    <fields>
+        <label>Tinggi Baris Sumber Daya</label>
+        <name>FSL__Resource_Row_Height__c</name>
+        <picklistValues>
+            <masterLabel>large</masterLabel>
+            <translation><!-- large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>medium</masterLabel>
+            <translation><!-- medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>small</masterLabel>
+            <translation><!-- small --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>xsmall</masterLabel>
+            <translation><!-- xsmall --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Batas Horizon Penjadwalan</label>
+        <name>FSL__Scheduling_horizon_limit__c</name>
+    </fields>
+    <fields>
+        <label>Tampilan Daftar yang Dipilih</label>
+        <name>FSL__Selected_List_View__c</name>
+    </fields>
+    <fields>
+        <label>Mewarnai Daftar Layanan</label>
+        <name>FSL__ServiceListColoring__c</name>
+    </fields>
+    <fields>
+        <label>Persentasi Tinggi_Daftar_Layanan</label>
+        <name>FSL__Services_List_Height_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>Layanan Per Halaman</label>
+        <name>FSL__Services_Per_Page__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>125</masterLabel>
+            <translation><!-- 125 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75</masterLabel>
+            <translation><!-- 75 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tampilkan Tab Wilayah Favorit</label>
+        <name>FSL__ShowFavoriteTerritoriesTab__c</name>
+    </fields>
+    <fields>
+        <label>Tampilkan Minggu Kalender di Gantt</label>
+        <name>FSL__Show_Calendar_Weeks__c</name>
+    </fields>
+    <fields>
+        <label>Hanya tampilkan MDT dalam Jangka Panjang</label>
+        <name>FSL__Show_Only_MDT_In_Longterm__c</name>
+    </fields>
+    <fields>
+        <label>Tampilkan Layanan Yatim</label>
+        <name>FSL__Show_Orphan_Services__c</name>
+    </fields>
+    <fields>
+        <label>Operator Logika Filter Keterampilan</label>
+        <name>FSL__Skills_Logic_Operator__c</name>
+    </fields>
+    <fields>
+        <label>Wilayah Alihan</label>
+        <name>FSL__Toggled_Territories__c</name>
+    </fields>
+    <fields>
+        <label>Pengguna</label>
+        <name>FSL__User__c</name>
+        <relationshipLabel><!-- User Settings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Properti Penggunaan</label>
+        <name>FSL__Utilization_Properties__c</name>
+    </fields>
+    <fields>
+        <label>Lihat Jenis Kapasitas</label>
+        <name>FSL__View_Capacity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Day</masterLabel>
+            <translation><!-- Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>Nama Pengaturan Pengguna</nameFieldLabel>
+</CustomObjectTranslation>

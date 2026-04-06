@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Regra de trabalho da política de agendamento</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Regras de trabalho da política de agendamento</value>
+    </caseValues>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Política de agendamento</label>
+        <name>FSL__Scheduling_Policy__c</name>
+        <relationshipLabel>Regra de trabalho da política de agendamento</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Regra de trabalho</label>
+        <name>FSL__Work_Rule__c</name>
+        <relationshipLabel>Regra de trabalho da política de agendamento</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome da regra de trabalho da política de</nameFieldLabel>
+</CustomObjectTranslation>

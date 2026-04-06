@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Receta de programación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Recetas de programación</value>
+    </caseValues>
+    <fields>
+        <label>Activo</label>
+        <name>FSL__Active__c</name>
+    </fields>
+    <fields>
+        <label>Criterios</label>
+        <name>FSL__Criteria__c</name>
+        <relationshipLabel>Recetas de programación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Comportamiento esperado</label>
+        <name>FSL__Expected_Behavior__c</name>
+    </fields>
+    <fields>
+        <label>Umbral de última ubicación conocida</label>
+        <name>FSL__LKL_Threshold__c</name>
+    </fields>
+    <fields>
+        <label>Publicar acciones</label>
+        <name>FSL__Post_Actions__c</name>
+    </fields>
+    <fields>
+        <label>Prioridad</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>Específico de escenario</label>
+        <name>FSL__Scenario_Specific__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de escenario</label>
+        <name>FSL__Scenario_Type__c</name>
+        <picklistValues>
+            <masterLabel>Overlap (Post-Emergency Scheduling)</masterLabel>
+            <translation><!-- Overlap (Post-Emergency Scheduling) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overlap (SA Lengthened)</masterLabel>
+            <translation><!-- Overlap (SA Lengthened) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Canceled</masterLabel>
+            <translation><!-- SA Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Shortened</masterLabel>
+            <translation><!-- SA Shortened --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Política de programaciones</label>
+        <name>FSL__Scheduling_Policy__c</name>
+        <relationshipLabel>Recetas de programación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Semiautomatizada</label>
+        <name>FSL__Semi_Automated__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de receta de programación</nameFieldLabel>
+</CustomObjectTranslation>

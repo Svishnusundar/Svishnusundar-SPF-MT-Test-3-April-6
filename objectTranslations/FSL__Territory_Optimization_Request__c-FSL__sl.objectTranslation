@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Zahteva za optimizacijo ozemlja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Zahteve za optimizacijo ozemlja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Zahtevo za optimizacijo ozemlja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Zahteve za optimizacijo ozemlja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Zahteve za optimizacijo ozemlja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Zahtev za optimizacijo ozemlja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Zahtevi za optimizacijo ozemlja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Zahtevam za optimizacijo ozemlja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Zahtevo za optimizacijo ozemlja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Zahtevami za optimizacijo ozemlja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Zahtevi za optimizacijo ozemlja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Zahtevah za optimizacijo ozemlja</value>
+    </caseValues>
+    <fields>
+        <label>Odzivni čas po (s časovnim okvirjem)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>Odzivni čas pred (s časovnim okvirjem)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>Odzivni čas po (brez časovnega okvira)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>Odzivni čas pred (brez časovnega okvira)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>Povp. potov. na storitev s sedežem po</label>
+        <name>FSL__AvgTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Povp. potov. na storitev s sedežem pred</label>
+        <name>FSL__AvgTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Povp. pot. na storitev brez sedeža po</label>
+        <name>FSL__AvgTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Povp. pot. na storitev brez sedeža pred</label>
+        <name>FSL__AvgTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Storitve, ki niso na podlagi zmog., po</label>
+        <name>FSL__NonCapacityBasedServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Storitve, ki niso na podlagi zmog., pred</label>
+        <name>FSL__NonCapacityBasedServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Drugi dodeljeni sestanki po</label>
+        <name>FSL__NumOfScheduledSasToCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Drugi dodeljeni sestanki pred</label>
+        <name>FSL__NumOfScheduledSasToCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Sestanki, dodeljeni moštvom, po</label>
+        <name>FSL__NumOfScheduledSasToCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Sestanki, dodeljeni moštvom, pred</label>
+        <name>FSL__NumOfScheduledSasToCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Sestanki, dodeljeni viru, po</label>
+        <name>FSL__NumOfScheduledSasToResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Sestanki, dodeljeni viru, pred</label>
+        <name>FSL__NumOfScheduledSasToResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Sestanki prednostnih virov po</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrAfter__c</name>
+    </fields>
+    <fields>
+        <label>Sestanki prednostnih virov pred</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrBefore__c</name>
+    </fields>
+    <fields>
+        <label>Sestanki, dodeljeni prednostnim virom</label>
+        <name>FSL__NumberOfSasWithPreferredResource__c</name>
+    </fields>
+    <fields>
+        <label>Drugi nerazporejeni viri po</label>
+        <name>FSL__NumberOfUnscheduledCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Drugi nerazporejeni viri pred</label>
+        <name>FSL__NumberOfUnscheduledCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Nerazporejena moštva po</label>
+        <name>FSL__NumberOfUnscheduledCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Nerazporejena moštva pred</label>
+        <name>FSL__NumberOfUnscheduledCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Nerazporejeni viri po</label>
+        <name>FSL__NumberOfUnscheduledResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Nerazporejeni viri pred</label>
+        <name>FSL__NumberOfUnscheduledResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Zahteva za optimizacijo</label>
+        <name>FSL__Optimization_Request__c</name>
+        <relationshipLabel>Zahteve za optimizacijo ozemelj</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ozemlje storitve</label>
+        <name>FSL__ServiceTerritory__c</name>
+        <relationshipLabel>Zahteve za optimizacijo ozemelj</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Razpoložljivost moštva</label>
+        <name>FSL__TotalCrewWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Malica po</label>
+        <name>FSL__TotalLunchBreakDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Malica pred</label>
+        <name>FSL__TotalLunchBreakDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Nerazpoložljivost s potovanjem po</label>
+        <name>FSL__TotalNaWithGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Nerazpoložljivost s potovanjem pred</label>
+        <name>FSL__TotalNaWithGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Nerazpoložljivost brez potovanja po</label>
+        <name>FSL__TotalNaWoGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Nerazpoložljivost brez potovanja pred</label>
+        <name>FSL__TotalNaWoGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Število virov na podlagi zmogljivosti</label>
+        <name>FSL__TotalNumberOfCapacityBasedResources__c</name>
+    </fields>
+    <fields>
+        <label>Število moštev</label>
+        <name>FSL__TotalNumberOfCrews__c</name>
+    </fields>
+    <fields>
+        <label>Sestanki, ki jih je mogoče optimizirati</label>
+        <name>FSL__TotalNumberOfOptimizableServices__c</name>
+    </fields>
+    <fields>
+        <label>Pripeti sestanki</label>
+        <name>FSL__TotalNumberOfPinnedServices__c</name>
+    </fields>
+    <fields>
+        <label>Število virov</label>
+        <name>FSL__TotalNumberOfResources__c</name>
+    </fields>
+    <fields>
+        <label>Načrtovani sestanki po</label>
+        <name>FSL__TotalNumberOfScheduledServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Načrtovani sestanki pred</label>
+        <name>FSL__TotalNumberOfScheduledServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Sestanki s časovnim okvirom prihoda</label>
+        <name>FSL__TotalNumberOfServicesWithWindow__c</name>
+    </fields>
+    <fields>
+        <label>Sestanki brez časovnega okvira prihoda</label>
+        <name>FSL__TotalNumberOfServicesWithoutWindow__c</name>
+    </fields>
+    <fields>
+        <label>Nadure moštva</label>
+        <name>FSL__TotalOvertimeForCrews__c</name>
+    </fields>
+    <fields>
+        <label>Nadure virov</label>
+        <name>FSL__TotalOvertimeForResources__c</name>
+    </fields>
+    <fields>
+        <label>Načrtovane nadure po</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Načrtovane nadure pred</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Skupna dolžina pot. po prim. STM po</label>
+        <name>FSL__TotalTravelByPrimaryMembershipAfter__c</name>
+    </fields>
+    <fields>
+        <label>Skupna dolžina pot. po prim. STM pred</label>
+        <name>FSL__TotalTravelByPrimaryMembershipBefore__c</name>
+    </fields>
+    <fields>
+        <label>Razdalja od sedeža po</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Razdalja od sedeža pred</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Razdalja do sedeža po</label>
+        <name>FSL__TotalTravelDistanceToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Razdalja do sedeža pred</label>
+        <name>FSL__TotalTravelDistanceToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Razdalja med sestanki po</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Razdalja med sestanki pred</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Skupna dolžina potovanja s sedežem po</label>
+        <name>FSL__TotalTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Skupna dolžina potovanja s sedežem pred</label>
+        <name>FSL__TotalTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Čas potovanja od sedeža po</label>
+        <name>FSL__TotalTravelTimeFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Čas potovanja od sedeža pred</label>
+        <name>FSL__TotalTravelTimeFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Čas potovanja do sedeža po</label>
+        <name>FSL__TotalTravelTimeToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Čas potovanja do sedeža pred</label>
+        <name>FSL__TotalTravelTimeToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Čas potovanja med sestanki po</label>
+        <name>FSL__TotalTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Čas potovanja med sestanki pred</label>
+        <name>FSL__TotalTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Razpoložljivost virov</label>
+        <name>FSL__TotalWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Trajanje načrtovanih sestankov po</label>
+        <name>FSL__TotalWorkDurationScheduledAfter__c</name>
+    </fields>
+    <fields>
+        <label>Trajanje načrtovanih sestankov pred</label>
+        <name>FSL__TotalWorkDurationScheduledBefore__c</name>
+    </fields>
+    <fields>
+        <label>Trajanje vseh sestankov</label>
+        <name>FSL__TotalWorkTime__c</name>
+    </fields>
+    <fields>
+        <label>Čas potovanja na stroške vira po</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Čas potovanja na stroške vira pred</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Umaknjena st. – omejena razpoložljivost</label>
+        <name>FSL__UnscheduledServicesLimitedAvailability__c</name>
+    </fields>
+    <fields>
+        <label>Umaknjena storitev zaradi kršitve pravil</label>
+        <name>FSL__UnscheduledServicesRuleViolation__c</name>
+    </fields>
+    <fields>
+        <label>Skupna uporaba po</label>
+        <name>FSL__UtilizationTotalAfter__c</name>
+    </fields>
+    <fields>
+        <label>Skupna uporaba pred</label>
+        <name>FSL__UtilizationTotalBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ključ uporabe po</label>
+        <name>FSL__UtilizationWrenchAfter__c</name>
+    </fields>
+    <fields>
+        <label>Ključ uporabe pred</label>
+        <name>FSL__UtilizationWrenchBefore__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Številka zahteve za optimizacijo ozemelj</nameFieldLabel>
+</CustomObjectTranslation>

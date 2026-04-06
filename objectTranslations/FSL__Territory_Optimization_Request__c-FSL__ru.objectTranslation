@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Запрос на оптимизацию территории</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Запросы на оптимизацию территории</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Запрос на оптимизацию территории</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Запросы на оптимизацию территории</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Запроса на оптимизацию территории</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Запросов на оптимизацию территории</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Запросу на оптимизацию территории</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Запросам на оптимизацию территории</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Запросом на оптимизацию территории</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Запросами на оптимизацию территории</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Запросе на оптимизацию территории</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Запросах на оптимизацию территории</value>
+    </caseValues>
+    <fields>
+        <label>Время ответа после (с окном)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>Время ответа до (с окном)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>Время ответа после (без окна)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>Время ответа до (без окна)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ср. дор. на обслуживание c домом после</label>
+        <name>FSL__AvgTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Ср. дор. на обслуживание c домом до</label>
+        <name>FSL__AvgTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ср. дор. на обслуживание без дома после</label>
+        <name>FSL__AvgTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Ср. дор. на обслуживание без дома до</label>
+        <name>FSL__AvgTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Обслуживания не на основе нагрузки после</label>
+        <name>FSL__NonCapacityBasedServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Обслуживания не на основе нагрузки до</label>
+        <name>FSL__NonCapacityBasedServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Другие назначенные встречи после</label>
+        <name>FSL__NumOfScheduledSasToCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Другие назначенные встречи до</label>
+        <name>FSL__NumOfScheduledSasToCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Встречи, назначенные раб. группам после</label>
+        <name>FSL__NumOfScheduledSasToCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Встречи, назначенные раб. группам до</label>
+        <name>FSL__NumOfScheduledSasToCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Встречи, назначенные ресурсам после</label>
+        <name>FSL__NumOfScheduledSasToResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Встречи, назначенные ресурсам до</label>
+        <name>FSL__NumOfScheduledSasToResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Встречи предпочтительных ресурсов после</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrAfter__c</name>
+    </fields>
+    <fields>
+        <label>Встречи предпочтительных ресурсов до</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrBefore__c</name>
+    </fields>
+    <fields>
+        <label>Встречи, назначенные предпочт. ресурсам</label>
+        <name>FSL__NumberOfSasWithPreferredResource__c</name>
+    </fields>
+    <fields>
+        <label>Другие незапланированные ресурсы после</label>
+        <name>FSL__NumberOfUnscheduledCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Другие незапланированные ресурсы до</label>
+        <name>FSL__NumberOfUnscheduledCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Незапланированные рабочие группы после</label>
+        <name>FSL__NumberOfUnscheduledCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Незапланированные рабочие группы до</label>
+        <name>FSL__NumberOfUnscheduledCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Незапланированные ресурсы после</label>
+        <name>FSL__NumberOfUnscheduledResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Незапланированные ресурсы до</label>
+        <name>FSL__NumberOfUnscheduledResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Запрос на оптимизацию</label>
+        <name>FSL__Optimization_Request__c</name>
+        <relationshipLabel>Запросы на оптимизацию территории</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Сервисная территория</label>
+        <name>FSL__ServiceTerritory__c</name>
+        <relationshipLabel>Запросы на оптимизацию территории</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Доступность рабочих групп</label>
+        <name>FSL__TotalCrewWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Перерыв на обед после</label>
+        <name>FSL__TotalLunchBreakDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Перерыв на обед до</label>
+        <name>FSL__TotalLunchBreakDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Недоступность с дорогой после</label>
+        <name>FSL__TotalNaWithGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Недоступность с дорогой до</label>
+        <name>FSL__TotalNaWithGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Недоступность без дороги после</label>
+        <name>FSL__TotalNaWoGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Недоступность без дороги до</label>
+        <name>FSL__TotalNaWoGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Количество ресурсов на основе нагрузки</label>
+        <name>FSL__TotalNumberOfCapacityBasedResources__c</name>
+    </fields>
+    <fields>
+        <label>Количество рабочих групп</label>
+        <name>FSL__TotalNumberOfCrews__c</name>
+    </fields>
+    <fields>
+        <label>Доступные для оптимизации встречи</label>
+        <name>FSL__TotalNumberOfOptimizableServices__c</name>
+    </fields>
+    <fields>
+        <label>Фиксированные встречи</label>
+        <name>FSL__TotalNumberOfPinnedServices__c</name>
+    </fields>
+    <fields>
+        <label>Количество ресурсов</label>
+        <name>FSL__TotalNumberOfResources__c</name>
+    </fields>
+    <fields>
+        <label>Запланированные встречи после</label>
+        <name>FSL__TotalNumberOfScheduledServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Запланированные встречи до</label>
+        <name>FSL__TotalNumberOfScheduledServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Встречи с окном прибытия</label>
+        <name>FSL__TotalNumberOfServicesWithWindow__c</name>
+    </fields>
+    <fields>
+        <label>Встречи без окна прибытия</label>
+        <name>FSL__TotalNumberOfServicesWithoutWindow__c</name>
+    </fields>
+    <fields>
+        <label>Сверхурочное время рабочих групп</label>
+        <name>FSL__TotalOvertimeForCrews__c</name>
+    </fields>
+    <fields>
+        <label>Сверхурочное время ресурсов</label>
+        <name>FSL__TotalOvertimeForResources__c</name>
+    </fields>
+    <fields>
+        <label>Запланированное сверхурочное время после</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Запланированное сверхурочное время до</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Общ. дор. по осн. уч-ку серв. тер. после</label>
+        <name>FSL__TotalTravelByPrimaryMembershipAfter__c</name>
+    </fields>
+    <fields>
+        <label>Общ. дор. по осн. уч-ку серв. тер. до</label>
+        <name>FSL__TotalTravelByPrimaryMembershipBefore__c</name>
+    </fields>
+    <fields>
+        <label>Расстояние из осн. расположения после</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Расстояние из осн. расположения до</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Расстояние в осн. расположение после</label>
+        <name>FSL__TotalTravelDistanceToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Расстояние в осн. расположение до</label>
+        <name>FSL__TotalTravelDistanceToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Расстояние между встречами после</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Расстояние между встречами до</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Общая дорога c домом после</label>
+        <name>FSL__TotalTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Общая дорога c домом до</label>
+        <name>FSL__TotalTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Время на дорогу из осн. распол-ния после</label>
+        <name>FSL__TotalTravelTimeFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Время на дорогу из осн. распол-ния до</label>
+        <name>FSL__TotalTravelTimeFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Время на дорогу в осн. распол-ние после</label>
+        <name>FSL__TotalTravelTimeToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Время на дорогу в осн. распол-ние до</label>
+        <name>FSL__TotalTravelTimeToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Время на дорогу между встречами после</label>
+        <name>FSL__TotalTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Время на дорогу между встречами до</label>
+        <name>FSL__TotalTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Доступность ресурсов</label>
+        <name>FSL__TotalWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Продолжительность запланир. встреч после</label>
+        <name>FSL__TotalWorkDurationScheduledAfter__c</name>
+    </fields>
+    <fields>
+        <label>Продолжительность запланир. встреч до</label>
+        <name>FSL__TotalWorkDurationScheduledBefore__c</name>
+    </fields>
+    <fields>
+        <label>Продолжительность всех встреч</label>
+        <name>FSL__TotalWorkTime__c</name>
+    </fields>
+    <fields>
+        <label>Время на дорогу за счет ресурса после</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Время на дорогу за счет ресурса до</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Доступность незапланирован. обслуживания</label>
+        <name>FSL__UnscheduledServicesLimitedAvailability__c</name>
+    </fields>
+    <fields>
+        <label>Нарушение правила незаплан. обслуживания</label>
+        <name>FSL__UnscheduledServicesRuleViolation__c</name>
+    </fields>
+    <fields>
+        <label>Итоговое использование после</label>
+        <name>FSL__UtilizationTotalAfter__c</name>
+    </fields>
+    <fields>
+        <label>Итоговое использование до</label>
+        <name>FSL__UtilizationTotalBefore__c</name>
+    </fields>
+    <fields>
+        <label>Фактическое использование после</label>
+        <name>FSL__UtilizationWrenchAfter__c</name>
+    </fields>
+    <fields>
+        <label>Фактическое использование до</label>
+        <name>FSL__UtilizationWrenchBefore__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Номер запроса на оптимизацию территории</nameFieldLabel>
+</CustomObjectTranslation>

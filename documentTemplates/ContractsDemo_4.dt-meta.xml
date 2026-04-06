@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <documentGenerationMechanism>ServerSide</documentGenerationMechanism>
+    <extractOmniDataTransformName>extractContractDetailsDCT</extractOmniDataTransformName>
+    <fileExtension>docx</fileExtension>
+    <hasBatchableSection>false</hasBatchableSection>
+    <isActive>false</isActive>
+    <isSectionProcessed>false</isSectionProcessed>
+    <mapperOmniDataTransformName>sampleContractTransform</mapperOmniDataTransformName>
+    <name>ContractsDemo</name>
+    <shouldDisplayUnmappedToken>false</shouldDisplayUnmappedToken>
+    <shouldExtractEmbeddedTmplToken>false</shouldExtractEmbeddedTmplToken>
+    <status>Draft</status>
+    <tokenList>ContractAccountName,Street,City,State,Zip,products:Product,products:Quantity,products:ListPrice,products:Total,TotalPrice,Name</tokenList>
+    <tokenMappingMethodType>OmniDataTransform</tokenMappingMethodType>
+    <tokenMappingType>JSON</tokenMappingType>
+    <type>MicrosoftWord</type>
+    <uniqueName>ContractsDemo_4</uniqueName>
+    <usageType>Contract_Lifecycle_Management</usageType>
+    <versionNumber>4</versionNumber>
+</DocumentTemplate>

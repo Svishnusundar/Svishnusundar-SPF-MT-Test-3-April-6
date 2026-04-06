@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Poligonul de mapare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Poligon de mapare</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Poligoanele de mapare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Poligoane de mapare</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Poligonului de mapare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Poligonului de mapare</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Poligoanelor de mapare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Poligoanelor de mapare</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Culoare</label>
+        <name>FSL__Color__c</name>
+    </fields>
+    <fields>
+        <label>Descriere</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Detalii KML</label>
+        <name>FSL__KML__c</name>
+    </fields>
+    <fields>
+        <label>Latitudine maximă</label>
+        <name>FSL__Ma_La__c</name>
+    </fields>
+    <fields>
+        <label>Longitudine maximă</label>
+        <name>FSL__Ma_Lo__c</name>
+    </fields>
+    <fields>
+        <label>Latitudine minimă</label>
+        <name>FSL__Mi_La__c</name>
+    </fields>
+    <fields>
+        <label>Longitudine minimă</label>
+        <name>FSL__Mi_Lo__c</name>
+    </fields>
+    <fields>
+        <label>Teritoriu serviciu</label>
+        <name>FSL__Service_Territory__c</name>
+        <relationshipLabel>Poligoane</relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Nume poligon</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Culoarea poligonuluitrebuie să aibă format hexazecimal: (de exemplu, #ffffff)</errorMessage>
+        <name>FSL__Polygon_Color_HEX_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

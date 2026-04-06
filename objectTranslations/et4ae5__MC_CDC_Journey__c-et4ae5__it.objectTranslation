@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Journey acquisizione dati di modifica di MC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Journey acquisizione dati di modifica di MC</value>
+    </caseValues>
+    <fields>
+        <label>Tipo di modifica</label>
+        <name>et4ae5__ChangeType__c</name>
+    </fields>
+    <fields>
+        <label>Nome entità</label>
+        <name>et4ae5__EntityName__c</name>
+    </fields>
+    <fields>
+        <label>Chiave di definizione dell&apos;evento</label>
+        <name>et4ae5__EventDefinitionKey__c</name>
+    </fields>
+    <fields>
+        <label>Campi</label>
+        <name>et4ae5__Fields__c</name>
+    </fields>
+    <fields>
+        <label>Campi filtro</label>
+        <name>et4ae5__FilterFields__c</name>
+    </fields>
+    <fields>
+        <label>MID titolare</label>
+        <name>et4ae5__OwnerMid__c</name>
+    </fields>
+    <fields>
+        <label>ID record</label>
+        <name>et4ae5__RecordId__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Numero journey</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

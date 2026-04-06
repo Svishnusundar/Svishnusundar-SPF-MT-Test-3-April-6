@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Impostazioni utente di gestione squadra</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Impostazioni utente di gestione squadra</value>
+    </caseValues>
+    <fields>
+        <label>Giorni su diagramma di Gantt</label>
+        <name>FSL__GanttHorizon__c</name>
+    </fields>
+    <fields>
+        <label>Policy di pianificazione</label>
+        <name>FSL__SchedulingPolicy__c</name>
+    </fields>
+    <fields>
+        <label>Competenze selezionate</label>
+        <name>FSL__SelectedSkills__c</name>
+    </fields>
+    <fields>
+        <label>Operatore della logica competenze</label>
+        <name>FSL__SkillsLogicOperator__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome impostazioni utente di gestione squ</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

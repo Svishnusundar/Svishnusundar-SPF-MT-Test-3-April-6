@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Nastavení uživatele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Nastavení uživatele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Nastavení uživatele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Nastavení uživatele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Nastavení uživatele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Nastavení uživatele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Nastavení uživatele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Nastavením uživatele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Nastavením uživatele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Nastaveními uživatele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Nastavení uživatele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Nastaveních uživatele</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Absence výšky překrytí</label>
+        <name>FSL__Absence_Overlap_Height__c</name>
+        <picklistValues>
+            <masterLabel>full</masterLabel>
+            <translation><!-- full --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>partial</masterLabel>
+            <translation><!-- partial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Vlastnosti data Horizon</label>
+        <name>FSL__Date_Horizon_Properties__c</name>
+    </fields>
+    <fields>
+        <label>Dny v zobrazení</label>
+        <name>FSL__DaysInUtilizationView__c</name>
+    </fields>
+    <fields>
+        <label>Výchozí levý panel</label>
+        <name>FSL__DefaultLeftPanel__c</name>
+    </fields>
+    <fields>
+        <label>Přetáhnout délku trvání</label>
+        <name>FSL__Drag_Na_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Přetáhnout štítek</label>
+        <name>FSL__Drag_Na_Label__c</name>
+    </fields>
+    <fields>
+        <label>Přetáhnout typ</label>
+        <name>FSL__Drag_Na_Type__c</name>
+    </fields>
+    <fields>
+        <label>Oblíbená teritoria</label>
+        <name>FSL__FavoriteTerritories__c</name>
+    </fields>
+    <fields>
+        <label>Filtrovat kandidáty</label>
+        <name>FSL__Filter_Candidates__c</name>
+    </fields>
+    <fields>
+        <label>Dovednosti zdroje</label>
+        <name>FSL__Filter_Resources_BySkills__c</name>
+    </fields>
+    <fields>
+        <label>Filtry</label>
+        <name>FSL__Filters__c</name>
+    </fields>
+    <fields>
+        <label>Ganttova paleta</label>
+        <name>FSL__Gantt_Palette__c</name>
+        <relationshipLabel>Nastavení uživatele</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Zásada tabulky Gantt</label>
+        <name>FSL__Gantt_Policy__c</name>
+        <relationshipLabel>Nastavení uživatele</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Zobrazit hodinu dokončení Gantt</label>
+        <name>FSL__Gantt_View_Finish_Hour__c</name>
+    </fields>
+    <fields>
+        <label>Zobrazit hodinu zahájení Gantt</label>
+        <name>FSL__Gantt_View_Start_Hour__c</name>
+    </fields>
+    <fields>
+        <label>Skrýt představení agenta pro plánování</label>
+        <name>FSL__HideSchedulingAgentIntro__c</name>
+    </fields>
+    <fields>
+        <label>Označit víkendy</label>
+        <name>FSL__Highlight_Weekeneds__c</name>
+    </fields>
+    <fields>
+        <label>Horizontální rolování v Ganttově písmu</label>
+        <name>FSL__HorizontalScrolling__c</name>
+    </fields>
+    <fields>
+        <label>Zahrnout víkendy</label>
+        <name>FSL__Include_Weekends__c</name>
+    </fields>
+    <fields>
+        <label>Skryté polygony</label>
+        <name>FSL__Invisible_Polygons__c</name>
+    </fields>
+    <fields>
+        <label>Poslední náhled ve formátu Gantt</label>
+        <name>FSL__LastGanttView__c</name>
+    </fields>
+    <fields>
+        <label>Poslední datum zobraz. ve formátu Gantt</label>
+        <name>FSL__LastViewedGanttDate__c</name>
+    </fields>
+    <fields>
+        <label>Procentuální šířka levého panelu</label>
+        <name>FSL__Left_Panel_Width_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>Nahrát dnes</label>
+        <name>FSL__Load_On_Today__c</name>
+    </fields>
+    <fields>
+        <label>Zamknout Gantt</label>
+        <name>FSL__Lock_Gantt__c</name>
+    </fields>
+    <fields>
+        <label>Trvání dlouhodobé minimální absence</label>
+        <name>FSL__Longterm_Min_Absence_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Trvání dlouhodobé minimální služby</label>
+        <name>FSL__Longterm_Min_Service_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Měsíce v zobrazení</label>
+        <name>FSL__Longterm_Num_Of_Months__c</name>
+    </fields>
+    <fields>
+        <label>Klastr markeru</label>
+        <name>FSL__Map_Markers_Cluster__c</name>
+    </fields>
+    <fields>
+        <label>Mapovat markery objektu</label>
+        <name>FSL__Map_Object_Markers__c</name>
+    </fields>
+    <fields>
+        <label>Mapa reportů</label>
+        <name>FSL__Map_Reports__c</name>
+    </fields>
+    <fields>
+        <label>Porovnat data Gantt</label>
+        <name>FSL__Match_Gantt_Dates__c</name>
+    </fields>
+    <fields>
+        <label>Kritéria optimalizace jmenování</label>
+        <name>FSL__Optimization_Request_Filter_Field__c</name>
+    </fields>
+    <fields>
+        <label>Zdrojový filtr</label>
+        <name>FSL__Resource_Filter__c</name>
+    </fields>
+    <fields>
+        <label>Výška zdrojového řádku</label>
+        <name>FSL__Resource_Row_Height__c</name>
+        <picklistValues>
+            <masterLabel>large</masterLabel>
+            <translation><!-- large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>medium</masterLabel>
+            <translation><!-- medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>small</masterLabel>
+            <translation><!-- small --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>xsmall</masterLabel>
+            <translation><!-- xsmall --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Limit horizontu plánování</label>
+        <name>FSL__Scheduling_horizon_limit__c</name>
+    </fields>
+    <fields>
+        <label>Vybraný seznam zobrazení</label>
+        <name>FSL__Selected_List_View__c</name>
+    </fields>
+    <fields>
+        <label>Zbarvení seznamu služeb</label>
+        <name>FSL__ServiceListColoring__c</name>
+    </fields>
+    <fields>
+        <label>Služby_Seznam_Výška procenta</label>
+        <name>FSL__Services_List_Height_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>Služby na stránku</label>
+        <name>FSL__Services_Per_Page__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>125</masterLabel>
+            <translation><!-- 125 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75</masterLabel>
+            <translation><!-- 75 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Zobrazit záložku s oblíbenými teritorii</label>
+        <name>FSL__ShowFavoriteTerritoriesTab__c</name>
+    </fields>
+    <fields>
+        <label>Zobrazit kal. týdny v Ganttově diagramu</label>
+        <name>FSL__Show_Calendar_Weeks__c</name>
+    </fields>
+    <fields>
+        <label>Zobrazit pouze MDT v dlouhodobém</label>
+        <name>FSL__Show_Only_MDT_In_Longterm__c</name>
+    </fields>
+    <fields>
+        <label>Zobrazit služby Orphan</label>
+        <name>FSL__Show_Orphan_Services__c</name>
+    </fields>
+    <fields>
+        <label>Filtrovat logiku dovedností obsluhy</label>
+        <name>FSL__Skills_Logic_Operator__c</name>
+    </fields>
+    <fields>
+        <label>Přepnutá teritoria</label>
+        <name>FSL__Toggled_Territories__c</name>
+    </fields>
+    <fields>
+        <label>Uživatel</label>
+        <name>FSL__User__c</name>
+        <relationshipLabel><!-- User Settings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Vlastnosti využití</label>
+        <name>FSL__Utilization_Properties__c</name>
+    </fields>
+    <fields>
+        <label>Zobrazit typ kapacity</label>
+        <name>FSL__View_Capacity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Day</masterLabel>
+            <translation><!-- Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Nastavení uživatelského jména</nameFieldLabel>
+</CustomObjectTranslation>

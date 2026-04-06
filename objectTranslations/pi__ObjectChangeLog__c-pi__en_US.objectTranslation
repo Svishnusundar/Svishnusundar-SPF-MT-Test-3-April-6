@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ObjectChangeLog</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ObjectChangeLogs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Object Email --></label>
+        <name>pi__ObjectEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Fid --></label>
+        <name>pi__ObjectFid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Master Record Email --></label>
+        <name>pi__ObjectMasterRecordEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Master Record ID --></label>
+        <name>pi__ObjectMasterRecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object State --></label>
+        <name>pi__ObjectState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Type --></label>
+        <name>pi__ObjectType__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

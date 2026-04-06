@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PSChatBotPackKA</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PSChatBotPackKA</value>
+    </caseValues>
+    <fields>
+        <label><!-- Answer Field API Name --></label>
+        <name>Answer_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chat Answer Field API Name --></label>
+        <name>Chat_Answer_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image Field API Name --></label>
+        <name>Image_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>Object_API_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Forespørselen om områdeoptimalisering</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Forespørsel om områdeoptimalisering</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Forespørsel om områdeoptimalisering</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Forespørslene om områdeoptimalisering</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Forespørsler om områdeoptimalisering</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Forespørsler om områdeoptimalisering</value>
+    </caseValues>
+    <fields>
+        <label>Responstid etter (med vindu)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>Responstid før (med vindu)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>Responstid etter (uten vindu)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>Responstid før (uten vindu)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>Reise i snitt per tjeneste m/hjem etter</label>
+        <name>FSL__AvgTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Reise i snitt per tjeneste m/hjem før</label>
+        <name>FSL__AvgTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Reise i snitt per tjeneste u/hjem etter</label>
+        <name>FSL__AvgTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Reise i snitt per tjeneste u/hjem før</label>
+        <name>FSL__AvgTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ikke kapasitetsbaserte tjenester etter</label>
+        <name>FSL__NonCapacityBasedServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Ikke kapasitetsbaserte tjenester før</label>
+        <name>FSL__NonCapacityBasedServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Andre tildelte avtaler etter</label>
+        <name>FSL__NumOfScheduledSasToCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Andre tildelte avtaler før</label>
+        <name>FSL__NumOfScheduledSasToCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Avtaler tildelt til mannskaper etter</label>
+        <name>FSL__NumOfScheduledSasToCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Avtaler tildelt til mannskaper før</label>
+        <name>FSL__NumOfScheduledSasToCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ressurstildelte avtaler etter</label>
+        <name>FSL__NumOfScheduledSasToResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Ressurstildelte avtaler før</label>
+        <name>FSL__NumOfScheduledSasToResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Avtaler med foretrukket ressurs etter</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrAfter__c</name>
+    </fields>
+    <fields>
+        <label>Avtaler med foretrukket ressurs før</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrBefore__c</name>
+    </fields>
+    <fields>
+        <label>Tildelte avtaler til foretrukket ressurs</label>
+        <name>FSL__NumberOfSasWithPreferredResource__c</name>
+    </fields>
+    <fields>
+        <label>Andre ikke planlagte ressurser etter</label>
+        <name>FSL__NumberOfUnscheduledCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Andre ikke planlagte ressurser før</label>
+        <name>FSL__NumberOfUnscheduledCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ikke planlagte mannskaper etter</label>
+        <name>FSL__NumberOfUnscheduledCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Ikke planlagte mannskaper før</label>
+        <name>FSL__NumberOfUnscheduledCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ikke planlagte ressurser etter</label>
+        <name>FSL__NumberOfUnscheduledResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Ikke planlagte ressurser før</label>
+        <name>FSL__NumberOfUnscheduledResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Optimaliseringsforespørsel</label>
+        <name>FSL__Optimization_Request__c</name>
+        <relationshipLabel>Områdeoptimaliseringsforespørsler</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tjenesteområde</label>
+        <name>FSL__ServiceTerritory__c</name>
+        <relationshipLabel>Områdeoptimaliseringsforespørsler</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Mannskapstilgjengelighet</label>
+        <name>FSL__TotalCrewWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Lunsjpause etter</label>
+        <name>FSL__TotalLunchBreakDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Lunsjpause før</label>
+        <name>FSL__TotalLunchBreakDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Utilgjengelighet med reise etter</label>
+        <name>FSL__TotalNaWithGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Utilgjengelighet med reise før</label>
+        <name>FSL__TotalNaWithGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Utilgjengelighet uten reise etter</label>
+        <name>FSL__TotalNaWoGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Utilgjengelighet uten reise før</label>
+        <name>FSL__TotalNaWoGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Antall kapasitetsbaserte ressurser</label>
+        <name>FSL__TotalNumberOfCapacityBasedResources__c</name>
+    </fields>
+    <fields>
+        <label>Antall mannskaper</label>
+        <name>FSL__TotalNumberOfCrews__c</name>
+    </fields>
+    <fields>
+        <label>Avtaler som kan optimeres</label>
+        <name>FSL__TotalNumberOfOptimizableServices__c</name>
+    </fields>
+    <fields>
+        <label>Festede avtaler</label>
+        <name>FSL__TotalNumberOfPinnedServices__c</name>
+    </fields>
+    <fields>
+        <label>Antall ressurser</label>
+        <name>FSL__TotalNumberOfResources__c</name>
+    </fields>
+    <fields>
+        <label>Planlagte avtaler etter</label>
+        <name>FSL__TotalNumberOfScheduledServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Planlagte avtaler før</label>
+        <name>FSL__TotalNumberOfScheduledServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Avtaler med ankomstvindu</label>
+        <name>FSL__TotalNumberOfServicesWithWindow__c</name>
+    </fields>
+    <fields>
+        <label>Avtaler uten ankomstvindu</label>
+        <name>FSL__TotalNumberOfServicesWithoutWindow__c</name>
+    </fields>
+    <fields>
+        <label>Mannskapsovertid</label>
+        <name>FSL__TotalOvertimeForCrews__c</name>
+    </fields>
+    <fields>
+        <label>Ressursovertid</label>
+        <name>FSL__TotalOvertimeForResources__c</name>
+    </fields>
+    <fields>
+        <label>Planlagt overtid etter</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Planlagt overtid før</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Samlet reisetid per primær STM etter</label>
+        <name>FSL__TotalTravelByPrimaryMembershipAfter__c</name>
+    </fields>
+    <fields>
+        <label>Samlet reisetid per primær STM før</label>
+        <name>FSL__TotalTravelByPrimaryMembershipBefore__c</name>
+    </fields>
+    <fields>
+        <label>Avstand fra hjemmebase etter</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Avstand fra hjemmebase før</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Avstand til hjemmebase etter</label>
+        <name>FSL__TotalTravelDistanceToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Avstand til hjemmebase før</label>
+        <name>FSL__TotalTravelDistanceToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Avstand mellom avtaler etter</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Avstand mellom avtaler før</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Samlet reisetid med hjemmebase etter</label>
+        <name>FSL__TotalTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Samlet reisetid med hjemmebase før</label>
+        <name>FSL__TotalTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Reisetid fra hjemmebase etter</label>
+        <name>FSL__TotalTravelTimeFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Reisetid fra hjemmebase før</label>
+        <name>FSL__TotalTravelTimeFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Reisetid til hjemmebase etter</label>
+        <name>FSL__TotalTravelTimeToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Reisetid til hjemmebase før</label>
+        <name>FSL__TotalTravelTimeToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Reisetid mellom avtaler etter</label>
+        <name>FSL__TotalTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Reisetid mellom avtaler før</label>
+        <name>FSL__TotalTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ressurstilgjengelighet</label>
+        <name>FSL__TotalWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Varighet på planlagte avtaler etter</label>
+        <name>FSL__TotalWorkDurationScheduledAfter__c</name>
+    </fields>
+    <fields>
+        <label>Varighet på planlagte avtaler før</label>
+        <name>FSL__TotalWorkDurationScheduledBefore__c</name>
+    </fields>
+    <fields>
+        <label>Varighet av alle avtaler</label>
+        <name>FSL__TotalWorkTime__c</name>
+    </fields>
+    <fields>
+        <label>Reisetid på ressursens bekostning etter</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Reisetid på ressursens bekostning før</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Begrenset tilgj. ikke planl. tjenester</label>
+        <name>FSL__UnscheduledServicesLimitedAvailability__c</name>
+    </fields>
+    <fields>
+        <label>Regelbrudd for ikke planlagte tjenester</label>
+        <name>FSL__UnscheduledServicesRuleViolation__c</name>
+    </fields>
+    <fields>
+        <label>Samlet utnyttelse etter</label>
+        <name>FSL__UtilizationTotalAfter__c</name>
+    </fields>
+    <fields>
+        <label>Samlet utnyttelse før</label>
+        <name>FSL__UtilizationTotalBefore__c</name>
+    </fields>
+    <fields>
+        <label>Verktøyutnyttelse etter</label>
+        <name>FSL__UtilizationWrenchAfter__c</name>
+    </fields>
+    <fields>
+        <label>Verktøyutnyttelse før</label>
+        <name>FSL__UtilizationWrenchBefore__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Forespørselsnummer for områdeoptimaliser</nameFieldLabel>
+</CustomObjectTranslation>

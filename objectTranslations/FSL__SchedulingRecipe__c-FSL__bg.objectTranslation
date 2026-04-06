@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Рецепта за планиране</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Рецепти за планиране</value>
+    </caseValues>
+    <fields>
+        <label>Активно</label>
+        <name>FSL__Active__c</name>
+    </fields>
+    <fields>
+        <label>Критерии</label>
+        <name>FSL__Criteria__c</name>
+        <relationshipLabel>Планиране на рецепти</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Описание</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Очаквано поведение</label>
+        <name>FSL__Expected_Behavior__c</name>
+    </fields>
+    <fields>
+        <label>Праг на последно известното местопол.</label>
+        <name>FSL__LKL_Threshold__c</name>
+    </fields>
+    <fields>
+        <label>Публикуване на действията</label>
+        <name>FSL__Post_Actions__c</name>
+    </fields>
+    <fields>
+        <label>Приоритет</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>За специфичен сценарий</label>
+        <name>FSL__Scenario_Specific__c</name>
+    </fields>
+    <fields>
+        <label>Тип сценарий</label>
+        <name>FSL__Scenario_Type__c</name>
+        <picklistValues>
+            <masterLabel>Overlap (Post-Emergency Scheduling)</masterLabel>
+            <translation><!-- Overlap (Post-Emergency Scheduling) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overlap (SA Lengthened)</masterLabel>
+            <translation><!-- Overlap (SA Lengthened) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Canceled</masterLabel>
+            <translation><!-- SA Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Shortened</masterLabel>
+            <translation><!-- SA Shortened --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Правила за планиране</label>
+        <name>FSL__Scheduling_Policy__c</name>
+        <relationshipLabel>Планиране на рецепти</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Полуавтоматизирано</label>
+        <name>FSL__Semi_Automated__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Име на рецепта за планиране</nameFieldLabel>
+</CustomObjectTranslation>

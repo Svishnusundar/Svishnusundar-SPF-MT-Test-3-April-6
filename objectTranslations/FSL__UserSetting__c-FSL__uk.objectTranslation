@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Параметр користувача</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Параметри користувача</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Параметр користувача</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Параметри користувача</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Параметра користувача</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Параметрів користувача</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Параметру користувача</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Параметрам користувача</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Параметром користувача</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Параметрами користувача</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Параметрі користувача</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Параметрах користувача</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Висота накладки відсутності</label>
+        <name>FSL__Absence_Overlap_Height__c</name>
+        <picklistValues>
+            <masterLabel>full</masterLabel>
+            <translation><!-- full --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>partial</masterLabel>
+            <translation><!-- partial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Властивості горизонту дати</label>
+        <name>FSL__Date_Horizon_Properties__c</name>
+    </fields>
+    <fields>
+        <label>Дні у перегляді утилізації</label>
+        <name>FSL__DaysInUtilizationView__c</name>
+    </fields>
+    <fields>
+        <label>Ліва панель за замовчуванням</label>
+        <name>FSL__DefaultLeftPanel__c</name>
+    </fields>
+    <fields>
+        <label>Перенести тривалість відсутності</label>
+        <name>FSL__Drag_Na_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Перенести мітку відсутності</label>
+        <name>FSL__Drag_Na_Label__c</name>
+    </fields>
+    <fields>
+        <label>Перенести тип відсутності</label>
+        <name>FSL__Drag_Na_Type__c</name>
+    </fields>
+    <fields>
+        <label>Улюблені території</label>
+        <name>FSL__FavoriteTerritories__c</name>
+    </fields>
+    <fields>
+        <label>Фільтрувати кандидатів</label>
+        <name>FSL__Filter_Candidates__c</name>
+    </fields>
+    <fields>
+        <label>Навички ресурсу</label>
+        <name>FSL__Filter_Resources_BySkills__c</name>
+    </fields>
+    <fields>
+        <label>Фільтри</label>
+        <name>FSL__Filters__c</name>
+    </fields>
+    <fields>
+        <label>Палітра Ганта</label>
+        <name>FSL__Gantt_Palette__c</name>
+        <relationshipLabel>Параметри користувача</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Політика діаграми Ганта</label>
+        <name>FSL__Gantt_Policy__c</name>
+        <relationshipLabel>Параметри користувача</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Година завершення на діаграмі Ганта</label>
+        <name>FSL__Gantt_View_Finish_Hour__c</name>
+    </fields>
+    <fields>
+        <label>Година початку на діаграмі Ганта</label>
+        <name>FSL__Gantt_View_Start_Hour__c</name>
+    </fields>
+    <fields>
+        <label>Приховати вступ агента планування</label>
+        <name>FSL__HideSchedulingAgentIntro__c</name>
+    </fields>
+    <fields>
+        <label>Виділити вихідні</label>
+        <name>FSL__Highlight_Weekeneds__c</name>
+    </fields>
+    <fields>
+        <label>Горизонтальне прокручування в Ганті</label>
+        <name>FSL__HorizontalScrolling__c</name>
+    </fields>
+    <fields>
+        <label>Включити вихідні</label>
+        <name>FSL__Include_Weekends__c</name>
+    </fields>
+    <fields>
+        <label>Сховані багатокутники</label>
+        <name>FSL__Invisible_Polygons__c</name>
+    </fields>
+    <fields>
+        <label>Останнє подання діаграми Ганта</label>
+        <name>FSL__LastGanttView__c</name>
+    </fields>
+    <fields>
+        <label>Остання дата, переглянута в діаграмі</label>
+        <name>FSL__LastViewedGanttDate__c</name>
+    </fields>
+    <fields>
+        <label>Відсоток ширини лівої панелі</label>
+        <name>FSL__Left_Panel_Width_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>Завантаження на сьогодні</label>
+        <name>FSL__Load_On_Today__c</name>
+    </fields>
+    <fields>
+        <label>Заблокувати діаграму Ганта</label>
+        <name>FSL__Lock_Gantt__c</name>
+    </fields>
+    <fields>
+        <label>Мінімальна довжина тривалої відсутності</label>
+        <name>FSL__Longterm_Min_Absence_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Мін. довжина тривалого обслуговування</label>
+        <name>FSL__Longterm_Min_Service_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Місяців у перегляді</label>
+        <name>FSL__Longterm_Num_Of_Months__c</name>
+    </fields>
+    <fields>
+        <label>Кластеризація маркерів</label>
+        <name>FSL__Map_Markers_Cluster__c</name>
+    </fields>
+    <fields>
+        <label>Відображати маркери об’єкта</label>
+        <name>FSL__Map_Object_Markers__c</name>
+    </fields>
+    <fields>
+        <label>Відображати звіти</label>
+        <name>FSL__Map_Reports__c</name>
+    </fields>
+    <fields>
+        <label>Співставити дати діаграми Ганта</label>
+        <name>FSL__Match_Gantt_Dates__c</name>
+    </fields>
+    <fields>
+        <label>Критерії оптимізації зустрічі</label>
+        <name>FSL__Optimization_Request_Filter_Field__c</name>
+    </fields>
+    <fields>
+        <label>Фільтр ресурсу</label>
+        <name>FSL__Resource_Filter__c</name>
+    </fields>
+    <fields>
+        <label>Висота рядка ресурсу</label>
+        <name>FSL__Resource_Row_Height__c</name>
+        <picklistValues>
+            <masterLabel>large</masterLabel>
+            <translation><!-- large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>medium</masterLabel>
+            <translation><!-- medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>small</masterLabel>
+            <translation><!-- small --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>xsmall</masterLabel>
+            <translation><!-- xsmall --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Планування горизонту ліміту</label>
+        <name>FSL__Scheduling_horizon_limit__c</name>
+    </fields>
+    <fields>
+        <label>Вибранийи перегляд списку</label>
+        <name>FSL__Selected_List_View__c</name>
+    </fields>
+    <fields>
+        <label>Колорування списку обслуговування</label>
+        <name>FSL__ServiceListColoring__c</name>
+    </fields>
+    <fields>
+        <label>Відсоток висоти_списку_послуг</label>
+        <name>FSL__Services_List_Height_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>Обслуговування на сторінку</label>
+        <name>FSL__Services_Per_Page__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>125</masterLabel>
+            <translation><!-- 125 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75</masterLabel>
+            <translation><!-- 75 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Показати вкладку улюблених територій</label>
+        <name>FSL__ShowFavoriteTerritoriesTab__c</name>
+    </fields>
+    <fields>
+        <label>Показати календарні тижні в Ганті</label>
+        <name>FSL__Show_Calendar_Weeks__c</name>
+    </fields>
+    <fields>
+        <label>Показати лише MDT у тривалості</label>
+        <name>FSL__Show_Only_MDT_In_Longterm__c</name>
+    </fields>
+    <fields>
+        <label>Показати покинуте обслуговування</label>
+        <name>FSL__Show_Orphan_Services__c</name>
+    </fields>
+    <fields>
+        <label>Оператор логіки фільтра навичок</label>
+        <name>FSL__Skills_Logic_Operator__c</name>
+    </fields>
+    <fields>
+        <label>Переключені території</label>
+        <name>FSL__Toggled_Territories__c</name>
+    </fields>
+    <fields>
+        <label>Користувач</label>
+        <name>FSL__User__c</name>
+        <relationshipLabel><!-- User Settings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Властивості утилізації</label>
+        <name>FSL__Utilization_Properties__c</name>
+    </fields>
+    <fields>
+        <label>Перегляд типу навантаження</label>
+        <name>FSL__View_Capacity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Day</masterLabel>
+            <translation><!-- Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Ім’я настройки користувача</nameFieldLabel>
+</CustomObjectTranslation>

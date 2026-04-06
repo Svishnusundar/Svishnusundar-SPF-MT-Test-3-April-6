@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Standaardstatus van vrijwilligersdienst</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Standaardstatussen van vrijwilligersdienst</value>
+    </caseValues>
+    <fields>
+        <help><!-- Provide a status value indicating the default value of a volunteer shift that gets created when a volunteer signs-up for a volunteer project from the community. --></help>
+        <label>Status</label>
+        <name>PublicSector__Status__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

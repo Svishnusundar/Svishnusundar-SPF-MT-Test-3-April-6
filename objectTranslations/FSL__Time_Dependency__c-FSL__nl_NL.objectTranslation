@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Afhankelijkheid van afspraak</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Afhankelijkheden van afspraken</value>
+    </caseValues>
+    <fields>
+        <label>Afhankelijkheid</label>
+        <name>FSL__Dependency__c</name>
+        <picklistValues>
+            <masterLabel>Immediately Follow</masterLabel>
+            <translation><!-- Immediately Follow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Start</masterLabel>
+            <translation><!-- Same Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start After Finish</masterLabel>
+            <translation><!-- Start After Finish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start After Finish And Same Day</masterLabel>
+            <translation><!-- Start After Finish And Same Day --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Rootserviceafspraak</label>
+        <name>FSL__Root_Service_Appointment__c</name>
+        <relationshipLabel>Afhankelijkheden van afspraak (rootserviceafspraak)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Dezelfde resource</label>
+        <name>FSL__Same_Resource__c</name>
+    </fields>
+    <fields>
+        <label>Serviceafspraak 1</label>
+        <name>FSL__Service_Appointment_1__c</name>
+        <relationshipLabel><!-- Appointment Dependencies (Service Appointment 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Serviceafspraak 2</label>
+        <name>FSL__Service_Appointment_2__c</name>
+        <relationshipLabel><!-- Appointment Dependencies (Service Appointment 2) --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Naam van afhankelijkheid van afspraak</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Selecteer een afhankelijkheidstype.</errorMessage>
+        <name>FSL__Dependency_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>We kunnen geen afhankelijkheid maken tussen de serviceafspraken. Vraag uw Salesforce-beheerder om u machtigingen te geven voor alle aangepaste objectvelden voor Tijdsafhankelijkheid.</errorMessage>
+        <name>FSL__Root_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Afhankelijkheid Onmiddellijk volgen vereist zelfde resource</errorMessage>
+        <name>FSL__Same_Resource_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Serviceafspraak 2 is verplicht.</errorMessage>
+        <name>FSL__Service_Appointment_2_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Het wijzigen van een van de serviceafspraken in de relatie is niet toegestaan</errorMessage>
+        <name>FSL__Service_Appointment_2_Not_Changed</name>
+    </validationRules>
+</CustomObjectTranslation>

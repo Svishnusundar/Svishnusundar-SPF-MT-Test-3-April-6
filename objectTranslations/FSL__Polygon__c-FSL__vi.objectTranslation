@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Hình Đa Giác Trên Bản Đồ</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Hình Đa Giác Trên Bản Đồ --></value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Màu</label>
+        <name>FSL__Color__c</name>
+    </fields>
+    <fields>
+        <label>Mô tả</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Chi Tiết KML</label>
+        <name>FSL__KML__c</name>
+    </fields>
+    <fields>
+        <label>Vĩ Độ Tối Đa</label>
+        <name>FSL__Ma_La__c</name>
+    </fields>
+    <fields>
+        <label>Kinh Độ Tối Đa</label>
+        <name>FSL__Ma_Lo__c</name>
+    </fields>
+    <fields>
+        <label>Vĩ Độ Tối Thiểu</label>
+        <name>FSL__Mi_La__c</name>
+    </fields>
+    <fields>
+        <label>Kinh Độ Tối Thiểu</label>
+        <name>FSL__Mi_Lo__c</name>
+    </fields>
+    <fields>
+        <label>Lãnh Thổ Dịch Vụ</label>
+        <name>FSL__Service_Territory__c</name>
+        <relationshipLabel>Hình Đa Giác</relationshipLabel>
+    </fields>
+    <nameFieldLabel>Tên Hình Đa Giác</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Màu của hình đa giác phải ở định dạng thập lục phân: (ví dụ: #ffffff)</errorMessage>
+        <name>FSL__Polygon_Color_HEX_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

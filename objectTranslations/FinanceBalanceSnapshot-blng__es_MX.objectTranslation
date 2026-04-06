@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Cuenta GL de crédito</label>
+        <name>blng__CreditGLAccount__c</name>
+        <relationshipLabel>Instantáneas de balance de finanzas (Cuenta GL de crédito)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cuenta GL de débito</label>
+        <name>blng__DebitGLAccount__c</name>
+        <relationshipLabel>Instantáneas de balance de finanzas (Cuenta GL de débito)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Libro de finanzas</label>
+        <name>blng__FinanceBook__c</name>
+        <relationshipLabel>Instantáneas de balance de finanzas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Periodo de finanzas</label>
+        <name>blng__FinancePeriod__c</name>
+        <relationshipLabel>Instantáneas de balance de finanzas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Regla de libro mayor</label>
+        <name>blng__GLRule__c</name>
+        <relationshipLabel>Instantáneas de balance de finanzas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tratamiento de libro mayor</label>
+        <name>blng__GLTreatment__c</name>
+        <relationshipLabel>Instantáneas de balance de finanzas</relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

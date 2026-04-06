@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Solicitarea de optimizare a teritoriului</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Solicitare de optimizare a teritoriului</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Solicitările de optimizare a teritoriilor</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Solicitări de optimizare a teritoriilor</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Solicitării de optimizare a teritoriului</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Solicitării de optimizare a teritoriului</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Solicitărilor de optimizare a teritoriilor</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Solicitărilor de optimizare a teritoriilor</value>
+    </caseValues>
+    <fields>
+        <label>Timp răspuns, după (cu per. sosire)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>Timp răspuns, înainte (cu per. sosire)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>Timp răspuns, după (fără per. sosire)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>Timp răspuns, înainte (fără per. sosire)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>Depl med/serv după, cu pct lucru</label>
+        <name>FSL__AvgTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Depl med/serv înainte, cu pct lucru</label>
+        <name>FSL__AvgTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Depl med/serv după, fără pct lucru</label>
+        <name>FSL__AvgTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Depl med/serv înainte, fără pct lucru</label>
+        <name>FSL__AvgTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Servicii non-capacitate, după</label>
+        <name>FSL__NonCapacityBasedServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Servicii non-capacitate, înainte</label>
+        <name>FSL__NonCapacityBasedServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Alte rezervări atribuite, după</label>
+        <name>FSL__NumOfScheduledSasToCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Alte rezervări atribuite, înainte</label>
+        <name>FSL__NumOfScheduledSasToCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Rezervări atribuite echipelor, după</label>
+        <name>FSL__NumOfScheduledSasToCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Rezervări atribuite echipelor, înainte</label>
+        <name>FSL__NumOfScheduledSasToCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Rezervări atribuite resurselor, după</label>
+        <name>FSL__NumOfScheduledSasToResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Rezervări atribuite resurselor, înainte</label>
+        <name>FSL__NumOfScheduledSasToResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Rezervări resurse preferate, după</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrAfter__c</name>
+    </fields>
+    <fields>
+        <label>Rezervări resurse preferate, înainte</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrBefore__c</name>
+    </fields>
+    <fields>
+        <label>Rezervări atribuite resurselor preferate</label>
+        <name>FSL__NumberOfSasWithPreferredResource__c</name>
+    </fields>
+    <fields>
+        <label>Altele resurse neprogramate, după</label>
+        <name>FSL__NumberOfUnscheduledCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Altele resurse neprogramate, înainte</label>
+        <name>FSL__NumberOfUnscheduledCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Echipe neprogramate, după</label>
+        <name>FSL__NumberOfUnscheduledCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Echipe neprogramate, înainte</label>
+        <name>FSL__NumberOfUnscheduledCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Resurse neprogramate, după</label>
+        <name>FSL__NumberOfUnscheduledResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Resurse neprogramate, înainte</label>
+        <name>FSL__NumberOfUnscheduledResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Solicitare de optimizare</label>
+        <name>FSL__Optimization_Request__c</name>
+        <relationshipLabel>Solicitări de optimizare teritoriu</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Teritoriu serviciu</label>
+        <name>FSL__ServiceTerritory__c</name>
+        <relationshipLabel>Solicitări de optimizare teritoriu</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Disponibilitatea echipelor</label>
+        <name>FSL__TotalCrewWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Pauză de prânz, după</label>
+        <name>FSL__TotalLunchBreakDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Pauză de prânz, înainte</label>
+        <name>FSL__TotalLunchBreakDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Indisponibilitate cu deplasare, după</label>
+        <name>FSL__TotalNaWithGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Indisponibilitate cu deplasare, înainte</label>
+        <name>FSL__TotalNaWithGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Indisponib. fără deplasare, după</label>
+        <name>FSL__TotalNaWoGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Indisponib. fără deplasare, înainte</label>
+        <name>FSL__TotalNaWoGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Număr de resurse pe bază de capacitate</label>
+        <name>FSL__TotalNumberOfCapacityBasedResources__c</name>
+    </fields>
+    <fields>
+        <label>Număr de echipe</label>
+        <name>FSL__TotalNumberOfCrews__c</name>
+    </fields>
+    <fields>
+        <label>Rezervări optimizabile</label>
+        <name>FSL__TotalNumberOfOptimizableServices__c</name>
+    </fields>
+    <fields>
+        <label>Rezervări fixate</label>
+        <name>FSL__TotalNumberOfPinnedServices__c</name>
+    </fields>
+    <fields>
+        <label>Număr de resurse</label>
+        <name>FSL__TotalNumberOfResources__c</name>
+    </fields>
+    <fields>
+        <label>Rezervări programate, după</label>
+        <name>FSL__TotalNumberOfScheduledServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Rezervări programate, înainte</label>
+        <name>FSL__TotalNumberOfScheduledServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Rezervări cu perioadă de sosire</label>
+        <name>FSL__TotalNumberOfServicesWithWindow__c</name>
+    </fields>
+    <fields>
+        <label>Rezervări fără perioadă de sosire</label>
+        <name>FSL__TotalNumberOfServicesWithoutWindow__c</name>
+    </fields>
+    <fields>
+        <label>Ore suplimentare echipe</label>
+        <name>FSL__TotalOvertimeForCrews__c</name>
+    </fields>
+    <fields>
+        <label>Ore suplimentare resurse</label>
+        <name>FSL__TotalOvertimeForResources__c</name>
+    </fields>
+    <fields>
+        <label>Ore suplimentare programate, după</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Ore suplimentare programate, înainte</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Deplas totală pe STM princ, după</label>
+        <name>FSL__TotalTravelByPrimaryMembershipAfter__c</name>
+    </fields>
+    <fields>
+        <label>Deplas totală pe STM princ, înainte</label>
+        <name>FSL__TotalTravelByPrimaryMembershipBefore__c</name>
+    </fields>
+    <fields>
+        <label>Distanța de la bază, după</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Distanța de la bază, înainte</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Distanța până la bază, după</label>
+        <name>FSL__TotalTravelDistanceToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Distanța până la bază, înainte</label>
+        <name>FSL__TotalTravelDistanceToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Distanța între rezervări, după</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Distanța între rezervări, înainte</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Total deplasare după, cu pct lucru</label>
+        <name>FSL__TotalTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Total depl înainte, cu pct lucru</label>
+        <name>FSL__TotalTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Timp de deplasare de la bază, după</label>
+        <name>FSL__TotalTravelTimeFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Timp de deplasare de la bază, înainte</label>
+        <name>FSL__TotalTravelTimeFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Timp de deplasare spre bază, după</label>
+        <name>FSL__TotalTravelTimeToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Timp de deplasare spre bază, înainte</label>
+        <name>FSL__TotalTravelTimeToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Timp deplas. între rezervări, după</label>
+        <name>FSL__TotalTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Timp deplas. între rezervări, înainte</label>
+        <name>FSL__TotalTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Disponibilitate resurse</label>
+        <name>FSL__TotalWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Durată programată rezervări, după</label>
+        <name>FSL__TotalWorkDurationScheduledAfter__c</name>
+    </fields>
+    <fields>
+        <label>Durată programată rezervări, înainte</label>
+        <name>FSL__TotalWorkDurationScheduledBefore__c</name>
+    </fields>
+    <fields>
+        <label>Durata tuturor rezervărilor</label>
+        <name>FSL__TotalWorkTime__c</name>
+    </fields>
+    <fields>
+        <label>Timp deplas. chelt. resursei, după</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Timp deplas. pe chelt. resursei, înainte</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Disponib limitată servicii deprogramate</label>
+        <name>FSL__UnscheduledServicesLimitedAvailability__c</name>
+    </fields>
+    <fields>
+        <label>Încălcare reguli servicii deprogramate</label>
+        <name>FSL__UnscheduledServicesRuleViolation__c</name>
+    </fields>
+    <fields>
+        <label>Total utilizare după</label>
+        <name>FSL__UtilizationTotalAfter__c</name>
+    </fields>
+    <fields>
+        <label>Total utilizare înainte</label>
+        <name>FSL__UtilizationTotalBefore__c</name>
+    </fields>
+    <fields>
+        <label>Total utilizare timp lucru ef după</label>
+        <name>FSL__UtilizationWrenchAfter__c</name>
+    </fields>
+    <fields>
+        <label>Total utilizare timp lucru ef înainte</label>
+        <name>FSL__UtilizationWrenchBefore__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Număr solicitare de optimizare teritoriu</nameFieldLabel>
+</CustomObjectTranslation>

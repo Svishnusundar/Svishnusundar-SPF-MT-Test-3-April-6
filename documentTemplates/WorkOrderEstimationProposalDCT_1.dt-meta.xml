@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <documentGenerationMechanism>ClientSide</documentGenerationMechanism>
+    <extractOmniDataTransformName>dctGetQuoteDetailsAndLineItems</extractOmniDataTransformName>
+    <fileExtension>docx</fileExtension>
+    <hasBatchableSection>false</hasBatchableSection>
+    <isActive>false</isActive>
+    <isSectionProcessed>false</isSectionProcessed>
+    <mapperOmniDataTransformName>WorkOrderEstimationDocumentDataTransformDCT</mapperOmniDataTransformName>
+    <name>WorkOrderEstimationProposalDCT</name>
+    <shouldDisplayUnmappedToken>false</shouldDisplayUnmappedToken>
+    <shouldExtractEmbeddedTmplToken>false</shouldExtractEmbeddedTmplToken>
+    <status>Draft</status>
+    <tokenList>AccountName,QuoteName,ContactName,QuoteNumber,ContactEmail,CreatedDate,LineItems:ProductName,LineItems:Quantity,LineItems:ListPrice,LineItems:TotalPrice,GrandTotal</tokenList>
+    <tokenMappingMethodType>OmniDataTransform</tokenMappingMethodType>
+    <tokenMappingType>JSON</tokenMappingType>
+    <type>MicrosoftWord</type>
+    <uniqueName>WorkOrderEstimationProposalDCT_1</uniqueName>
+    <usageType>Contract_Lifecycle_Management</usageType>
+    <versionNumber>1</versionNumber>
+</DocumentTemplate>

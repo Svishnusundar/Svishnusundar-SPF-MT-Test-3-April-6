@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Paramètre utilisateur</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Paramètres utilisateur</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Hauteur de chevauchement d’absence</label>
+        <name>FSL__Absence_Overlap_Height__c</name>
+        <picklistValues>
+            <masterLabel>full</masterLabel>
+            <translation><!-- full --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>partial</masterLabel>
+            <translation><!-- partial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Propriétés d’horizon de date</label>
+        <name>FSL__Date_Horizon_Properties__c</name>
+    </fields>
+    <fields>
+        <label>Jours dans la vue d’utilisation</label>
+        <name>FSL__DaysInUtilizationView__c</name>
+    </fields>
+    <fields>
+        <label>Panneau gauche par défaut</label>
+        <name>FSL__DefaultLeftPanel__c</name>
+    </fields>
+    <fields>
+        <label>Glisser la durée non disponible</label>
+        <name>FSL__Drag_Na_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Glisser l’étiquette non disponible</label>
+        <name>FSL__Drag_Na_Label__c</name>
+    </fields>
+    <fields>
+        <label>Glisser le type non disponible</label>
+        <name>FSL__Drag_Na_Type__c</name>
+    </fields>
+    <fields>
+        <label>Territoires favoris</label>
+        <name>FSL__FavoriteTerritories__c</name>
+    </fields>
+    <fields>
+        <label>Filtrer les candidats</label>
+        <name>FSL__Filter_Candidates__c</name>
+    </fields>
+    <fields>
+        <label>Compétences de la ressource</label>
+        <name>FSL__Filter_Resources_BySkills__c</name>
+    </fields>
+    <fields>
+        <label>Filtres</label>
+        <name>FSL__Filters__c</name>
+    </fields>
+    <fields>
+        <label>Palette de Gantt</label>
+        <name>FSL__Gantt_Palette__c</name>
+        <relationshipLabel>Paramètres utilisateur</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Politique du diagramme de Gantt</label>
+        <name>FSL__Gantt_Policy__c</name>
+        <relationshipLabel>Paramètres utilisateur</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Heure de fin de la vue Gantt</label>
+        <name>FSL__Gantt_View_Finish_Hour__c</name>
+    </fields>
+    <fields>
+        <label>Heure de début de la vue Gantt</label>
+        <name>FSL__Gantt_View_Start_Hour__c</name>
+    </fields>
+    <fields>
+        <label>Masquer l’intro. de l’agent de planifi.</label>
+        <name>FSL__HideSchedulingAgentIntro__c</name>
+    </fields>
+    <fields>
+        <label>Mettre en évidence les week-ends</label>
+        <name>FSL__Highlight_Weekeneds__c</name>
+    </fields>
+    <fields>
+        <label>Défilement horizontal dans le Gantt</label>
+        <name>FSL__HorizontalScrolling__c</name>
+    </fields>
+    <fields>
+        <label>Inclure les week-ends</label>
+        <name>FSL__Include_Weekends__c</name>
+    </fields>
+    <fields>
+        <label>Polygones masqués</label>
+        <name>FSL__Invisible_Polygons__c</name>
+    </fields>
+    <fields>
+        <label>Dernière vue de Gantt</label>
+        <name>FSL__LastGanttView__c</name>
+    </fields>
+    <fields>
+        <label>Dernière date de visualisation sur Gantt</label>
+        <name>FSL__LastViewedGanttDate__c</name>
+    </fields>
+    <fields>
+        <label>Largeur du volet gauche en pourcentage</label>
+        <name>FSL__Left_Panel_Width_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>Charger sur la date du jour</label>
+        <name>FSL__Load_On_Today__c</name>
+    </fields>
+    <fields>
+        <label>Verrouiller le diagramme de Gantt</label>
+        <name>FSL__Lock_Gantt__c</name>
+    </fields>
+    <fields>
+        <label>Durée minimale de l’absence longue durée</label>
+        <name>FSL__Longterm_Min_Absence_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Durée minimale du service longue durée</label>
+        <name>FSL__Longterm_Min_Service_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de mois affichés dans la vue</label>
+        <name>FSL__Longterm_Num_Of_Months__c</name>
+    </fields>
+    <fields>
+        <label>Clustering des marqueurs</label>
+        <name>FSL__Map_Markers_Cluster__c</name>
+    </fields>
+    <fields>
+        <label>Mapper les marqueurs d’objet</label>
+        <name>FSL__Map_Object_Markers__c</name>
+    </fields>
+    <fields>
+        <label>Mapper les rapports</label>
+        <name>FSL__Map_Reports__c</name>
+    </fields>
+    <fields>
+        <label>Mapper les dates Gantt</label>
+        <name>FSL__Match_Gantt_Dates__c</name>
+    </fields>
+    <fields>
+        <label>Critères d’optimisation de rendez-vous</label>
+        <name>FSL__Optimization_Request_Filter_Field__c</name>
+    </fields>
+    <fields>
+        <label>Filtre de ressource</label>
+        <name>FSL__Resource_Filter__c</name>
+    </fields>
+    <fields>
+        <label>Hauteur de la ligne de ressource</label>
+        <name>FSL__Resource_Row_Height__c</name>
+        <picklistValues>
+            <masterLabel>large</masterLabel>
+            <translation><!-- large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>medium</masterLabel>
+            <translation><!-- medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>small</masterLabel>
+            <translation><!-- small --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>xsmall</masterLabel>
+            <translation><!-- xsmall --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Limite de l’horizon de planification</label>
+        <name>FSL__Scheduling_horizon_limit__c</name>
+    </fields>
+    <fields>
+        <label>Vue de liste sélectionnée</label>
+        <name>FSL__Selected_List_View__c</name>
+    </fields>
+    <fields>
+        <label>Couleur de la liste de service</label>
+        <name>FSL__ServiceListColoring__c</name>
+    </fields>
+    <fields>
+        <label>Pourcentage Services_List_Height</label>
+        <name>FSL__Services_List_Height_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>Services par page</label>
+        <name>FSL__Services_Per_Page__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>125</masterLabel>
+            <translation><!-- 125 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75</masterLabel>
+            <translation><!-- 75 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Afficher onglet des territoires favoris</label>
+        <name>FSL__ShowFavoriteTerritoriesTab__c</name>
+    </fields>
+    <fields>
+        <label>Afficher semaines calendrier dans Gantt</label>
+        <name>FSL__Show_Calendar_Weeks__c</name>
+    </fields>
+    <fields>
+        <label>Afficher uniquement MDT de longue durée</label>
+        <name>FSL__Show_Only_MDT_In_Longterm__c</name>
+    </fields>
+    <fields>
+        <label>Afficher les services orphelins</label>
+        <name>FSL__Show_Orphan_Services__c</name>
+    </fields>
+    <fields>
+        <label>Opérateur logique filtrage compétences</label>
+        <name>FSL__Skills_Logic_Operator__c</name>
+    </fields>
+    <fields>
+        <label>Territoires basculés</label>
+        <name>FSL__Toggled_Territories__c</name>
+    </fields>
+    <fields>
+        <label>Utilisateur</label>
+        <name>FSL__User__c</name>
+        <relationshipLabel><!-- User Settings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Propriétés d’utilisation</label>
+        <name>FSL__Utilization_Properties__c</name>
+    </fields>
+    <fields>
+        <label>Afficher le type de capacité</label>
+        <name>FSL__View_Capacity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Day</masterLabel>
+            <translation><!-- Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom du paramètre utilisateur</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

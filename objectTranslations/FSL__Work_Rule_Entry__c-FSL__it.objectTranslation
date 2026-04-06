@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Voce regola di lavoro</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Voci regola di lavoro</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The length of the break in minutes. --></help>
+        <label>Durata pausa (minuti)</label>
+        <name>FSL__Break_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of minutes from the start of the service resource&apos;s availability to the earliest allowed break start time. For example, enter 120 to schedule a break at least two hours after the day starts. --></help>
+        <label>Inizio prima pausa (minuti)</label>
+        <name>FSL__Earliest_Break_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of minutes from the start of the service resource&apos;s availability to the latest allowed break end time. For example, enter 300 to schedule a lunch break to end no more than five hours after the day starts. --></help>
+        <label>Fine ultima pausa (minuti)</label>
+        <name>FSL__Latest_Break_End__c</name>
+    </fields>
+    <fields>
+        <label>Regola di lavoro</label>
+        <name>FSL__Work_Rule__c</name>
+        <relationshipLabel>Voci regola di lavoro</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome voce regola di lavoro</nameFieldLabel>
+    <recordTypes>
+        <description>Limita le risorse di servizio in base a un numero di elementi, quali gli appuntamenti di servizio, le durate degli appuntamenti o i valori dei campi personalizzati</description>
+        <label>Field Service - Disponibilità risorsa di servizio</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

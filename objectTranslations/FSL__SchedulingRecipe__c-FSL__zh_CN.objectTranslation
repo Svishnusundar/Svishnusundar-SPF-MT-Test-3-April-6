@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>计划模式</value>
+    </caseValues>
+    <fields>
+        <label>活动</label>
+        <name>FSL__Active__c</name>
+    </fields>
+    <fields>
+        <label>条件</label>
+        <name>FSL__Criteria__c</name>
+        <relationshipLabel>计划模式</relationshipLabel>
+    </fields>
+    <fields>
+        <label>描述</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>预期行为</label>
+        <name>FSL__Expected_Behavior__c</name>
+    </fields>
+    <fields>
+        <label>上一个已知位置阈值</label>
+        <name>FSL__LKL_Threshold__c</name>
+    </fields>
+    <fields>
+        <label>发布操作</label>
+        <name>FSL__Post_Actions__c</name>
+    </fields>
+    <fields>
+        <label>优先级</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>场景特定</label>
+        <name>FSL__Scenario_Specific__c</name>
+    </fields>
+    <fields>
+        <label>场景类型</label>
+        <name>FSL__Scenario_Type__c</name>
+        <picklistValues>
+            <masterLabel>Overlap (Post-Emergency Scheduling)</masterLabel>
+            <translation><!-- Overlap (Post-Emergency Scheduling) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overlap (SA Lengthened)</masterLabel>
+            <translation><!-- Overlap (SA Lengthened) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Canceled</masterLabel>
+            <translation><!-- SA Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Shortened</masterLabel>
+            <translation><!-- SA Shortened --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>计划策略</label>
+        <name>FSL__Scheduling_Policy__c</name>
+        <relationshipLabel>计划模式</relationshipLabel>
+    </fields>
+    <fields>
+        <label>半自动化</label>
+        <name>FSL__Semi_Automated__c</name>
+    </fields>
+    <nameFieldLabel>计划模式名称</nameFieldLabel>
+</CustomObjectTranslation>

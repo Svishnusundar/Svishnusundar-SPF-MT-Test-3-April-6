@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Yêu Cầu Tối Ưu Hóa Khu Vực</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Yêu Cầu Tối Ưu Hóa Khu Vực --></value>
+    </caseValues>
+    <fields>
+        <label>T.Gian P.Hồi Sau (có Khoảng T.Gian)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>T.Gian P.Hồi Trước (có Khoảng T.Gian)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>T.Gian P.Hồi Sau (ko có Khoảng T.Gian)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>T.Gian P.Hồi Trước (ko có Khoảng T.Gian)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>Thời Gian Đi Lại TB/Dịch Vụ Có Nhà Sau</label>
+        <name>FSL__AvgTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Thời Gian Đi Lại TB/Dịch Vụ Có Nhà Trước</label>
+        <name>FSL__AvgTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Thời Gian Đi Lại TB/DV Không Có Nhà Sau</label>
+        <name>FSL__AvgTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>T.Gian Đi Lại TB/DV Không Có Nhà Trước</label>
+        <name>FSL__AvgTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Dịch Vụ Không Dựa Trên Năng Suất Sau</label>
+        <name>FSL__NonCapacityBasedServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Dịch Vụ Không Dựa Trên Năng Suất Trước</label>
+        <name>FSL__NonCapacityBasedServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Đã Chỉ Định Khác Sau</label>
+        <name>FSL__NumOfScheduledSasToCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Đã Chỉ Định Khác Trước</label>
+        <name>FSL__NumOfScheduledSasToCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Đã Chỉ Định Cho Nhóm Sau</label>
+        <name>FSL__NumOfScheduledSasToCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Đã Chỉ Định Cho Nhóm Trước</label>
+        <name>FSL__NumOfScheduledSasToCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Đã Chỉ Định Nhân Sự Sau</label>
+        <name>FSL__NumOfScheduledSasToResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Đã Chỉ Định Nhân Sự Trước</label>
+        <name>FSL__NumOfScheduledSasToResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Nhân Sự Ưu Tiên Sau</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrAfter__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Nhân Sự Ưu Tiên Trước</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrBefore__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Đã Chỉ Định Nhân Sự Ưu Tiên</label>
+        <name>FSL__NumberOfSasWithPreferredResource__c</name>
+    </fields>
+    <fields>
+        <label>Nhân Sự Đã Hủy Lên Lịch Khác Sau</label>
+        <name>FSL__NumberOfUnscheduledCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Nhân Sự Đã Hủy Lên Lịch Khác Trước</label>
+        <name>FSL__NumberOfUnscheduledCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Nhóm Đã Hủy Lên Lịch Sau</label>
+        <name>FSL__NumberOfUnscheduledCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Nhóm Đã Hủy Lên Lịch Trước</label>
+        <name>FSL__NumberOfUnscheduledCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Nhân Sự Đã Hủy Lên Lịch Sau</label>
+        <name>FSL__NumberOfUnscheduledResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Nhân Sự Đã Hủy Lên Lịch Trước</label>
+        <name>FSL__NumberOfUnscheduledResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Yêu Cầu Tối Ưu Hóa</label>
+        <name>FSL__Optimization_Request__c</name>
+        <relationshipLabel>Yêu Cầu Tối Ưu Hóa Lãnh Thổ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Lãnh Thổ Dịch Vụ</label>
+        <name>FSL__ServiceTerritory__c</name>
+        <relationshipLabel>Yêu Cầu Tối Ưu Hóa Lãnh Thổ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tình Trạng Sẵn Sàng Của Nhóm</label>
+        <name>FSL__TotalCrewWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Giờ Nghỉ Trưa Sau</label>
+        <name>FSL__TotalLunchBreakDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Giờ Nghỉ Trưa Trước</label>
+        <name>FSL__TotalLunchBreakDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ko Sẵn Sàng Có T.Gian D.Chuyển Sau</label>
+        <name>FSL__TotalNaWithGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Ko Sẵn Sàng Có T.Gian D.Chuyển Trước</label>
+        <name>FSL__TotalNaWithGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ko Sẵn Sàng Ko Có T.Gian D.Chuyển Sau</label>
+        <name>FSL__TotalNaWoGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Ko Sẵn Sàng Ko Có T.Gian D.Chuyển Trước</label>
+        <name>FSL__TotalNaWoGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Số Lượng Nhân Sự Dựa Trên Năng Suất</label>
+        <name>FSL__TotalNumberOfCapacityBasedResources__c</name>
+    </fields>
+    <fields>
+        <label>Số Lượng Nhóm</label>
+        <name>FSL__TotalNumberOfCrews__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Có Thể Tối Ưu Hóa</label>
+        <name>FSL__TotalNumberOfOptimizableServices__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Đã Ghim</label>
+        <name>FSL__TotalNumberOfPinnedServices__c</name>
+    </fields>
+    <fields>
+        <label>Số Lượng Nhân Sự</label>
+        <name>FSL__TotalNumberOfResources__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Đã Lên Lịch Sau</label>
+        <name>FSL__TotalNumberOfScheduledServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Đã Lên Lịch Trước</label>
+        <name>FSL__TotalNumberOfScheduledServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Có Khoảng Thời Gian Đến</label>
+        <name>FSL__TotalNumberOfServicesWithWindow__c</name>
+    </fields>
+    <fields>
+        <label>Cuộc Hẹn Không Có Khoảng Thời Gian Đến</label>
+        <name>FSL__TotalNumberOfServicesWithoutWindow__c</name>
+    </fields>
+    <fields>
+        <label>Thời Gian Tăng Ca Của Nhóm</label>
+        <name>FSL__TotalOvertimeForCrews__c</name>
+    </fields>
+    <fields>
+        <label>Thời Gian Tăng Ca Của Nhân Sự</label>
+        <name>FSL__TotalOvertimeForResources__c</name>
+    </fields>
+    <fields>
+        <label>Thời Gian Tăng Ca Theo Lịch Sau</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Thời Gian Tăng Ca Theo Lịch Trước</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Tổng TG Đi Lại Theo STM Chính Sau</label>
+        <name>FSL__TotalTravelByPrimaryMembershipAfter__c</name>
+    </fields>
+    <fields>
+        <label>Tổng TG Đi Lại Theo STM Chính Trước</label>
+        <name>FSL__TotalTravelByPrimaryMembershipBefore__c</name>
+    </fields>
+    <fields>
+        <label>Quãng Đường Từ Nơi Làm Việc Chính Sau</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Quãng Đường Từ Nơi Làm Việc Chính Trước</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Quãng Đường Đến Nơi Làm Việc Chính Sau</label>
+        <name>FSL__TotalTravelDistanceToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Quãng Đường Đến Nơi Làm Việc Chính Trước</label>
+        <name>FSL__TotalTravelDistanceToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Quãng Đường Giữa Các Cuộc Hẹn Sau</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Quãng Đường Giữa Các Cuộc Hẹn Trước</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Tổng Thời Gian Đi Lại Có Nhà Sau</label>
+        <name>FSL__TotalTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Tổng Thời Gian Đi Lại Có Nhà Trước</label>
+        <name>FSL__TotalTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>T.Gian D.Chuyển Từ Nơi L.Việc Chính Sau</label>
+        <name>FSL__TotalTravelTimeFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>T.Gian D.Chuyển Từ Nơi LViệc Chính Trước</label>
+        <name>FSL__TotalTravelTimeFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>T.Gian D.Chuyển Đến Nơi L.Việc Chính Sau</label>
+        <name>FSL__TotalTravelTimeToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>TGian D.Chuyển Đến Nơi LViệc Chính Trước</label>
+        <name>FSL__TotalTravelTimeToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>T.Gian D.Chuyển Giữa Các Cuộc Hẹn Sau</label>
+        <name>FSL__TotalTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>T.Gian D.Chuyển Giữa Các Cuộc Hẹn Trước</label>
+        <name>FSL__TotalTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Tình Trạng Sẵn Sàng Của Nhân Sự</label>
+        <name>FSL__TotalWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Thời Lượng Cuộc Hẹn Đã Lên Lịch Sau</label>
+        <name>FSL__TotalWorkDurationScheduledAfter__c</name>
+    </fields>
+    <fields>
+        <label>Thời Lượng Cuộc Hẹn Đã Lên Lịch Trước</label>
+        <name>FSL__TotalWorkDurationScheduledBefore__c</name>
+    </fields>
+    <fields>
+        <label>Thời Lượng Tất Cả Cuộc Hẹn</label>
+        <name>FSL__TotalWorkTime__c</name>
+    </fields>
+    <fields>
+        <label>T.Gian D.Chuyển bằng C.Phí Nhân Sự Sau</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseAfter__c</name>
+    </fields>
+    <fields>
+        <label>T.Gian D.Chuyển bằng C.Phí Nhân Sự Trước</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseBefore__c</name>
+    </fields>
+    <fields>
+        <label>DV Bị Hủy Lập KH Do K.Năng Đ.Ứng G.Hạn</label>
+        <name>FSL__UnscheduledServicesLimitedAvailability__c</name>
+    </fields>
+    <fields>
+        <label>Dịch Vụ Bị Hủy Lập KH Do Vi Phạm Quy Tắc</label>
+        <name>FSL__UnscheduledServicesRuleViolation__c</name>
+    </fields>
+    <fields>
+        <label>Tổng Thời Gian Sử Dụng Sau</label>
+        <name>FSL__UtilizationTotalAfter__c</name>
+    </fields>
+    <fields>
+        <label>Tổng Thời Gian Sử Dụng Trước</label>
+        <name>FSL__UtilizationTotalBefore__c</name>
+    </fields>
+    <fields>
+        <label>Thời Gian Thao Tác Sử Dụng Sau</label>
+        <name>FSL__UtilizationWrenchAfter__c</name>
+    </fields>
+    <fields>
+        <label>Thời Gian Thao Tác Sử Dụng Trước</label>
+        <name>FSL__UtilizationWrenchBefore__c</name>
+    </fields>
+    <nameFieldLabel>Số yêu cầu tối ưu hóa lãnh thổ</nameFieldLabel>
+</CustomObjectTranslation>

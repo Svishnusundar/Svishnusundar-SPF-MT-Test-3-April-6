@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Intrarea de regulă de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Intrare de regulă de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Intrările de reguli de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Intrări de reguli de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Intrării de regulă de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Intrării de regulă de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Intrărilor de regulă de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Intrărilor de regulă de lucru</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The length of the break in minutes. --></help>
+        <label>Durată pauză (minute)</label>
+        <name>FSL__Break_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of minutes from the start of the service resource&apos;s availability to the earliest allowed break start time. For example, enter 120 to schedule a break at least two hours after the day starts. --></help>
+        <label>Cel mai timpuriu început de pauză (min.)</label>
+        <name>FSL__Earliest_Break_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of minutes from the start of the service resource&apos;s availability to the latest allowed break end time. For example, enter 300 to schedule a lunch break to end no more than five hours after the day starts. --></help>
+        <label>Cel mai târziu sfârșit de pauză (min.)</label>
+        <name>FSL__Latest_Break_End__c</name>
+    </fields>
+    <fields>
+        <label>Regulă de lucru</label>
+        <name>FSL__Work_Rule__c</name>
+        <relationshipLabel>Intrări regulă de lucru</relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Nume intrare regulă de lucru</nameFieldLabel>
+    <recordTypes>
+        <description>Limitează resursele de servicii în funcție de numărul de elemente precum rezervările de servicii, duratele rezervărilor sau valorile unor câmpuri personalizate</description>
+        <label>Field Service - Disponibilitatea resursei de serviciu</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+</CustomObjectTranslation>

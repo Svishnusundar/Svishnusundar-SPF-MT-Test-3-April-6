@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Αίτημα βελτιστοποίησης περιοχής</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Αιτήματα βελτιστοποίησης περιοχής</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Αίτημα βελτιστοποίησης περιοχής</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Αιτήματα βελτιστοποίησης περιοχής</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Αιτήματος βελτιστοποίησης περιοχής</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Αιτημάτων βελτιστοποίησης περιοχής</value>
+    </caseValues>
+    <fields>
+        <label>Χρόνος απόκρισης μετά (με περιθώριο)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>Χρόνος απόκρισης πριν (με περιθώριο)</label>
+        <name>FSL__AvgResponseTimeForSasWithWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>Χρόνος απόκρισης μετά (χωρίς περιθώριο)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowAfter__c</name>
+    </fields>
+    <fields>
+        <label>Χρόνος απόκρισης πριν (χωρίς περιθώριο)</label>
+        <name>FSL__AvgResponseTimeForSasWoWindowBefore__c</name>
+    </fields>
+    <fields>
+        <label>Μέσ. χρόν. μετ.ανά υπηρ.με βάση μετά τις</label>
+        <name>FSL__AvgTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Μέσ. χρόν. μετ.ανά υπηρ.με βάση πριν τις</label>
+        <name>FSL__AvgTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Μέσ. χρόν.μετ.ανά υπηρ.χωρ.βάση μετά τις</label>
+        <name>FSL__AvgTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Μέσ. χρόν.μετ.ανά υπηρ.χωρ.βάση πριν τις</label>
+        <name>FSL__AvgTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Υπηρεσίες όχι βάσει δυναμ. - Μετά τις</label>
+        <name>FSL__NonCapacityBasedServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Υπηρεσίες όχι βάσει δυναμ. - Πριν τις</label>
+        <name>FSL__NonCapacityBasedServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Άλλα αντιστοιχισμένα ραντεβού μετά</label>
+        <name>FSL__NumOfScheduledSasToCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Άλλα αντιστοιχισμένα ραντεβού πριν</label>
+        <name>FSL__NumOfScheduledSasToCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ραντεβού αντιστοιχ. σε προσωπικό μετά</label>
+        <name>FSL__NumOfScheduledSasToCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Ραντεβού αντιστοιχ. σε προσωπικό πριν</label>
+        <name>FSL__NumOfScheduledSasToCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ραντεβού αντιστοιχισμένα σε πόρους μετά</label>
+        <name>FSL__NumOfScheduledSasToResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Ραντεβού αντιστοιχισμένα σε πόρους πριν</label>
+        <name>FSL__NumOfScheduledSasToResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ραντεβού προτιμώμενων πόρων μετά</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrAfter__c</name>
+    </fields>
+    <fields>
+        <label>Ραντεβού προτιμώμενων πόρων πριν</label>
+        <name>FSL__NumberOfSasSchedToPreferredSrBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ραντεβού αντιστοιχ. σε προτιμώμ. πόρους</label>
+        <name>FSL__NumberOfSasWithPreferredResource__c</name>
+    </fields>
+    <fields>
+        <label>Άλλοι μη προγραμματισμένοι πόροι μετά</label>
+        <name>FSL__NumberOfUnscheduledCapacityAfter__c</name>
+    </fields>
+    <fields>
+        <label>Άλλοι μη προγραμματισμένοι πόροι πριν</label>
+        <name>FSL__NumberOfUnscheduledCapacityBefore__c</name>
+    </fields>
+    <fields>
+        <label>Μη προγραμματισμένο προσωπικό μετά</label>
+        <name>FSL__NumberOfUnscheduledCrewAfter__c</name>
+    </fields>
+    <fields>
+        <label>Μη προγραμματισμένο προσωπικό πριν</label>
+        <name>FSL__NumberOfUnscheduledCrewBefore__c</name>
+    </fields>
+    <fields>
+        <label>Μη προγραμματισμένοι πόροι μετά</label>
+        <name>FSL__NumberOfUnscheduledResourcesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Μη προγραμματισμένοι πόροι πριν</label>
+        <name>FSL__NumberOfUnscheduledResourcesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Αίτημα βελτιστοποίησης</label>
+        <name>FSL__Optimization_Request__c</name>
+        <relationshipLabel>Αιτήματα βελτιστοποίησης περιοχής</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Περιοχή εξυπηρέτησης</label>
+        <name>FSL__ServiceTerritory__c</name>
+        <relationshipLabel>Αιτήματα βελτιστοποίησης περιοχής</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Διαθεσιμότητα προσωπικού</label>
+        <name>FSL__TotalCrewWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Διάλειμμα για γεύμα μετά</label>
+        <name>FSL__TotalLunchBreakDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Διάλειμμα για γεύμα πριν</label>
+        <name>FSL__TotalLunchBreakDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Μη διαθεσιμότητα με ταξίδι μετά</label>
+        <name>FSL__TotalNaWithGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Μη διαθεσιμότητα με ταξίδι πριν</label>
+        <name>FSL__TotalNaWithGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Μη διαθεσιμότητα χωρίς ταξίδι μετά</label>
+        <name>FSL__TotalNaWoGeolocationDurationAfter__c</name>
+    </fields>
+    <fields>
+        <label>Μη διαθεσιμότητα χωρίς ταξίδι πριν</label>
+        <name>FSL__TotalNaWoGeolocationDurationBefore__c</name>
+    </fields>
+    <fields>
+        <label>Αριθμός πόρων βάσει χωρητικότητας</label>
+        <name>FSL__TotalNumberOfCapacityBasedResources__c</name>
+    </fields>
+    <fields>
+        <label>Αριθμός πληρωμάτων</label>
+        <name>FSL__TotalNumberOfCrews__c</name>
+    </fields>
+    <fields>
+        <label>Ραντεβού με δυνατότητα βελτίωσης</label>
+        <name>FSL__TotalNumberOfOptimizableServices__c</name>
+    </fields>
+    <fields>
+        <label>Καρφιτσωμένα ραντεβού</label>
+        <name>FSL__TotalNumberOfPinnedServices__c</name>
+    </fields>
+    <fields>
+        <label>Αριθμός πόρων</label>
+        <name>FSL__TotalNumberOfResources__c</name>
+    </fields>
+    <fields>
+        <label>Προγραμματισμένα ραντεβού μετά</label>
+        <name>FSL__TotalNumberOfScheduledServicesAfter__c</name>
+    </fields>
+    <fields>
+        <label>Προγραμματισμένα ραντεβού πριν</label>
+        <name>FSL__TotalNumberOfScheduledServicesBefore__c</name>
+    </fields>
+    <fields>
+        <label>Ραντεβού με περιθώριο άφιξης</label>
+        <name>FSL__TotalNumberOfServicesWithWindow__c</name>
+    </fields>
+    <fields>
+        <label>Ραντεβού χωρίς περιθώριο άφιξης</label>
+        <name>FSL__TotalNumberOfServicesWithoutWindow__c</name>
+    </fields>
+    <fields>
+        <label>Υπερωρίες προσωπικού</label>
+        <name>FSL__TotalOvertimeForCrews__c</name>
+    </fields>
+    <fields>
+        <label>Υπερωρίες πόρων</label>
+        <name>FSL__TotalOvertimeForResources__c</name>
+    </fields>
+    <fields>
+        <label>Προγραμματισμένες υπερωρίες μετά</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Προγραμματισμένες υπερωρίες πριν</label>
+        <name>FSL__TotalScheduledTimeOnOvertimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Συν. χρόν. μεταφ.κατά κύριο STM μετά τις</label>
+        <name>FSL__TotalTravelByPrimaryMembershipAfter__c</name>
+    </fields>
+    <fields>
+        <label>Συν.χρόνος μεταφ.κατά κύριο STM πριν τις</label>
+        <name>FSL__TotalTravelByPrimaryMembershipBefore__c</name>
+    </fields>
+    <fields>
+        <label>Απόσταση από τη βάση έδρας μετά</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Απόσταση από τη βάση έδρας πριν</label>
+        <name>FSL__TotalTravelDistanceFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Απόσταση μέχρι τη βάση έδρας μετά</label>
+        <name>FSL__TotalTravelDistanceToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Απόσταση μέχρι τη βάση έδρας πριν</label>
+        <name>FSL__TotalTravelDistanceToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Απόσταση μεταξύ των ραντεβού μετά</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Απόσταση μεταξύ των ραντεβού πριν</label>
+        <name>FSL__TotalTravelDistanceWoHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Συνολ. χρόνος μεταφοράς με βάση μετά τις</label>
+        <name>FSL__TotalTravelTimeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Συνολ. χρόνος μεταφοράς με βάση πριν τις</label>
+        <name>FSL__TotalTravelTimeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Χρόνος ταξιδιού από τη βάση έδρας μετά</label>
+        <name>FSL__TotalTravelTimeFromHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Χρόνος ταξιδιού από τη βάση έδρας πριν</label>
+        <name>FSL__TotalTravelTimeFromHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Χρόνος ταξιδιού προς τη βάση έδρας μετά</label>
+        <name>FSL__TotalTravelTimeToHomebaseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Χρόνος ταξιδιού προς τη βάση έδρας πριν</label>
+        <name>FSL__TotalTravelTimeToHomebaseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Χρόνος ταξιδιού μεταξύ ραντεβού μετά</label>
+        <name>FSL__TotalTravelTimeWithoutHomeAfter__c</name>
+    </fields>
+    <fields>
+        <label>Χρόνος ταξιδιού μεταξύ ραντεβού πριν</label>
+        <name>FSL__TotalTravelTimeWithoutHomeBefore__c</name>
+    </fields>
+    <fields>
+        <label>Διαθεσιμότητα πόρων</label>
+        <name>FSL__TotalWorkCapacity__c</name>
+    </fields>
+    <fields>
+        <label>Διάρκεια προγραμματισμένων ραντεβού μετά</label>
+        <name>FSL__TotalWorkDurationScheduledAfter__c</name>
+    </fields>
+    <fields>
+        <label>Διάρκεια προγραμματισμένων ραντεβού πριν</label>
+        <name>FSL__TotalWorkDurationScheduledBefore__c</name>
+    </fields>
+    <fields>
+        <label>Διάρκεια όλων των ραντεβού</label>
+        <name>FSL__TotalWorkTime__c</name>
+    </fields>
+    <fields>
+        <label>Χρόνος ταξιδιού σε βάρος του πόρου μετά</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseAfter__c</name>
+    </fields>
+    <fields>
+        <label>Χρόνος ταξιδιού σε βάρος του πόρου πριν</label>
+        <name>FSL__TravelTimeOnTheResourcesExpenseBefore__c</name>
+    </fields>
+    <fields>
+        <label>Καταργ. υπηρεσιών λόγω περιορ. διαθεσιμ.</label>
+        <name>FSL__UnscheduledServicesLimitedAvailability__c</name>
+    </fields>
+    <fields>
+        <label>Καταργ. υπηρεσιών λόγω παραβίασης κανόνα</label>
+        <name>FSL__UnscheduledServicesRuleViolation__c</name>
+    </fields>
+    <fields>
+        <label>Σύνολο χρήσης μετά τις</label>
+        <name>FSL__UtilizationTotalAfter__c</name>
+    </fields>
+    <fields>
+        <label>Σύνολο χρήσης πριν τις</label>
+        <name>FSL__UtilizationTotalBefore__c</name>
+    </fields>
+    <fields>
+        <label>Κλειδί χρήσης μετά τις</label>
+        <name>FSL__UtilizationWrenchAfter__c</name>
+    </fields>
+    <fields>
+        <label>Κλειδί χρήσης πριν τις</label>
+        <name>FSL__UtilizationWrenchBefore__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Αριθμός αιτημάτων βελτιστοποίησης περιοχ</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

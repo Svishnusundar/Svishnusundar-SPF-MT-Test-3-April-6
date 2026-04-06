@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Arbeitsregeleintrag</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Arbeitsregeleinträge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Arbeitsregeleintrag</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Arbeitsregeleinträge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Arbeitsregeleintrags</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Arbeitsregeleinträge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Arbeitsregeleintrag</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Arbeitsregeleinträgen</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The length of the break in minutes. --></help>
+        <label>Pausendauer (Minuten)</label>
+        <name>FSL__Break_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of minutes from the start of the service resource&apos;s availability to the earliest allowed break start time. For example, enter 120 to schedule a break at least two hours after the day starts. --></help>
+        <label>Frühester Pausenbeginn (Minuten)</label>
+        <name>FSL__Earliest_Break_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of minutes from the start of the service resource&apos;s availability to the latest allowed break end time. For example, enter 300 to schedule a lunch break to end no more than five hours after the day starts. --></help>
+        <label>Spätestes Pausenende (Minuten)</label>
+        <name>FSL__Latest_Break_End__c</name>
+    </fields>
+    <fields>
+        <label>Arbeitsregel</label>
+        <name>FSL__Work_Rule__c</name>
+        <relationshipLabel>Arbeitsregeleinträge</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Name des Arbeitsregeleintrags</nameFieldLabel>
+    <recordTypes>
+        <description>Begrenzt Serviceressourcen anhand einer Anzahl von Elementen wie Serviceterminen, Termindauern oder benutzerdefinierten Feldwerten.</description>
+        <label>Field Service – Serviceressourcenverfügbarkeit</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+</CustomObjectTranslation>

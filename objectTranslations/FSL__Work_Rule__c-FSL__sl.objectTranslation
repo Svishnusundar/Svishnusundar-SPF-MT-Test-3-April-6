@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Delovno pravilo</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Delovna pravila</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Delovno pravilo</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Delovna pravila</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Delovnega pravila</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Delovnih pravil</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Delovnemu pravilu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Delovnim pravilom</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Delovnim pravilom</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Delovnimi pravili</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Delovnem pravilu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Delovnih pravilih</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Dejavno</label>
+        <name>FSL__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Compare a numeric service property with a numeric resource property --></help>
+        <label>Logični operator</label>
+        <name>FSL__Boolean_Operator__c</name>
+        <picklistValues>
+            <masterLabel>&lt;</masterLabel>
+            <translation><!-- &lt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;=</masterLabel>
+            <translation><!-- &lt;= --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>=</masterLabel>
+            <translation><!-- = --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;</masterLabel>
+            <translation><!-- &gt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;=</masterLabel>
+            <translation><!-- &gt;= --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Determines the length of the breaks created. 
+Leave this field empty if you don&apos;t want to create breaks. --></help>
+        <label>Trajanje odmora (v minutah)</label>
+        <name>FSL__Break_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines the minimum break start time (in the format: {HH:MM}) to create breaks. 
+Leave this field empty if you don&apos;t want to create breaks. --></help>
+        <label>Začetek odmora</label>
+        <name>FSL__Break_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- The object containing the custom field that&apos;s used for the count. --></help>
+        <label>Predmet štetja</label>
+        <name>FSL__CountObject__c</name>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation><!-- Service Appointment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Order</masterLabel>
+            <translation><!-- Work Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Order Line Item</masterLabel>
+            <translation><!-- Work Order Line Item --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The time resolution for the count. --></help>
+        <label>Čas reševanja za štetje</label>
+        <name>FSL__CountTimeResolution__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The type of item counted in the work rule. --></help>
+        <label>Vrsta štetja</label>
+        <name>FSL__CountType__c</name>
+        <picklistValues>
+            <masterLabel>Assignments</masterLabel>
+            <translation><!-- Assignments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Value</masterLabel>
+            <translation><!-- Custom Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duration</masterLabel>
+            <translation><!-- Duration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter a number if you want to limit the number of additional service resources that can be added to the crew. Leave empty if any number of service resources can be added. --></help>
+        <label>Največje št. dodatnih storitvenih virov</label>
+        <name>FSL__Crew_Max_Extra_Resources__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, compare the Minimum Crew Size field on the Work Order or Work Order Line Item to the actual available Service Crew Members. 
+Otherwise, compare the Minimum Crew Size to the Crew Size field on the Service Crew. --></help>
+        <label>Upoštevaj članstvo v storitvenem moštvu</label>
+        <name>FSL__Crew_Resources_Availability__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name of the custom field on the count object. --></help>
+        <label>Ime polja po meri</label>
+        <name>FSL__CustomFieldName__c</name>
+    </fields>
+    <fields>
+        <help><!-- A limit for the count. A limit on the service resource overrides this value. --></help>
+        <label>Privzeta omejitev</label>
+        <name>FSL__DefaultLimit__c</name>
+    </fields>
+    <fields>
+        <label>Opis</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Omogoči nadure</label>
+        <name>FSL__Enable_Overtime__c</name>
+    </fields>
+    <fields>
+        <help><!-- The junction object used to link service resources to the object that the service appointment matching field references --></help>
+        <label>Povezovalni objekt</label>
+        <name>FSL__Enhanced_Match_Linking_Object__c</name>
+    </fields>
+    <fields>
+        <label>Razvrstitev za ocenjevanje</label>
+        <name>FSL__Evaluation_Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, gap between services will be based on the minimum gap field, without travel calculations. --></help>
+        <label>Fiksni razmik</label>
+        <name>FSL__Is_Fixed_Gap__c</name>
+    </fields>
+    <fields>
+        <label>Vrednost je pravilna</label>
+        <name>FSL__Match_Constant_Boolean_Value__c</name>
+    </fields>
+    <fields>
+        <label>Najdi ujemanje ravni sposobnosti</label>
+        <name>FSL__Match_Skill_Level__c</name>
+    </fields>
+    <fields>
+        <label>Logika vrste sposobnosti</label>
+        <name>FSL__Matching_Skills_Operator__c</name>
+        <picklistValues>
+            <masterLabel>All Skills Match (AND)</masterLabel>
+            <translation><!-- All Skills Match (AND) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>At Least One Skill Matches (OR)</masterLabel>
+            <translation><!-- At Least One Skill Matches (OR) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Vrsta najdaljše poti od doma</label>
+        <name>FSL__Maximum_Travel_From_Home_Type__c</name>
+        <picklistValues>
+            <masterLabel>Distance</masterLabel>
+            <translation><!-- Distance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Time</masterLabel>
+            <translation><!-- Travel Time --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Determines what distance or how many minutes the resource can travel from home to reach a service --></help>
+        <label>Najdaljša pot od doma</label>
+        <name>FSL__Maximum_Travel_From_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines the minimum gap between services. If fixed gap is enabled, determines the gap between the services. --></help>
+        <label>Najmanjši razmik (v minutah)</label>
+        <name>FSL__Minimum_Gap__c</name>
+    </fields>
+    <fields>
+        <label>Polje skupine predmeta</label>
+        <name>FSL__Object_Group_Field__c</name>
+    </fields>
+    <fields>
+        <label>Preskoči prazne vrednosti</label>
+        <name>FSL__Pass_Empty_Values__c</name>
+    </fields>
+    <fields>
+        <label>Polje skupine vira</label>
+        <name>FSL__Resource_Group_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- A numeric field on the service resource to count against. --></help>
+        <label>Lastnost vira</label>
+        <name>FSL__Resource_Property__c</name>
+        <picklistValues>
+            <masterLabel>IsActive</masterLabel>
+            <translation><!-- IsActive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IsCapacityBased</masterLabel>
+            <translation><!-- IsCapacityBased --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The service appointment lookup field that you&apos;re matching --></help>
+        <label>Polje ujemanja za storitveni sestanek</label>
+        <name>FSL__Service_Appointment_Matching_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- The reference field on the linking object that is matched with the service appointment matching field --></help>
+        <label>Referenčno polje povezovalnega objekta</label>
+        <name>FSL__Service_Linking_Object_Reference_Field__c</name>
+    </fields>
+    <fields>
+        <label>Lastnost storitve</label>
+        <name>FSL__Service_Property__c</name>
+        <picklistValues>
+            <masterLabel>ArrivalWindowEndTime</masterLabel>
+            <translation><!-- ArrivalWindowEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowStartTime</masterLabel>
+            <translation><!-- ArrivalWindowStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedEndTime</masterLabel>
+            <translation><!-- SchedEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedStartTime</masterLabel>
+            <translation><!-- SchedStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ServiceTerritory</masterLabel>
+            <translation><!-- ServiceTerritory --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Lastnost časa razporeda storitve</label>
+        <name>FSL__Service_Schedule_Time_Property__c</name>
+        <picklistValues>
+            <masterLabel>SchedEndTime</masterLabel>
+            <translation><!-- SchedEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedEndTime__c</masterLabel>
+            <translation><!-- SchedEndTime__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedStartTime</masterLabel>
+            <translation><!-- SchedStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedStartTime__c</masterLabel>
+            <translation><!-- SchedStartTime__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Operator časa storitve</label>
+        <name>FSL__Service_Time_Operator__c</name>
+        <picklistValues>
+            <masterLabel>Before</masterLabel>
+            <translation><!-- Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before or Equal to</masterLabel>
+            <translation><!-- Before or Equal to --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equal to</masterLabel>
+            <translation><!-- Equal to --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Later than or Equal to</masterLabel>
+            <translation><!-- Later than or Equal to --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Lastnost časa storitve</label>
+        <name>FSL__Service_Time_Property__c</name>
+        <picklistValues>
+            <masterLabel>ArrivalWindowEndTime</masterLabel>
+            <translation><!-- ArrivalWindowEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowEndTime__c</masterLabel>
+            <translation><!-- ArrivalWindowEndTime__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowStartTime</masterLabel>
+            <translation><!-- ArrivalWindowStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowStartTime__c</masterLabel>
+            <translation><!-- ArrivalWindowStartTime__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DueDate</masterLabel>
+            <translation><!-- DueDate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DueDate__c</masterLabel>
+            <translation><!-- DueDate__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EarliestStartTime</masterLabel>
+            <translation><!-- EarliestStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EarliestStartTime__c</masterLabel>
+            <translation><!-- EarliestStartTime__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ime razvijalca vrste sposobnosti</label>
+        <name>FSL__Skill_Type__c</name>
+    </fields>
+    <fields>
+        <label>Začetek dne</label>
+        <name>FSL__Start_of_Day__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines how many minutes prior to the resource&apos;s calendar start of day will be available for travel (on the resource&apos;s expense).
+When empty, any amount of travel prior to start of work day is valid. --></help>
+        <label>Pot od doma (v minutah)</label>
+        <name>FSL__Travel_From_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines how many minutes following the resource&apos;s calendar end of day will be available for travel (on the resource&apos;s expense).
+When empty, any amount of travel following the end of work day is valid. --></help>
+        <label>Pot do doma (v minutah)</label>
+        <name>FSL__Travel_To_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Date-Time field name on the Linking Object which represents its end time --></help>
+        <label>Ime polja končnega datuma</label>
+        <name>FSL__WorkRule_End_DateTime_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Date-Time field name on the Linking Object which represents its start time --></help>
+        <label>Ime polja začetnega datuma</label>
+        <name>FSL__WorkRule_Start_DateTime_Field__c</name>
+    </fields>
+    <fields>
+        <label>Omogoči glavno delovno lokacijo</label>
+        <name>FSL__Working_Location_Enable_Primary__c</name>
+    </fields>
+    <fields>
+        <label>Časovno</label>
+        <name>FSL__isTimephased__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>Record_Type__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Ime delovnega pravila</nameFieldLabel>
+    <recordTypes>
+        <description>Nastavitve omejitve za delovno zmogljivosti storitvenih virov na določenem ozemlju storitev v skladu z določenimi merili.</description>
+        <label>Field Service – pravilo o delovni zmogljivosti</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Omeji vire storitve na podlagi števila elementov, kot so storitveni sestanki, trajanje sestankov ali vrednosti polja po meri</description>
+        <label>Field Service – pravilo štetja</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ujemanje lastnosti med objektom storitvenega sestanka in lastnostjo na seznamu objekta vira storitve</description>
+        <label>Field Service – razširjeno ujemanje</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zagotavlja, da dodeljeni vir za storitveni sestanek ni eden od izključenih virov</description>
+        <label>Field Service – izključeni viri</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ujemanje delovnih območij vira storitve</description>
+        <label>Field Service – delovna ozemlja</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Omogoča, da je vir storitve na voljo za storitveni sestanek</description>
+        <label>Field Service – razpoložljivost virov storitve</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Potrdi, da je logična vrednost nastavljena na pravilno ali napačno</description>
+        <label>Field Service – ujemanje z logično vrednostjo</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ujemanje velikosti ekipe z virom storitve najmanjše velikosti ekipe</description>
+        <label>Field Service – razpoložljivost virov storitvenega moštva</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ujemanje lastnosti med objektom storitvenega sestanka in objektom vira storitve</description>
+        <label>Field Service – ujemanje polj</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ujemanje ozemlja med objektom naročila storitve in objektom vira storitve podporo za premestitev </description>
+        <label>Field Service – ujemanje ozemlja</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ujemanje zahtevanih spretnosti za naročilo storitve s spretnostmi vira storitve</description>
+        <label>Field Service – ujemanje sposobnosti</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Omejuje vire storitve potovalna razdalja\čas od doma</description>
+        <label>Field Service – najdaljša pot od doma</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zagotavlja, da je dodeljeni vir za naročilo storitve eden od zahtevanih virov</description>
+        <label>Field Service – potrebni viri</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zagotavlja, da je storitveni sestanek načrtovan znotraj določenih ur strankinega obiska.</description>
+        <label>Field Service – uradne ure za storitveni sestanek</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zagotavlja, da je dovoljeno, da se storitveni sestanek načrtuje v časovnih intervalih, na katere se razširi.</description>
+        <label>Field Service – delo, določeno s časovnim terminom</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Omejuje okno časovnega načrtovanja glede na lastnosti datuma in časa storitvenega sestanka</description>
+        <label>Field Service – ujemanje s pravilom za uro</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Če je lastnost časa razporeda storitve »SchedEndTime«, mora biti operator časa »SchedEndTime«</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Trajanje mora imeti pozitivno vrednost</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Najdaljše potovanje od doma mora imeti pozitivno vrednost.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Najmanjši razmik ne sme biti negativna vrednost</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Čas mora biti v tej obliki: HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Čas mora biti v tej obliki: HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

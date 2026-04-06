@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Polygón mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Polygóny mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Polygón mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Polygóny mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Polygónu mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Polygónov mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Polygónu mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Polygónom mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Polygónom mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Polygónmi mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Polygóne mapy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Polygónoch mapy</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Farba</label>
+        <name>FSL__Color__c</name>
+    </fields>
+    <fields>
+        <label>Popis</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Podrobnosti KML</label>
+        <name>FSL__KML__c</name>
+    </fields>
+    <fields>
+        <label>Maximálna zemepisná šírka</label>
+        <name>FSL__Ma_La__c</name>
+    </fields>
+    <fields>
+        <label>Maximálna zemepisná dĺžka</label>
+        <name>FSL__Ma_Lo__c</name>
+    </fields>
+    <fields>
+        <label>Minimálna zemepisná šírka</label>
+        <name>FSL__Mi_La__c</name>
+    </fields>
+    <fields>
+        <label>Minimálna zemepisná dĺžka</label>
+        <name>FSL__Mi_Lo__c</name>
+    </fields>
+    <fields>
+        <label>Územie služby</label>
+        <name>FSL__Service_Territory__c</name>
+        <relationshipLabel>Polygóny</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Názov polygónu</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Farba polygónu musí byť v hexadecimálnom formáte: (napríklad: #ffffff)</errorMessage>
+        <name>FSL__Polygon_Color_HEX_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

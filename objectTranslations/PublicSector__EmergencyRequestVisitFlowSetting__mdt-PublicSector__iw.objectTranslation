@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>הגדרת זרימת הביקורים בבקשת החירום</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>הגדרת זרימת ביקורים בבקשת חירום</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>הגדרות זרימת הביקורים בבקשות החירום</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>הגדרות זרימת ביקורים בבקשות חירום</value>
+    </caseValues>
+    <fields>
+        <help><!-- Holds the value of the Action Plan Template used for creating emergency visit --></help>
+        <label>שם תבנית תוכנית פעולה</label>
+        <name>PublicSector__ActionPlanTemplateName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holds the value of the Picklist for the Type field in Event --></help>
+        <label>סוג אירוע</label>
+        <name>PublicSector__Event_Type__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

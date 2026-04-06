@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Resep Penjadwalan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Resep Penjadwalan</value>
+    </caseValues>
+    <fields>
+        <label>Aktif</label>
+        <name>FSL__Active__c</name>
+    </fields>
+    <fields>
+        <label>Kriteria</label>
+        <name>FSL__Criteria__c</name>
+        <relationshipLabel>Resep Penjadwalan</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Deskripsi</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Perilaku yang Diharapkan</label>
+        <name>FSL__Expected_Behavior__c</name>
+    </fields>
+    <fields>
+        <label>Ambang Lokasi yang Terakhir Diketahui</label>
+        <name>FSL__LKL_Threshold__c</name>
+    </fields>
+    <fields>
+        <label>Pascatindakan</label>
+        <name>FSL__Post_Actions__c</name>
+    </fields>
+    <fields>
+        <label>Prioritas</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>Spesifik Skenario</label>
+        <name>FSL__Scenario_Specific__c</name>
+    </fields>
+    <fields>
+        <label>Jenis Skenario</label>
+        <name>FSL__Scenario_Type__c</name>
+        <picklistValues>
+            <masterLabel>Overlap (Post-Emergency Scheduling)</masterLabel>
+            <translation><!-- Overlap (Post-Emergency Scheduling) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overlap (SA Lengthened)</masterLabel>
+            <translation><!-- Overlap (SA Lengthened) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Canceled</masterLabel>
+            <translation><!-- SA Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Shortened</masterLabel>
+            <translation><!-- SA Shortened --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Kebijakan Penjadwalan</label>
+        <name>FSL__Scheduling_Policy__c</name>
+        <relationshipLabel>Resep Penjadwalan</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Semiotomatis</label>
+        <name>FSL__Semi_Automated__c</name>
+    </fields>
+    <nameFieldLabel>Nama Resep Penjadwalan</nameFieldLabel>
+</CustomObjectTranslation>

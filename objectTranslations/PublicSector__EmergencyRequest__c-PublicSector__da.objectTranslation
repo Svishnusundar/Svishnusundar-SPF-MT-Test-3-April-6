@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Nødhjælpsanmodningen</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Nødhjælpsanmodning</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Nødhjælpsanmodning</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Nødhjælpsanmodningerne</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Nødhjælpsanmodninger</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Nødhjælpsanmodninger</value>
+    </caseValues>
+    <fields>
+        <label>Konto</label>
+        <name>PublicSector__Account__c</name>
+        <relationshipLabel>Nødhjælpsanmodninger</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Leveringsadresse</label>
+        <name>PublicSector__Address__c</name>
+        <relationshipLabel>Nødhjælpsanmodninger</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Forretningsansøgning</label>
+        <name>PublicSector__BusinessApplication__c</name>
+        <relationshipLabel>Nødhjælpsanmodninger</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Kontaktadresse</label>
+        <name>PublicSector__Contact_Address__c</name>
+    </fields>
+    <fields>
+        <label>Ønsket dato</label>
+        <name>PublicSector__DateRequired__c</name>
+    </fields>
+    <fields>
+        <label>Leveringsinstruktioner</label>
+        <name>PublicSector__DeliveryInstructions__c</name>
+    </fields>
+    <fields>
+        <label>Levering, sundhed eller sikkerhedsprobl.</label>
+        <name>PublicSector__DeliverySafetyConcerns__c</name>
+    </fields>
+    <fields>
+        <label>Desinfektionsmængde</label>
+        <name>PublicSector__DisinfectantQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Afleveringsdato</label>
+        <name>PublicSector__DropOffDate__c</name>
+    </fields>
+    <fields>
+        <label>Mail</label>
+        <name>PublicSector__Email__c</name>
+    </fields>
+    <fields>
+        <label>Antal ansigtsvisirer</label>
+        <name>PublicSector__FaceShieldsQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Antal handsker (kirurgiske/undersøgelse)</label>
+        <name>PublicSector__GlovesQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Antal sikkerheds-/beskyttelsesbriller</label>
+        <name>PublicSector__GogglesQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Antal kitler (kirurgiske/undersøgelse)</label>
+        <name>PublicSector__GownsQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Antal håndsprit</label>
+        <name>PublicSector__HandSanitizerQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Individuel ansøgning</label>
+        <name>PublicSector__IndividualApplication__c</name>
+        <relationshipLabel>Nødhjælpsanmodninger</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Afleveringsdato</label>
+        <name>PublicSector__IsDropOffDonation__c</name>
+    </fields>
+    <fields>
+        <label>Antal masker (kirurgiske/undersøgelse)</label>
+        <name>PublicSector__MasksQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Organisationsadresse</label>
+        <name>PublicSector__OrganizationAddress__c</name>
+    </fields>
+    <fields>
+        <label>Organisationsnavn</label>
+        <name>PublicSector__OrganizationName__c</name>
+    </fields>
+    <fields>
+        <label>Organisationstype</label>
+        <name>PublicSector__OrganizationType__c</name>
+        <picklistValues>
+            <masterLabel>Acute Psychiatric Hospital (APH)</masterLabel>
+            <translation><!-- Acute Psychiatric Hospital (APH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adult Day Health Care (ADHC)</masterLabel>
+            <translation><!-- Adult Day Health Care (ADHC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ambulatory Surgical Center (ASC)</masterLabel>
+            <translation><!-- Ambulatory Surgical Center (ASC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Dependency Recovery Hospital (CDRH)</masterLabel>
+            <translation><!-- Chemical Dependency Recovery Hospital (CDRH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chronic Dialysis Clinic (CDC)</masterLabel>
+            <translation><!-- Chronic Dialysis Clinic (CDC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congregate Living Health Facility (CLHF)</masterLabel>
+            <translation><!-- Congregate Living Health Facility (CLHF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End Stage Renal Dialysis (CDC/ESRD)</masterLabel>
+            <translation><!-- End Stage Renal Dialysis (CDC/ESRD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Acute Care Hospital (GACH)</masterLabel>
+            <translation><!-- General Acute Care Hospital (GACH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Health Agency (HHA)</masterLabel>
+            <translation><!-- Home Health Agency (HHA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospice Facility (HOFA)</masterLabel>
+            <translation><!-- Hospice Facility (HOFA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate Care Facility (ICF)</masterLabel>
+            <translation><!-- Intermediate Care Facility (ICF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pediatric Day Health &amp; Respite Care Facility (PDHRC)</masterLabel>
+            <translation><!-- Pediatric Day Health &amp; Respite Care Facility (PDHRC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Care Clinic (PCC)</masterLabel>
+            <translation><!-- Primary Care Clinic (PCC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled Nursing Facility (SNF)</masterLabel>
+            <translation><!-- Skilled Nursing Facility (SNF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgical Clinic (SURGC)</masterLabel>
+            <translation><!-- Surgical Clinic (SURGC) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Telefon</label>
+        <name>PublicSector__Phone__c</name>
+    </fields>
+    <fields>
+        <label>Afhentningsdato</label>
+        <name>PublicSector__PickUpDate__c</name>
+    </fields>
+    <fields>
+        <label>Navn på primær kontakt</label>
+        <name>PublicSector__PrimaryContactName__c</name>
+    </fields>
+    <fields>
+        <label>Telefon til primær kontakt</label>
+        <name>PublicSector__PrimaryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label>Tiltaleform på primær kontakt</label>
+        <name>PublicSector__PrimaryContactTitle__c</name>
+    </fields>
+    <fields>
+        <label>Anmodningsdetaljer</label>
+        <name>PublicSector__RequestDetails__c</name>
+    </fields>
+    <fields>
+        <label>Anmodningsårsag</label>
+        <name>PublicSector__RequestReason__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation><!-- Disabled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elderly</masterLabel>
+            <translation><!-- Elderly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homeless</masterLabel>
+            <translation><!-- Homeless --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isolated</masterLabel>
+            <translation><!-- Isolated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarantined</masterLabel>
+            <translation><!-- Quarantined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ønsket længde på ophold</label>
+        <name>PublicSector__RequestedLengthOfStay__c</name>
+    </fields>
+    <fields>
+        <label>Ønsket service</label>
+        <name>PublicSector__RequestedService__c</name>
+        <picklistValues>
+            <masterLabel>Food Delivery</masterLabel>
+            <translation><!-- Food Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicine / Medical Supplies Delivery</masterLabel>
+            <translation><!-- Medicine / Medical Supplies Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary Housing</masterLabel>
+            <translation><!-- Temporary Housing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Well-Being Check</masterLabel>
+            <translation><!-- Well-Being Check --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ønsket startdato for ophold</label>
+        <name>PublicSector__RequestedStartDateOfStay__c</name>
+    </fields>
+    <fields>
+        <label>Navn på anmoder</label>
+        <name>PublicSector__RequestorName__c</name>
+    </fields>
+    <fields>
+        <label>Antal respiratorer (N95-maske)</label>
+        <name>PublicSector__RespiratorN95MaskQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Navn på sekundær kontakt</label>
+        <name>PublicSector__SecondaryContactName__c</name>
+    </fields>
+    <fields>
+        <label>Telefon til sekundær kontakt</label>
+        <name>PublicSector__SecondaryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label>Stilling for sekundær kontakt</label>
+        <name>PublicSector__SecondaryContactTitle__c</name>
+    </fields>
+    <fields>
+        <label>Stilling</label>
+        <name>PublicSector__Title__c</name>
+    </fields>
+    <fields>
+        <label>Ventilatormængde</label>
+        <name>PublicSector__VentilatorQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Antal vatpinde til virustest</label>
+        <name>PublicSector__ViralSwabsQuantity__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nødhjælpsanmodning</nameFieldLabel>
+    <recordTypes>
+        <label>Anmodning om nødhjælp</label>
+        <name>PublicSector__Emergency_Assistance_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Donation af nødforsyninger</label>
+        <name>PublicSector__Emergency_Supplies_Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Anmodning om nødforsyninger</label>
+        <name>PublicSector__Emergency_Supplies_Request</name>
+    </recordTypes>
+</CustomObjectTranslation>

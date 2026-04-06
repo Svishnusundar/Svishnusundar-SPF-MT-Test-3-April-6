@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Αίτημα έκτακτης ανάγκης</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Αιτήματα έκτακτης ανάγκης</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Αίτημα έκτακτης ανάγκης</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Αιτήματα έκτακτης ανάγκης</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Αιτήματος έκτακτης ανάγκης</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Αιτημάτων έκτακτης ανάγκης</value>
+    </caseValues>
+    <fields>
+        <label>Λογαριασμός</label>
+        <name>PublicSector__Account__c</name>
+        <relationshipLabel>Αιτήματα έκτακτης ανάγκης</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Διεύθυνση παραλήπτη</label>
+        <name>PublicSector__Address__c</name>
+        <relationshipLabel>Αιτήματα έκτακτης ανάγκης</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Αίτηση επιχείρησης</label>
+        <name>PublicSector__BusinessApplication__c</name>
+        <relationshipLabel>Αιτήματα έκτακτης ανάγκης</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Διεύθυνση επικοινωνίας</label>
+        <name>PublicSector__Contact_Address__c</name>
+    </fields>
+    <fields>
+        <label>Ημερομηνία απαίτησης</label>
+        <name>PublicSector__DateRequired__c</name>
+    </fields>
+    <fields>
+        <label>Οδηγίες παράδοσης</label>
+        <name>PublicSector__DeliveryInstructions__c</name>
+    </fields>
+    <fields>
+        <label>Θέματα υγείας και ασφάλειας παράδοσης</label>
+        <name>PublicSector__DeliverySafetyConcerns__c</name>
+    </fields>
+    <fields>
+        <label>Ποσότητα απολυμαντικών</label>
+        <name>PublicSector__DisinfectantQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Ημερομηνία παράδοσης</label>
+        <name>PublicSector__DropOffDate__c</name>
+    </fields>
+    <fields>
+        <label>Email</label>
+        <name>PublicSector__Email__c</name>
+    </fields>
+    <fields>
+        <label>Ποσότητα προστατευτικών προσώπου</label>
+        <name>PublicSector__FaceShieldsQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Πστ γαντιών (χειρουργικά ή εξέτασης)</label>
+        <name>PublicSector__GlovesQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Πστ γυαλιών προστασίας</label>
+        <name>PublicSector__GogglesQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Πστ ποδιών (χειρουργικές ή εξέτασης)</label>
+        <name>PublicSector__GownsQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Ποσότητα απολυμαντικού χεριών</label>
+        <name>PublicSector__HandSanitizerQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Αίτηση ιδιώτη</label>
+        <name>PublicSector__IndividualApplication__c</name>
+        <relationshipLabel>Αιτήματα έκτακτης ανάγκης</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Παράδοση δωρεάς</label>
+        <name>PublicSector__IsDropOffDonation__c</name>
+    </fields>
+    <fields>
+        <label>Πστ μασκών (χειρουργικές ή εξέτασης)</label>
+        <name>PublicSector__MasksQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Διεύθυνση οργανισμού</label>
+        <name>PublicSector__OrganizationAddress__c</name>
+    </fields>
+    <fields>
+        <label>Όνομα οργανισμού</label>
+        <name>PublicSector__OrganizationName__c</name>
+    </fields>
+    <fields>
+        <label>Τύπος οργανισμού</label>
+        <name>PublicSector__OrganizationType__c</name>
+        <picklistValues>
+            <masterLabel>Acute Psychiatric Hospital (APH)</masterLabel>
+            <translation><!-- Acute Psychiatric Hospital (APH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adult Day Health Care (ADHC)</masterLabel>
+            <translation><!-- Adult Day Health Care (ADHC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ambulatory Surgical Center (ASC)</masterLabel>
+            <translation><!-- Ambulatory Surgical Center (ASC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Dependency Recovery Hospital (CDRH)</masterLabel>
+            <translation><!-- Chemical Dependency Recovery Hospital (CDRH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chronic Dialysis Clinic (CDC)</masterLabel>
+            <translation><!-- Chronic Dialysis Clinic (CDC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congregate Living Health Facility (CLHF)</masterLabel>
+            <translation><!-- Congregate Living Health Facility (CLHF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End Stage Renal Dialysis (CDC/ESRD)</masterLabel>
+            <translation><!-- End Stage Renal Dialysis (CDC/ESRD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Acute Care Hospital (GACH)</masterLabel>
+            <translation><!-- General Acute Care Hospital (GACH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Health Agency (HHA)</masterLabel>
+            <translation><!-- Home Health Agency (HHA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospice Facility (HOFA)</masterLabel>
+            <translation><!-- Hospice Facility (HOFA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate Care Facility (ICF)</masterLabel>
+            <translation><!-- Intermediate Care Facility (ICF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pediatric Day Health &amp; Respite Care Facility (PDHRC)</masterLabel>
+            <translation><!-- Pediatric Day Health &amp; Respite Care Facility (PDHRC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Care Clinic (PCC)</masterLabel>
+            <translation><!-- Primary Care Clinic (PCC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled Nursing Facility (SNF)</masterLabel>
+            <translation><!-- Skilled Nursing Facility (SNF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgical Clinic (SURGC)</masterLabel>
+            <translation><!-- Surgical Clinic (SURGC) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Τηλέφωνο</label>
+        <name>PublicSector__Phone__c</name>
+    </fields>
+    <fields>
+        <label>Ημερομηνία παραλαβής</label>
+        <name>PublicSector__PickUpDate__c</name>
+    </fields>
+    <fields>
+        <label>Όνομα κύριας επαφής</label>
+        <name>PublicSector__PrimaryContactName__c</name>
+    </fields>
+    <fields>
+        <label>Τηλέφωνο κύριας επαφής</label>
+        <name>PublicSector__PrimaryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label>Τίτλος κύριας επαφής</label>
+        <name>PublicSector__PrimaryContactTitle__c</name>
+    </fields>
+    <fields>
+        <label>Λεπτομέρειες αιτήματος</label>
+        <name>PublicSector__RequestDetails__c</name>
+    </fields>
+    <fields>
+        <label>Αιτιολογία αιτήματος</label>
+        <name>PublicSector__RequestReason__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation><!-- Disabled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elderly</masterLabel>
+            <translation><!-- Elderly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homeless</masterLabel>
+            <translation><!-- Homeless --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isolated</masterLabel>
+            <translation><!-- Isolated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarantined</masterLabel>
+            <translation><!-- Quarantined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Αιτούμενη διάρκεια διαμονής</label>
+        <name>PublicSector__RequestedLengthOfStay__c</name>
+    </fields>
+    <fields>
+        <label>Ζητηθείσα υπηρεσία</label>
+        <name>PublicSector__RequestedService__c</name>
+        <picklistValues>
+            <masterLabel>Food Delivery</masterLabel>
+            <translation><!-- Food Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicine / Medical Supplies Delivery</masterLabel>
+            <translation><!-- Medicine / Medical Supplies Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary Housing</masterLabel>
+            <translation><!-- Temporary Housing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Well-Being Check</masterLabel>
+            <translation><!-- Well-Being Check --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Αιτούμενη ημερομηνία έναρξης διαμονής</label>
+        <name>PublicSector__RequestedStartDateOfStay__c</name>
+    </fields>
+    <fields>
+        <label>Όνομα αιτούντα</label>
+        <name>PublicSector__RequestorName__c</name>
+    </fields>
+    <fields>
+        <label>Πστ αναπνευστικών συσκευών (μάσκες N95)</label>
+        <name>PublicSector__RespiratorN95MaskQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Όνομα δευτερεύουσας επαφής</label>
+        <name>PublicSector__SecondaryContactName__c</name>
+    </fields>
+    <fields>
+        <label>Τηλέφωνο δευτερεύουσας επαφής</label>
+        <name>PublicSector__SecondaryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label>Τίτλος δευτερεύουσας επαφής</label>
+        <name>PublicSector__SecondaryContactTitle__c</name>
+    </fields>
+    <fields>
+        <label>Τίτλος</label>
+        <name>PublicSector__Title__c</name>
+    </fields>
+    <fields>
+        <label>Ποσότητα αναπνευστήρων</label>
+        <name>PublicSector__VentilatorQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Ποσότητα ιϊκών επιχρισμάτων</label>
+        <name>PublicSector__ViralSwabsQuantity__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Αίτημα έκτακτης ανάγκης</nameFieldLabel>
+    <recordTypes>
+        <label>Αίτημα βοήθειας έκτακτης ανάγκης</label>
+        <name>PublicSector__Emergency_Assistance_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Δωρεά προμηθειών έκτακτης ανάγκης</label>
+        <name>PublicSector__Emergency_Supplies_Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Αίτημα προμηθειών έκτακτης ανάγκης</label>
+        <name>PublicSector__Emergency_Supplies_Request</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Noodverzoek</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Noodverzoeken</value>
+    </caseValues>
+    <fields>
+        <label>Account</label>
+        <name>PublicSector__Account__c</name>
+        <relationshipLabel>Noodverzoeken</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Leveringsadres</label>
+        <name>PublicSector__Address__c</name>
+        <relationshipLabel>Noodverzoeken</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Zakelijke aanvraag</label>
+        <name>PublicSector__BusinessApplication__c</name>
+        <relationshipLabel>Noodverzoeken</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Adres van contactpersoon</label>
+        <name>PublicSector__Contact_Address__c</name>
+    </fields>
+    <fields>
+        <label>Datum vereist</label>
+        <name>PublicSector__DateRequired__c</name>
+    </fields>
+    <fields>
+        <label>Leveringsinstructies</label>
+        <name>PublicSector__DeliveryInstructions__c</name>
+    </fields>
+    <fields>
+        <label>Bezorgdheden gezondh./veiligh. levering</label>
+        <name>PublicSector__DeliverySafetyConcerns__c</name>
+    </fields>
+    <fields>
+        <label>Hoeveelheid ontsmettingsmiddel</label>
+        <name>PublicSector__DisinfectantQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Datum aflevering</label>
+        <name>PublicSector__DropOffDate__c</name>
+    </fields>
+    <fields>
+        <label>E-mailadres</label>
+        <name>PublicSector__Email__c</name>
+    </fields>
+    <fields>
+        <label>Hoeveelheid gelaatsschermen</label>
+        <name>PublicSector__FaceShieldsQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Hoeveelh. handsch. (chirurgie/onderzoek)</label>
+        <name>PublicSector__GlovesQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Hoeveelh. bescherm-/veiligheidsbrillen</label>
+        <name>PublicSector__GogglesQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Hoeveelh. schorten (chirurgie/onderzoek)</label>
+        <name>PublicSector__GownsQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Hoeveelheid handreinigers</label>
+        <name>PublicSector__HandSanitizerQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Individuele aanvraag</label>
+        <name>PublicSector__IndividualApplication__c</name>
+        <relationshipLabel>Noodverzoeken</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Aflevering van donatie</label>
+        <name>PublicSector__IsDropOffDonation__c</name>
+    </fields>
+    <fields>
+        <label>Hoeveelh. maskers (chirurgie/onderzoek)</label>
+        <name>PublicSector__MasksQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Organisatie-adres</label>
+        <name>PublicSector__OrganizationAddress__c</name>
+    </fields>
+    <fields>
+        <label>Organisatienaam</label>
+        <name>PublicSector__OrganizationName__c</name>
+    </fields>
+    <fields>
+        <label>Organisatietype</label>
+        <name>PublicSector__OrganizationType__c</name>
+        <picklistValues>
+            <masterLabel>Acute Psychiatric Hospital (APH)</masterLabel>
+            <translation><!-- Acute Psychiatric Hospital (APH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adult Day Health Care (ADHC)</masterLabel>
+            <translation><!-- Adult Day Health Care (ADHC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ambulatory Surgical Center (ASC)</masterLabel>
+            <translation><!-- Ambulatory Surgical Center (ASC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Dependency Recovery Hospital (CDRH)</masterLabel>
+            <translation><!-- Chemical Dependency Recovery Hospital (CDRH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chronic Dialysis Clinic (CDC)</masterLabel>
+            <translation><!-- Chronic Dialysis Clinic (CDC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congregate Living Health Facility (CLHF)</masterLabel>
+            <translation><!-- Congregate Living Health Facility (CLHF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End Stage Renal Dialysis (CDC/ESRD)</masterLabel>
+            <translation><!-- End Stage Renal Dialysis (CDC/ESRD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Acute Care Hospital (GACH)</masterLabel>
+            <translation><!-- General Acute Care Hospital (GACH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Health Agency (HHA)</masterLabel>
+            <translation><!-- Home Health Agency (HHA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospice Facility (HOFA)</masterLabel>
+            <translation><!-- Hospice Facility (HOFA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate Care Facility (ICF)</masterLabel>
+            <translation><!-- Intermediate Care Facility (ICF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pediatric Day Health &amp; Respite Care Facility (PDHRC)</masterLabel>
+            <translation><!-- Pediatric Day Health &amp; Respite Care Facility (PDHRC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Care Clinic (PCC)</masterLabel>
+            <translation><!-- Primary Care Clinic (PCC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled Nursing Facility (SNF)</masterLabel>
+            <translation><!-- Skilled Nursing Facility (SNF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgical Clinic (SURGC)</masterLabel>
+            <translation><!-- Surgical Clinic (SURGC) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Telefoon</label>
+        <name>PublicSector__Phone__c</name>
+    </fields>
+    <fields>
+        <label>Ophaaldatum</label>
+        <name>PublicSector__PickUpDate__c</name>
+    </fields>
+    <fields>
+        <label>Naam primaire contactpersoon</label>
+        <name>PublicSector__PrimaryContactName__c</name>
+    </fields>
+    <fields>
+        <label>Telefoon primaire contactpersoon</label>
+        <name>PublicSector__PrimaryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label>Titel primaire contactpersoon</label>
+        <name>PublicSector__PrimaryContactTitle__c</name>
+    </fields>
+    <fields>
+        <label>Details van verzoek</label>
+        <name>PublicSector__RequestDetails__c</name>
+    </fields>
+    <fields>
+        <label>Reden voor verzoek</label>
+        <name>PublicSector__RequestReason__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation><!-- Disabled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elderly</masterLabel>
+            <translation><!-- Elderly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homeless</masterLabel>
+            <translation><!-- Homeless --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isolated</masterLabel>
+            <translation><!-- Isolated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarantined</masterLabel>
+            <translation><!-- Quarantined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Verzochte verblijfsduur</label>
+        <name>PublicSector__RequestedLengthOfStay__c</name>
+    </fields>
+    <fields>
+        <label>Verzochte dienst</label>
+        <name>PublicSector__RequestedService__c</name>
+        <picklistValues>
+            <masterLabel>Food Delivery</masterLabel>
+            <translation><!-- Food Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicine / Medical Supplies Delivery</masterLabel>
+            <translation><!-- Medicine / Medical Supplies Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary Housing</masterLabel>
+            <translation><!-- Temporary Housing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Well-Being Check</masterLabel>
+            <translation><!-- Well-Being Check --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Verzochte begindatum van verblijf</label>
+        <name>PublicSector__RequestedStartDateOfStay__c</name>
+    </fields>
+    <fields>
+        <label>Naam aanvrager</label>
+        <name>PublicSector__RequestorName__c</name>
+    </fields>
+    <fields>
+        <label>Hoeveelh. ademhalingstoest. (N95 masker)</label>
+        <name>PublicSector__RespiratorN95MaskQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Naam secundaire contactpersoon</label>
+        <name>PublicSector__SecondaryContactName__c</name>
+    </fields>
+    <fields>
+        <label>Telefoon secundaire contactpersoon</label>
+        <name>PublicSector__SecondaryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label>Titel secundaire contactpersoon</label>
+        <name>PublicSector__SecondaryContactTitle__c</name>
+    </fields>
+    <fields>
+        <label>Titel</label>
+        <name>PublicSector__Title__c</name>
+    </fields>
+    <fields>
+        <label>Hoeveelheid ventilators</label>
+        <name>PublicSector__VentilatorQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Hoeveelheid virale wattenstaafjes</label>
+        <name>PublicSector__ViralSwabsQuantity__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Noodverzoek</nameFieldLabel>
+    <recordTypes>
+        <label>Verzoek noodhulp</label>
+        <name>PublicSector__Emergency_Assistance_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Donatie noodvoorraden</label>
+        <name>PublicSector__Emergency_Supplies_Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Verzoek noodvoorraden</label>
+        <name>PublicSector__Emergency_Supplies_Request</name>
+    </recordTypes>
+</CustomObjectTranslation>

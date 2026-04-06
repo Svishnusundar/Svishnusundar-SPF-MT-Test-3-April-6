@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>工作人員管理使用者設定</value>
+    </caseValues>
+    <fields>
+        <label>甘特圖上的日期</label>
+        <name>FSL__GanttHorizon__c</name>
+    </fields>
+    <fields>
+        <label>排程原則</label>
+        <name>FSL__SchedulingPolicy__c</name>
+    </fields>
+    <fields>
+        <label>已選取技能</label>
+        <name>FSL__SelectedSkills__c</name>
+    </fields>
+    <fields>
+        <label>技能邏輯運算子</label>
+        <name>FSL__SkillsLogicOperator__c</name>
+    </fields>
+    <nameFieldLabel>工作人員管理使用者設定名稱</nameFieldLabel>
+</CustomObjectTranslation>

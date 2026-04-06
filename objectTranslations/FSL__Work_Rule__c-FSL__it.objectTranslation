@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Regola di lavoro</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Regole di lavoro</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Attivo</label>
+        <name>FSL__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Compare a numeric service property with a numeric resource property --></help>
+        <label>Operatore booleano</label>
+        <name>FSL__Boolean_Operator__c</name>
+        <picklistValues>
+            <masterLabel>&lt;</masterLabel>
+            <translation><!-- &lt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;=</masterLabel>
+            <translation><!-- &lt;= --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>=</masterLabel>
+            <translation><!-- = --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;</masterLabel>
+            <translation><!-- &gt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;=</masterLabel>
+            <translation><!-- &gt;= --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Determines the length of the breaks created. 
+Leave this field empty if you don&apos;t want to create breaks. --></help>
+        <label>Durata pausa (minuti)</label>
+        <name>FSL__Break_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines the minimum break start time (in the format: {HH:MM}) to create breaks. 
+Leave this field empty if you don&apos;t want to create breaks. --></help>
+        <label>Inizio della pausa</label>
+        <name>FSL__Break_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- The object containing the custom field that&apos;s used for the count. --></help>
+        <label>Oggetto conteggio</label>
+        <name>FSL__CountObject__c</name>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation><!-- Service Appointment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Order</masterLabel>
+            <translation><!-- Work Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Order Line Item</masterLabel>
+            <translation><!-- Work Order Line Item --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The time resolution for the count. --></help>
+        <label>Risoluzione in base al tempo conteggio</label>
+        <name>FSL__CountTimeResolution__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The type of item counted in the work rule. --></help>
+        <label>Tipo di conteggio</label>
+        <name>FSL__CountType__c</name>
+        <picklistValues>
+            <masterLabel>Assignments</masterLabel>
+            <translation><!-- Assignments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Value</masterLabel>
+            <translation><!-- Custom Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duration</masterLabel>
+            <translation><!-- Duration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter a number if you want to limit the number of additional service resources that can be added to the crew. Leave empty if any number of service resources can be added. --></help>
+        <label>Risorse di servizio aggiuntive massime</label>
+        <name>FSL__Crew_Max_Extra_Resources__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, compare the Minimum Crew Size field on the Work Order or Work Order Line Item to the actual available Service Crew Members. 
+Otherwise, compare the Minimum Crew Size to the Crew Size field on the Service Crew. --></help>
+        <label>Considera apparten. squadra di servizio</label>
+        <name>FSL__Crew_Resources_Availability__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name of the custom field on the count object. --></help>
+        <label>Nome campo personalizzato</label>
+        <name>FSL__CustomFieldName__c</name>
+    </fields>
+    <fields>
+        <help><!-- A limit for the count. A limit on the service resource overrides this value. --></help>
+        <label>Limite predefinito</label>
+        <name>FSL__DefaultLimit__c</name>
+    </fields>
+    <fields>
+        <label>Descrizione</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Abilita straordinario</label>
+        <name>FSL__Enable_Overtime__c</name>
+    </fields>
+    <fields>
+        <help><!-- The junction object used to link service resources to the object that the service appointment matching field references --></help>
+        <label>Oggetto di collegamento</label>
+        <name>FSL__Enhanced_Match_Linking_Object__c</name>
+    </fields>
+    <fields>
+        <label>Ordine valutazione</label>
+        <name>FSL__Evaluation_Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, gap between services will be based on the minimum gap field, without travel calculations. --></help>
+        <label>Intervallo fisso</label>
+        <name>FSL__Is_Fixed_Gap__c</name>
+    </fields>
+    <fields>
+        <label>Il valore è Vero</label>
+        <name>FSL__Match_Constant_Boolean_Value__c</name>
+    </fields>
+    <fields>
+        <label>Abbina livello di competenza</label>
+        <name>FSL__Match_Skill_Level__c</name>
+    </fields>
+    <fields>
+        <label>Logica tipo di competenza</label>
+        <name>FSL__Matching_Skills_Operator__c</name>
+        <picklistValues>
+            <masterLabel>All Skills Match (AND)</masterLabel>
+            <translation><!-- All Skills Match (AND) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>At Least One Skill Matches (OR)</masterLabel>
+            <translation><!-- At Least One Skill Matches (OR) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo di percorso massimo da casa</label>
+        <name>FSL__Maximum_Travel_From_Home_Type__c</name>
+        <picklistValues>
+            <masterLabel>Distance</masterLabel>
+            <translation><!-- Distance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Time</masterLabel>
+            <translation><!-- Travel Time --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Determines what distance or how many minutes the resource can travel from home to reach a service --></help>
+        <label>Percorso massimo da casa</label>
+        <name>FSL__Maximum_Travel_From_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines the minimum gap between services. If fixed gap is enabled, determines the gap between the services. --></help>
+        <label>Intervallo minimo (minuti)</label>
+        <name>FSL__Minimum_Gap__c</name>
+    </fields>
+    <fields>
+        <label>Campo Gruppo oggetti</label>
+        <name>FSL__Object_Group_Field__c</name>
+    </fields>
+    <fields>
+        <label>Nessun valore nel campo Riuscito</label>
+        <name>FSL__Pass_Empty_Values__c</name>
+    </fields>
+    <fields>
+        <label>Campo Gruppo risorse</label>
+        <name>FSL__Resource_Group_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- A numeric field on the service resource to count against. --></help>
+        <label>Proprietà risorsa</label>
+        <name>FSL__Resource_Property__c</name>
+        <picklistValues>
+            <masterLabel>IsActive</masterLabel>
+            <translation><!-- IsActive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IsCapacityBased</masterLabel>
+            <translation><!-- IsCapacityBased --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The service appointment lookup field that you&apos;re matching --></help>
+        <label>Campo corrisp. all’appuntam. di servizio</label>
+        <name>FSL__Service_Appointment_Matching_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- The reference field on the linking object that is matched with the service appointment matching field --></help>
+        <label>Campo riferim. oggetto di collegamento</label>
+        <name>FSL__Service_Linking_Object_Reference_Field__c</name>
+    </fields>
+    <fields>
+        <label>Proprietà servizio</label>
+        <name>FSL__Service_Property__c</name>
+        <picklistValues>
+            <masterLabel>ArrivalWindowEndTime</masterLabel>
+            <translation><!-- ArrivalWindowEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowStartTime</masterLabel>
+            <translation><!-- ArrivalWindowStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedEndTime</masterLabel>
+            <translation><!-- SchedEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedStartTime</masterLabel>
+            <translation><!-- SchedStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ServiceTerritory</masterLabel>
+            <translation><!-- ServiceTerritory --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Proprietà orario pianificazione servizi</label>
+        <name>FSL__Service_Schedule_Time_Property__c</name>
+        <picklistValues>
+            <masterLabel>SchedEndTime</masterLabel>
+            <translation><!-- SchedEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedEndTime__c</masterLabel>
+            <translation><!-- SchedEndTime__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedStartTime</masterLabel>
+            <translation><!-- SchedStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedStartTime__c</masterLabel>
+            <translation><!-- SchedStartTime__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Orario servizio operatore</label>
+        <name>FSL__Service_Time_Operator__c</name>
+        <picklistValues>
+            <masterLabel>Before</masterLabel>
+            <translation><!-- Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before or Equal to</masterLabel>
+            <translation><!-- Before or Equal to --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equal to</masterLabel>
+            <translation><!-- Equal to --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Later than or Equal to</masterLabel>
+            <translation><!-- Later than or Equal to --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Proprietà orario servizio</label>
+        <name>FSL__Service_Time_Property__c</name>
+        <picklistValues>
+            <masterLabel>ArrivalWindowEndTime</masterLabel>
+            <translation><!-- ArrivalWindowEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowEndTime__c</masterLabel>
+            <translation><!-- ArrivalWindowEndTime__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowStartTime</masterLabel>
+            <translation><!-- ArrivalWindowStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowStartTime__c</masterLabel>
+            <translation><!-- ArrivalWindowStartTime__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DueDate</masterLabel>
+            <translation><!-- DueDate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DueDate__c</masterLabel>
+            <translation><!-- DueDate__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EarliestStartTime</masterLabel>
+            <translation><!-- EarliestStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EarliestStartTime__c</masterLabel>
+            <translation><!-- EarliestStartTime__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Nome sviluppatore tipo di competenza</label>
+        <name>FSL__Skill_Type__c</name>
+    </fields>
+    <fields>
+        <label>Inizio giornata</label>
+        <name>FSL__Start_of_Day__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines how many minutes prior to the resource&apos;s calendar start of day will be available for travel (on the resource&apos;s expense).
+When empty, any amount of travel prior to start of work day is valid. --></help>
+        <label>Percorso da casa (minuti)</label>
+        <name>FSL__Travel_From_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines how many minutes following the resource&apos;s calendar end of day will be available for travel (on the resource&apos;s expense).
+When empty, any amount of travel following the end of work day is valid. --></help>
+        <label>Percorso verso casa (minuti)</label>
+        <name>FSL__Travel_To_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Date-Time field name on the Linking Object which represents its end time --></help>
+        <label>Nome campo Data di fine</label>
+        <name>FSL__WorkRule_End_DateTime_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Date-Time field name on the Linking Object which represents its start time --></help>
+        <label>Nome campo Data di inizio</label>
+        <name>FSL__WorkRule_Start_DateTime_Field__c</name>
+    </fields>
+    <fields>
+        <label>Posizione di lavoro Abilita principale</label>
+        <name>FSL__Working_Location_Enable_Primary__c</name>
+    </fields>
+    <fields>
+        <label>Temporizzato</label>
+        <name>FSL__isTimephased__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>Record_Type__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome regola di lavoro</nameFieldLabel>
+    <recordTypes>
+        <description>Impostare i limiti per la capacità di lavoro delle risorse di servizio in un determinato territorio di servizio in base a criteri specificati.</description>
+        <label>Field Service - Regola della capacità di lavoro</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limita le risorse di servizio in base a un numero di elementi, quali gli appuntamenti di servizio, le durate degli appuntamenti o i valori dei campi personalizzati</description>
+        <label>Field Service - Regola del conteggio</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Abbina una proprietà in un oggetto appuntamento di servizio a una proprietà contenuta in un elenco nell’oggetto risorsa di servizio</description>
+        <label>Field Service - Corrispondenza estesa</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Assicura che la risorsa assegnata per l’appuntamento di servizio non sia una delle risorse escluse</description>
+        <label>Field Service - Risorse escluse</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Abbina territori di lavoro delle risorse di servizio</description>
+        <label>Field Service - Territori di lavoro</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Assicura che la risorsa di servizio sia disponibile per un appuntamento di servizio</description>
+        <label>Field Service - Disponibilità risorsa di servizio</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Convalida se la proprietà booleana è impostata su vero o falso</description>
+        <label>Field Service - Corrispondenza booleana</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Abbina la dimensione della squadra alla dimensione minima della squadra del controllante del servizio</description>
+        <label>Field Service - Disponibilità risorse squadra di servizio</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Abbina una proprietà tra un oggetto appuntamento di servizio e un oggetto risorsa di servizio</description>
+        <label>Field Service - Corrispondenza campi</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Abbina il territorio tra un oggetto appuntamento di servizio e un oggetto risorsa di servizio con il supporto Trasferimento</description>
+        <label>Field Service - Corrispondenza territorio</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Abbina le competenze richieste per un appuntamento di servizio con le competenze della risorsa di servizio</description>
+        <label>Field Service - Corrispondenza competenze</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limita la distanza percorsa/il tempo del percorso delle risorse di servizio da casa</description>
+        <label>Field Service - Percorso massimo da casa</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Assicura che la risorsa assegnata per l’appuntamento di servizio sia una delle risorse richieste</description>
+        <label>Field Service - Risorse richieste</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Assicura che l’appuntamento di servizio venga pianificato negli orari di visita definiti dal cliente.</description>
+        <label>Field Service - Orari di visita per l’appuntamento di servizio</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Assicura che la pianificazione dell’appuntamento di servizio sia consentita nelle finestre temporali su cui è spalmato.</description>
+        <label>Field Service - Lavoro designato nella finestra temporale</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limita la finestra dell’orario di pianificazione in base alle proprietà datetime dell’appuntamento di servizio</description>
+        <label>Field Service - Regola di corrispondenza temporale</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>L’orario operatore deve essere ’Anteriore o uguale a’ quando il valore del campo Proprietà orario pianificazione servizi è ’SchedEndTime’</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Il campo Durata deve contenere un valore positivo</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Il campo Percorso massimo da casa deve contenere un valore positivo.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Il campo Intervallo minimo non può contenere un valore negativo</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>L’orario deve rispettare il seguente formato: HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>L’orario deve rispettare il seguente formato: HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

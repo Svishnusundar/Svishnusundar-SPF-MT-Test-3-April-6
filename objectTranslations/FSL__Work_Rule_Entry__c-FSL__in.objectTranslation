@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Entrii Aturan Kerja</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Entrii Aturan Kerja</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The length of the break in minutes. --></help>
+        <label>Durasi Istirahat (menit)</label>
+        <name>FSL__Break_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of minutes from the start of the service resource&apos;s availability to the earliest allowed break start time. For example, enter 120 to schedule a break at least two hours after the day starts. --></help>
+        <label>Awal Istirahat Paling Awal (menit)</label>
+        <name>FSL__Earliest_Break_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of minutes from the start of the service resource&apos;s availability to the latest allowed break end time. For example, enter 300 to schedule a lunch break to end no more than five hours after the day starts. --></help>
+        <label>Akhir Istirahat Terbaru (menit)</label>
+        <name>FSL__Latest_Break_End__c</name>
+    </fields>
+    <fields>
+        <label>Aturan Kerja</label>
+        <name>FSL__Work_Rule__c</name>
+        <relationshipLabel>Entri Aturan Kerja </relationshipLabel>
+    </fields>
+    <nameFieldLabel>Nama Entri Aturan Kerja</nameFieldLabel>
+    <recordTypes>
+        <description>Membatasi sumber daya layanan berdasarkan sejumlah item seperti janji temu layanan, durasi janji temu, atau nilai bidang isian ubahsuai</description>
+        <label>Field Service - Ketersediaan Sumber Daya Layanan</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Acil Durum Talebi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Acil Durum Talepleri</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value>Acil Durum Talebim</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value>Acil Durum Taleplerim</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value>Acil Durum Talebiniz</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value>Acil Durum Talepleriniz</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Acil Durum Talebini</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Acil Durum Taleplerini</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value>Acil Durum Talebim</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value>Acil Durum Taleplerimi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value>Acil Durum Talebinizi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value>Acil Durum Taleplerinizi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Acil Durum Talebinin</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Acil Durum Taleplerinin</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value>Acil Durum Talebimin</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value>Acil Durum Taleplerimin</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value>Acil Durum Talebinizin</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value>Acil Durum Taleplerinizin</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Acil Durum Talebine</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Acil Durum Taleplerine</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value>Acil Durum Talebime</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value>Acil Durum Taleplerime</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value>Acil Durum Talebinize</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value>Acil Durum Taleplerinize</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Acil Durum Talebinden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Acil Durum Taleplerinden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value>Acil Durum Talebimden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value>Acil Durum Taleplerimden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value>Acil Durum Talebinizden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value>Acil Durum Taleplerinizden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Acil Durum Talebinde</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Acil Durum Taleplerinde</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value>Acil Durum Talebimde</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value>Acil Durum Taleplerimde</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value>Acil Durum Talebinizde</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value>Acil Durum Taleplerinizde</value>
+    </caseValues>
+    <fields>
+        <label>Hesap</label>
+        <name>PublicSector__Account__c</name>
+        <relationshipLabel>Acil Durum Talepleri</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Teslimat Adresi</label>
+        <name>PublicSector__Address__c</name>
+        <relationshipLabel>Acil Durum Talepleri</relationshipLabel>
+    </fields>
+    <fields>
+        <label>İşletme Başvurusu</label>
+        <name>PublicSector__BusinessApplication__c</name>
+        <relationshipLabel>Acil Durum Talepleri</relationshipLabel>
+    </fields>
+    <fields>
+        <label>İletişim adresi</label>
+        <name>PublicSector__Contact_Address__c</name>
+    </fields>
+    <fields>
+        <label>Gerekli Tarih</label>
+        <name>PublicSector__DateRequired__c</name>
+    </fields>
+    <fields>
+        <label>Teslimat Talimatları</label>
+        <name>PublicSector__DeliveryInstructions__c</name>
+    </fields>
+    <fields>
+        <label>Teslimat Sağlığı/Güvenliği Endişeleri</label>
+        <name>PublicSector__DeliverySafetyConcerns__c</name>
+    </fields>
+    <fields>
+        <label>Dezenfektan Adedi</label>
+        <name>PublicSector__DisinfectantQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Bırakma Tarihi</label>
+        <name>PublicSector__DropOffDate__c</name>
+    </fields>
+    <fields>
+        <label>E-posta</label>
+        <name>PublicSector__Email__c</name>
+    </fields>
+    <fields>
+        <label>Yüz Siperi Adedi</label>
+        <name>PublicSector__FaceShieldsQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Eldiven Adedi (Cerrahi veya Muayene)</label>
+        <name>PublicSector__GlovesQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Güvenlik Gözlüğü/Koruyucu Gözlük Adedi</label>
+        <name>PublicSector__GogglesQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Önlük Adedi (Cerrahi veya Muayene İçin)</label>
+        <name>PublicSector__GownsQuantity__c</name>
+    </fields>
+    <fields>
+        <label>El Dezenfektanı Adedi</label>
+        <name>PublicSector__HandSanitizerQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Bireysel Başvuru</label>
+        <name>PublicSector__IndividualApplication__c</name>
+        <relationshipLabel>Acil Durum Talepleri</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Bırakılacak Bağış</label>
+        <name>PublicSector__IsDropOffDonation__c</name>
+    </fields>
+    <fields>
+        <label>Maske Adedi (Cerrahi veya Muayene İçin)</label>
+        <name>PublicSector__MasksQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Kuruluş Adresi</label>
+        <name>PublicSector__OrganizationAddress__c</name>
+    </fields>
+    <fields>
+        <label>Organizasyon Adı</label>
+        <name>PublicSector__OrganizationName__c</name>
+    </fields>
+    <fields>
+        <label>Organizasyon Türü</label>
+        <name>PublicSector__OrganizationType__c</name>
+        <picklistValues>
+            <masterLabel>Acute Psychiatric Hospital (APH)</masterLabel>
+            <translation><!-- Acute Psychiatric Hospital (APH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adult Day Health Care (ADHC)</masterLabel>
+            <translation><!-- Adult Day Health Care (ADHC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ambulatory Surgical Center (ASC)</masterLabel>
+            <translation><!-- Ambulatory Surgical Center (ASC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Dependency Recovery Hospital (CDRH)</masterLabel>
+            <translation><!-- Chemical Dependency Recovery Hospital (CDRH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chronic Dialysis Clinic (CDC)</masterLabel>
+            <translation><!-- Chronic Dialysis Clinic (CDC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congregate Living Health Facility (CLHF)</masterLabel>
+            <translation><!-- Congregate Living Health Facility (CLHF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End Stage Renal Dialysis (CDC/ESRD)</masterLabel>
+            <translation><!-- End Stage Renal Dialysis (CDC/ESRD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Acute Care Hospital (GACH)</masterLabel>
+            <translation><!-- General Acute Care Hospital (GACH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Health Agency (HHA)</masterLabel>
+            <translation><!-- Home Health Agency (HHA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospice Facility (HOFA)</masterLabel>
+            <translation><!-- Hospice Facility (HOFA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate Care Facility (ICF)</masterLabel>
+            <translation><!-- Intermediate Care Facility (ICF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pediatric Day Health &amp; Respite Care Facility (PDHRC)</masterLabel>
+            <translation><!-- Pediatric Day Health &amp; Respite Care Facility (PDHRC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Care Clinic (PCC)</masterLabel>
+            <translation><!-- Primary Care Clinic (PCC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled Nursing Facility (SNF)</masterLabel>
+            <translation><!-- Skilled Nursing Facility (SNF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgical Clinic (SURGC)</masterLabel>
+            <translation><!-- Surgical Clinic (SURGC) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Telefon</label>
+        <name>PublicSector__Phone__c</name>
+    </fields>
+    <fields>
+        <label>Alma Tarihi</label>
+        <name>PublicSector__PickUpDate__c</name>
+    </fields>
+    <fields>
+        <label>Birinci Kişi Adı</label>
+        <name>PublicSector__PrimaryContactName__c</name>
+    </fields>
+    <fields>
+        <label>Birinci Kişi Telefonu</label>
+        <name>PublicSector__PrimaryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label>Birinci Kişi Unvanı</label>
+        <name>PublicSector__PrimaryContactTitle__c</name>
+    </fields>
+    <fields>
+        <label>Talep Ayrıntıları</label>
+        <name>PublicSector__RequestDetails__c</name>
+    </fields>
+    <fields>
+        <label>İstek Nedeni</label>
+        <name>PublicSector__RequestReason__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation><!-- Disabled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elderly</masterLabel>
+            <translation><!-- Elderly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homeless</masterLabel>
+            <translation><!-- Homeless --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isolated</masterLabel>
+            <translation><!-- Isolated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarantined</masterLabel>
+            <translation><!-- Quarantined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Talep Edilen Konaklama Süresi</label>
+        <name>PublicSector__RequestedLengthOfStay__c</name>
+    </fields>
+    <fields>
+        <label>Talep Edilen Hizmet</label>
+        <name>PublicSector__RequestedService__c</name>
+        <picklistValues>
+            <masterLabel>Food Delivery</masterLabel>
+            <translation><!-- Food Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicine / Medical Supplies Delivery</masterLabel>
+            <translation><!-- Medicine / Medical Supplies Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary Housing</masterLabel>
+            <translation><!-- Temporary Housing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Well-Being Check</masterLabel>
+            <translation><!-- Well-Being Check --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Talep Edilen Konaklama Başlangıç Tarihi</label>
+        <name>PublicSector__RequestedStartDateOfStay__c</name>
+    </fields>
+    <fields>
+        <label>Talep Edenin Adı</label>
+        <name>PublicSector__RequestorName__c</name>
+    </fields>
+    <fields>
+        <label>Solunum Filtresi (N95 Maske) Adedi</label>
+        <name>PublicSector__RespiratorN95MaskQuantity__c</name>
+    </fields>
+    <fields>
+        <label>İkinci Kişi Adı</label>
+        <name>PublicSector__SecondaryContactName__c</name>
+    </fields>
+    <fields>
+        <label>İkinci Kişi Telefonu</label>
+        <name>PublicSector__SecondaryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label>İkinci Kişi Unvanı</label>
+        <name>PublicSector__SecondaryContactTitle__c</name>
+    </fields>
+    <fields>
+        <label>Unvan</label>
+        <name>PublicSector__Title__c</name>
+    </fields>
+    <fields>
+        <label>Ventilatör/Solunum Cihazı Adedi</label>
+        <name>PublicSector__VentilatorQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Viral Eküvyon Çubuğu Adedi</label>
+        <name>PublicSector__ViralSwabsQuantity__c</name>
+    </fields>
+    <nameFieldLabel>Acil Durum Talebi</nameFieldLabel>
+    <recordTypes>
+        <label>Acil Destek Talebi</label>
+        <name>PublicSector__Emergency_Assistance_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Acil Durum Malzeme Bağışı</label>
+        <name>PublicSector__Emergency_Supplies_Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Acil Durum Malzeme Talebi</label>
+        <name>PublicSector__Emergency_Supplies_Request</name>
+    </recordTypes>
+</CustomObjectTranslation>

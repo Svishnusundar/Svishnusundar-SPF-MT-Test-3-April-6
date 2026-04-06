@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <hasBatchableSection>false</hasBatchableSection>
+    <isActive>false</isActive>
+    <isSectionProcessed>false</isSectionProcessed>
+    <shouldDisplayUnmappedToken>false</shouldDisplayUnmappedToken>
+    <shouldExtractEmbeddedTmplToken>false</shouldExtractEmbeddedTmplToken>
+    <tokenMappingType xsi:nil="true"/>
+    <type xsi:nil="true"/>
+</DocumentTemplate>

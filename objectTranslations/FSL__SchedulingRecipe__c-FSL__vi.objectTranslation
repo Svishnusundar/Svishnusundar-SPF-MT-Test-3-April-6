@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Công Thức Đặt Lịch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Công Thức Đặt Lịch --></value>
+    </caseValues>
+    <fields>
+        <label>Hiện Hoạt</label>
+        <name>FSL__Active__c</name>
+    </fields>
+    <fields>
+        <label>Tiêu Chí</label>
+        <name>FSL__Criteria__c</name>
+        <relationshipLabel>Công Thức Lên Lịch</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Mô Tả</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Hoạt Động Dự Kiến</label>
+        <name>FSL__Expected_Behavior__c</name>
+    </fields>
+    <fields>
+        <label>Ngưỡng Vị Trí Cuối Cùng</label>
+        <name>FSL__LKL_Threshold__c</name>
+    </fields>
+    <fields>
+        <label>Hành Động Trong Đăng Bài</label>
+        <name>FSL__Post_Actions__c</name>
+    </fields>
+    <fields>
+        <label>Mức Ưu Tiên</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>Cụ Thể Theo Kịch Bản</label>
+        <name>FSL__Scenario_Specific__c</name>
+    </fields>
+    <fields>
+        <label>Loại Kịch Bản</label>
+        <name>FSL__Scenario_Type__c</name>
+        <picklistValues>
+            <masterLabel>Overlap (Post-Emergency Scheduling)</masterLabel>
+            <translation><!-- Overlap (Post-Emergency Scheduling) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overlap (SA Lengthened)</masterLabel>
+            <translation><!-- Overlap (SA Lengthened) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Canceled</masterLabel>
+            <translation><!-- SA Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Shortened</masterLabel>
+            <translation><!-- SA Shortened --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Chính Sách Lên Lịch</label>
+        <name>FSL__Scheduling_Policy__c</name>
+        <relationshipLabel>Công Thức Lên Lịch</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Bán Tự Động</label>
+        <name>FSL__Semi_Automated__c</name>
+    </fields>
+    <nameFieldLabel>Tên Chính Sách Lên Lịch</nameFieldLabel>
+</CustomObjectTranslation>

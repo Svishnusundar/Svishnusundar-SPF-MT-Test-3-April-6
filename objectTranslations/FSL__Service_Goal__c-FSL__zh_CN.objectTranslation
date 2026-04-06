@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>服务目标</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>自定义逻辑数据</label>
+        <name>FSL__Custom_Logic_Data__c</name>
+    </fields>
+    <fields>
+        <label>自定义目标类型</label>
+        <name>FSL__Custom_Type__c</name>
+        <picklistValues>
+            <masterLabel>ASAP</masterLabel>
+            <translation><!-- ASAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimize Engineer Idle Time</masterLabel>
+            <translation><!-- Minimize Engineer Idle Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimize Overtime</masterLabel>
+            <translation><!-- Minimize Overtime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimize Travel</masterLabel>
+            <translation><!-- Minimize Travel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimize Use Of Elasticity</masterLabel>
+            <translation><!-- Minimize Use Of Elasticity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Resource</masterLabel>
+            <translation><!-- Preferred Resource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priority By Distance To Engineer</masterLabel>
+            <translation><!-- Priority By Distance To Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Priority</masterLabel>
+            <translation><!-- Resource Priority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skill Level</masterLabel>
+            <translation><!-- Skill Level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task Priority</masterLabel>
+            <translation><!-- Task Priority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel From Home Base</masterLabel>
+            <translation><!-- Travel From Home Base --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of minutes that represent an idle time gap between service appointments. This objective minimizes gaps that are equal to or higher than the entered value. --></help>
+        <label>最小时隙持续时间（分钟）</label>
+        <name>FSL__Gap_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sets the scheduling to include or exclude from minimize travel considerations the first and last travel of the day, to and from the service resource home base --></help>
+        <label>排除基地出行</label>
+        <name>FSL__Ignore_Home_Base_Coordinates__c</name>
+    </fields>
+    <fields>
+        <label>Object_Group_Field</label>
+        <name>FSL__Object_Group_Field__c</name>
+    </fields>
+    <fields>
+        <label>确定资源优先级</label>
+        <name>FSL__Prioritize_Resource__c</name>
+        <picklistValues>
+            <masterLabel>Least Qualified</masterLabel>
+            <translation><!-- Least Qualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Most Qualified</masterLabel>
+            <translation><!-- Most Qualified --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Resource_Group_Field</label>
+        <name>FSL__Resource_Group_Field__c</name>
+    </fields>
+    <fields>
+        <label>资源优先级字段</label>
+        <name>FSL__Resource_Priority_Field__c</name>
+    </fields>
+    <fields>
+        <label>技能类型开发人员姓名</label>
+        <name>FSL__Skill_Type__c</name>
+    </fields>
+    <nameFieldLabel>服务目标名称</nameFieldLabel>
+    <recordTypes>
+        <description>尽快计划</description>
+        <label>ASAP</label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description>自定义目标</description>
+        <label>自定义目标</label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description>减少服务预约之间的空闲时间间隔</description>
+        <label>最小时隙</label>
+        <name>FSL__Objective_Minimize_Gaps</name>
+    </recordTypes>
+    <recordTypes>
+        <description>最大限度地减少使用加班</description>
+        <label>最小加班</label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description>最小化出差时间</description>
+        <label>最小出差</label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>根据首选资源确定计划的优先级</description>
+        <label>首选资源</label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>根据资源中的字段值优先考虑资源</description>
+        <label>资源优先级</label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description>首选在相同站点统一计划预约</description>
+        <label>相同站点</label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description>优先考虑最不合格/最合格的候选人</description>
+        <label>技能级别</label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description>包含技能类型的技能首选项</description>
+        <label>技能首选项</label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>资源优先级字段不得为空</errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

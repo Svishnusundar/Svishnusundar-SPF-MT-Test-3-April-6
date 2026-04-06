@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pengaturan Pengguna Manajemen Kru</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pengaturan Pengguna Manajemen Kru</value>
+    </caseValues>
+    <fields>
+        <label>Hari pada gantt</label>
+        <name>FSL__GanttHorizon__c</name>
+    </fields>
+    <fields>
+        <label>Kebijakan Penjadwalan</label>
+        <name>FSL__SchedulingPolicy__c</name>
+    </fields>
+    <fields>
+        <label>Keterampilan yang Dipilih</label>
+        <name>FSL__SelectedSkills__c</name>
+    </fields>
+    <fields>
+        <label>Operator Logika Keterampilan</label>
+        <name>FSL__SkillsLogicOperator__c</name>
+    </fields>
+    <nameFieldLabel>Nama Pengaturan Pengguna Manajemen Kru</nameFieldLabel>
+</CustomObjectTranslation>

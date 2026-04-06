@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Kartenpolygon</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Kartenpolygone</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Kartenpolygon</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Kartenpolygone</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Kartenpolygons</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Kartenpolygone</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Kartenpolygon</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Kartenpolygonen</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Farbe</label>
+        <name>FSL__Color__c</name>
+    </fields>
+    <fields>
+        <label>Beschreibung</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>KML-Details</label>
+        <name>FSL__KML__c</name>
+    </fields>
+    <fields>
+        <label>Maximaler Breitengrad</label>
+        <name>FSL__Ma_La__c</name>
+    </fields>
+    <fields>
+        <label>Maximaler Längengrad</label>
+        <name>FSL__Ma_Lo__c</name>
+    </fields>
+    <fields>
+        <label>Minimaler Breitengrad</label>
+        <name>FSL__Mi_La__c</name>
+    </fields>
+    <fields>
+        <label>Minimaler Längengrad</label>
+        <name>FSL__Mi_Lo__c</name>
+    </fields>
+    <fields>
+        <label>Serviceregion</label>
+        <name>FSL__Service_Territory__c</name>
+        <relationshipLabel>Polygone</relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Polygonname</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Polygonfarbe muss im Hexadezimalformat angegeben sein: (Beispiel: #ffffff)</errorMessage>
+        <name>FSL__Polygon_Color_HEX_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

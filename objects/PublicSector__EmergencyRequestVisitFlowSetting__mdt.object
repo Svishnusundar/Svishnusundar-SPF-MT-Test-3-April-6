@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Holds the name for the Action Plan Template which can be used in Flow to create visits and associate visits with these action plan template</description>
+    <fields>
+        <fullName>PublicSector__ActionPlanTemplateName__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <defaultValue>&quot;Emergency Supplies Delivery&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Name of the Action Plan Template</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Holds the value of the Action Plan Template used for creating emergency visit</inlineHelpText>
+        <label>Action Plan Template Name</label>
+        <length>100</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>PublicSector__Event_Type__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <defaultValue>&quot;Emergency Request Visit&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Picklist Value for the Type field in Event</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Holds the value of the Picklist for the Type field in Event</inlineHelpText>
+        <label>Event Type</label>
+        <length>100</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Emergency Request Visit Flow Setting</label>
+    <pluralLabel>Emergency Request Visit Flow Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

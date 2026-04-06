@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuración de usuario de Gestión de plantillas</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configuraciones de usuarios de Gestión de plantillas</value>
+    </caseValues>
+    <fields>
+        <label>Días en el gantt</label>
+        <name>FSL__GanttHorizon__c</name>
+    </fields>
+    <fields>
+        <label>Política de programaciones</label>
+        <name>FSL__SchedulingPolicy__c</name>
+    </fields>
+    <fields>
+        <label>Habilidades seleccionadas</label>
+        <name>FSL__SelectedSkills__c</name>
+    </fields>
+    <fields>
+        <label>Operador de lógica de habilidades</label>
+        <name>FSL__SkillsLogicOperator__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de configuración de usuario de Ge</nameFieldLabel>
+</CustomObjectTranslation>

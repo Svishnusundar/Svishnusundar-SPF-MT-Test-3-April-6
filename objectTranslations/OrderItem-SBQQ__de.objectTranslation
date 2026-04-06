@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the order product is activated. --></help>
+        <label>Aktiviert</label>
+        <name>SBQQ__Activated__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asset created from this order product --></help>
+        <label>Vermögenswert</label>
+        <name>SBQQ__Asset__c</name>
+        <relationshipLabel>Auftragsprodukte</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Defines the billing frequency. --></help>
+        <label>Abrechnungshäufigkeit</label>
+        <name>SBQQ__BillingFrequency__c</name>
+    </fields>
+    <fields>
+        <help><!-- The billing type that defines when the billing occurs. --></help>
+        <label>Abrechnungsart</label>
+        <name>SBQQ__BillingType__c</name>
+    </fields>
+    <fields>
+        <help><!-- The block price that is applied to this order product at order creation time. --></help>
+        <label>Zonenpreis</label>
+        <name>SBQQ__BlockPrice__c</name>
+        <relationshipLabel>Auftragsprodukte</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether bookings are included. --></help>
+        <label>Buchungsindikator</label>
+        <name>SBQQ__BookingsIndicator__c</name>
+    </fields>
+    <fields>
+        <help><!-- An internally used field that points to the root of its bundle parent. --></help>
+        <label>Paketstamm</label>
+        <name>SBQQ__BundleRoot__c</name>
+        <relationshipLabel>Auftragsprodukte (Paketstamm)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The type of the product charge. --></help>
+        <label>Kostenart</label>
+        <name>SBQQ__ChargeType__c</name>
+    </fields>
+    <fields>
+        <help><!-- The contract action where this order product is resulted from. --></help>
+        <label>Vertragsaktion</label>
+        <name>SBQQ__ContractAction__c</name>
+    </fields>
+    <fields>
+        <help><!-- The contract of the subscription that is created from this order product. --></help>
+        <label>Vertrag</label>
+        <name>SBQQ__Contract__c</name>
+        <relationshipLabel>Auftragsprodukte</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the order product is contracted. --></help>
+        <label>Vertrag erstellt</label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Controls the contracting behavior of an Order Product. --></help>
+        <label>Vertragserstellungsmethode</label>
+        <name>SBQQ__ContractingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Contract Separately</masterLabel>
+            <translation><!-- Contract Separately --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Contract</masterLabel>
+            <translation><!-- Do Not Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inherit</masterLabel>
+            <translation><!-- Inherit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Term length of the subscription, which only applies if the product is a subscription. It is copied from the Subscription Term of the related product when the line item is first
+            generated. --></help>
+        <label>Standardmäßige Abonnementlaufzeit</label>
+        <name>SBQQ__DefaultSubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- For multi-segmented Products, this is the type of price dimeension (e.g. &quot;YEAR&quot;, &quot;MONTH&quot;, &quot;QUARTER&quot;) of the order item. --></help>
+        <label>Segmenttyp</label>
+        <name>SBQQ__DimensionType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount schedule applied to this order product. --></help>
+        <label>Rabattregelung</label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel>Auftragsprodukte</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Amount of the order product’s total price. --></help>
+        <label>Auftragsproduktbuchungen</label>
+        <name>SBQQ__OrderProductBookings__c</name>
+    </fields>
+    <fields>
+        <help><!-- The actual quantity of the product placed in the order. --></help>
+        <label>Bestellte Menge</label>
+        <name>SBQQ__OrderedQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- References the price dimension applied to this order product. --></help>
+        <label>Preisdimension</label>
+        <name>SBQQ__PriceDimension__c</name>
+        <relationshipLabel>Auftragsprodukte</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Price schedule applied to this order product. --></help>
+        <label>Preisregelung</label>
+        <name>SBQQ__PriceSchedule__c</name>
+        <relationshipLabel>Auftragsprodukte</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates how the price for this line item is calculated. &quot;List&quot; = subtracting discount from list price. &quot;Cost&quot; = adding markup to cost. --></help>
+        <label>Preisfestlegungsmethode</label>
+        <name>SBQQ__PricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Block</masterLabel>
+            <translation><!-- Block --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Of Total</masterLabel>
+            <translation><!-- Percent Of Total --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Set the order item&apos;s product subscription type. --></help>
+        <label>Produktabonnementtyp</label>
+        <name>SBQQ__ProductSubscriptionType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculated ratio used to compute Prorated Price. --></help>
+        <label>Zuteilungsmultiplikator</label>
+        <name>SBQQ__ProrateMultiplier__c</name>
+    </fields>
+    <fields>
+        <help><!-- The quote line where this order product is created from. --></help>
+        <label>Angebotsbelegposten</label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel>Auftragsprodukte</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- List unit price for the product quoted by this line item. List Price originates from the price book. --></help>
+        <label>Angebotener Listenpreis</label>
+        <name>SBQQ__QuotedListPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- The quoted quantity. --></help>
+        <label>Angebotsmenge</label>
+        <name>SBQQ__QuotedQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Erforderlich für</label>
+        <name>SBQQ__RequiredBy__c</name>
+        <relationshipLabel>Auftragsprodukte</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- References the order product that this order product revises. --></help>
+        <label>Überarbeitetes Auftragsprodukt</label>
+        <name>SBQQ__RevisedOrderProduct__c</name>
+        <relationshipLabel>Auftragsprodukte (Überarbeitetes Auftragsprodukt)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- For multi-segmented products, Index representing this order product&apos;s position in the segment table. --></help>
+        <label>Segmentindex</label>
+        <name>SBQQ__SegmentIndex__c</name>
+    </fields>
+    <fields>
+        <help><!-- For multi-segmented Products, this is a shared key used to group multi-dimensional Quote Lines together. --></help>
+        <label>Segmentschlüssel</label>
+        <name>SBQQ__SegmentKey__c</name>
+    </fields>
+    <fields>
+        <label>Versandaccount</label>
+        <name>SBQQ__ShippingAccount__c</name>
+        <relationshipLabel>Auftragsprodukte</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates the current state of the order product. It is defaulted to Draft when an order is created. --></help>
+        <label>Aktivierungsstatus</label>
+        <name>SBQQ__Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Method of calculating the subscription price. A blank value indicates that the line item isn&apos;t a subscription product. --></help>
+        <label>Abonnementpreis</label>
+        <name>SBQQ__SubscriptionPricing__c</name>
+    </fields>
+    <fields>
+        <label>Abonnementlaufzeit</label>
+        <name>SBQQ__SubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the subscription type to determine contract&apos;s pricing. --></help>
+        <label>Abonnementtyp</label>
+        <name>SBQQ__SubscriptionType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Subscription created from this order product --></help>
+        <label>Abonnement</label>
+        <name>SBQQ__Subscription__c</name>
+        <relationshipLabel>Auftragsprodukte</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Estimated tax amount --></help>
+        <label>Geschätzte Steuern</label>
+        <name>SBQQ__TaxAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the tax code for taxation rules. --></help>
+        <label>Steuercode</label>
+        <name>SBQQ__TaxCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Term Discount Schedule applied to this order product. --></help>
+        <label>Laufzeitrabattregelung</label>
+        <name>SBQQ__TermDiscountSchedule__c</name>
+        <relationshipLabel>Auftragsprodukte (Laufzeitrabattregelung)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Date that this order product&apos;s related subscription was terminated --></help>
+        <label>Beendigungsdatum</label>
+        <name>SBQQ__TerminatedDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The full term net price for individual line. --></help>
+        <label>Nettoeinzelpreis für die Gesamtlaufzeit</label>
+        <name>SBQQ__UnproratedNetPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Subscription being upgraded by this quote line. When the quote is contracted this subscription will have its Terminated Date field populated. --></help>
+        <label>Aktualisiertes Abonnement</label>
+        <name>SBQQ__UpgradedSubscription__c</name>
+        <relationshipLabel>Aktualisierte Auftragsprodukte</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Revenue Allocation Amount --></label>
+        <name>blng__AllocatedRevenueAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lifecycle-Managed Asset --></label>
+        <name>blng__Asset__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bill Through Date Override --></label>
+        <name>blng__BillThroughDateOverride__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billable Unit Price --></label>
+        <name>blng__BillableUnitPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- The sum of all invoices for this order product (excluding tax). --></help>
+        <label><!-- Billed Amount (without tax) --></label>
+        <name>blng__BilledAmountwithouttax__c</name>
+    </fields>
+    <fields>
+        <help><!-- The sum of all taxes on invoices for this order product. --></help>
+        <label><!-- Billed Tax --></label>
+        <name>blng__BilledTax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Account --></label>
+        <name>blng__BillingAccount__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Billing GL Rule --></label>
+        <name>blng__BillingGLRule__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Billing GL Treatment --></label>
+        <name>blng__BillingGLTreatment__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Lookup to the Billing Rule assigned to this order product. --></help>
+        <label><!-- Billing Rule --></label>
+        <name>blng__BillingRule__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Lookup to the Billing Treatment assigned to this order product. --></help>
+        <label><!-- Billing Treatment --></label>
+        <name>blng__BillingTreatment__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Total subtracted from the order product due to cancellation, swap, etc. --></help>
+        <label><!-- Canceled Billing Amount (without tax) --></label>
+        <name>blng__CanceledBillings__c</name>
+    </fields>
+    <fields>
+        <help><!-- Lookup to the Finance Book object used to record the Accounting for this Order Product. --></help>
+        <label><!-- Finance Book (Accounting) --></label>
+        <name>blng__FinanceBookAccounting__c</name>
+        <relationshipLabel><!-- Order Products (Finance Book (Accounting)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Group Id --></label>
+        <name>blng__GroupId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Quantity (System Field) --></label>
+        <name>blng__GroupQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Unit Price (System Field) --></label>
+        <name>blng__GroupUnitPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Billing --></label>
+        <name>blng__HoldBilling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Included Usage --></label>
+        <name>blng__IncludedUsage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Group ID --></label>
+        <name>blng__InvoiceGroupId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Group --></label>
+        <name>blng__InvoiceGrouping__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Run Processing Status --></label>
+        <name>blng__InvoiceRunProcessingStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Run Start Date --></label>
+        <name>blng__InvoiceRunStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Run Status (Index) --></label>
+        <name>blng__InvoiceRunStatusIndex__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Run --></label>
+        <name>blng__InvoiceRun__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Charge To Date --></label>
+        <name>blng__LastChargeToDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Invoice Target Date --></label>
+        <name>blng__LastInvoiceTargetDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- LegalEntityReference --></label>
+        <name>blng__LegalEntityReference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Entity --></label>
+        <name>blng__LegalEntity__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- System generated. The start of the Billing period for the next invoice line for this order product. --></help>
+        <label><!-- Next Billing Date --></label>
+        <name>blng__NextBillingDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Charge Date --></label>
+        <name>blng__NextChargeDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field to manually override the calculated Billable Unit Price. --></help>
+        <label><!-- Override Billable Unit Price --></label>
+        <name>blng__OverrideBillableUnitPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override Initial Revenue End Date --></label>
+        <name>blng__OverrideInitialRevenueEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override Initial Revenue Start Date --></label>
+        <name>blng__OverrideInitialRevenueStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override Next Billing Date --></label>
+        <name>blng__OverrideNextBillingDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total remaining to be billed. --></help>
+        <label><!-- Pending Billing Amount (without tax) --></label>
+        <name>blng__PendingBillings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue Expected Amount --></label>
+        <name>blng__RevenueExpectedAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue Liability Amount --></label>
+        <name>blng__RevenueLiabilityAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue Most Likely Amount --></label>
+        <name>blng__RevenueMostLikelyAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue Recognition Rule --></label>
+        <name>blng__RevenueRecognitionRule__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Revenue Schedule Status --></label>
+        <name>blng__RevenueScheduleStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax City (Override) --></label>
+        <name>blng__TaxCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Country (Override) --></label>
+        <name>blng__TaxCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax County (Override) --></label>
+        <name>blng__TaxCounty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Error Message --></label>
+        <name>blng__TaxErrorMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax GL Rule --></label>
+        <name>blng__TaxGLRule__c</name>
+        <relationshipLabel><!-- Order Products (Tax GL Rule) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax GL Treatment --></label>
+        <name>blng__TaxGLTreatment__c</name>
+        <relationshipLabel><!-- Order Products (Tax GL Treatment) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax Percentage Applied --></label>
+        <name>blng__TaxPercentageApplied__c</name>
+    </fields>
+    <fields>
+        <help><!-- Lookup to the Tax Rule assigned to this order product. --></help>
+        <label><!-- Tax Rule --></label>
+        <name>blng__TaxRule__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax State (Override) --></label>
+        <name>blng__TaxState__c</name>
+    </fields>
+    <fields>
+        <help><!-- The status of the tax calculation for this order product. --></help>
+        <label><!-- Tax Calculation Status --></label>
+        <name>blng__TaxStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Street 2 (Override) --></label>
+        <name>blng__TaxStreet2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Street 1 (Override) --></label>
+        <name>blng__TaxStreet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Lookup to the Tax Treatment assigned to this order product. --></help>
+        <label><!-- Tax Treatment --></label>
+        <name>blng__TaxTreatment__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax Postal Code (Override) --></label>
+        <name>blng__TaxZipCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Amount that could be canceled from an order product based on termination date. Can&apos;t be more than the pending billing amount. --></help>
+        <label><!-- Terminated Billing Amount (without tax) --></label>
+        <name>blng__TerminatedBillings__c</name>
+    </fields>
+    <fields>
+        <help><!-- The sum of all invoice lines and taxes for this order. --></help>
+        <label><!-- Total Billings --></label>
+        <name>blng__TotalBilling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Id --></label>
+        <name>blng__UniqueId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage Floor Quantity --></label>
+        <name>blng__UsageFloorQuantity__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>Der Buchungsstatus für ein aktiviertes Auftragsprodukt kann nicht bearbeitet werden.</errorMessage>
+        <name>SBQQ__CannotChangeBookingIndicatorOnActivation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Wenn als Kostenart &quot;Wiederkehrend&quot; festgelegt ist, muss eine Abrechnungsart ausgewählt werden.</errorMessage>
+        <name>SBQQ__RecurringChargeTypeMustHaveBillingType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Wenn als Kostenart &quot;Einmalig&quot; festgelegt ist, kann kein Abrechnungshäufigkeitswert ausgewählt werden.</errorMessage>
+        <name>SBQQ__Validate_billing_frequency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Wenn als Kostenart &quot;Einmalig&quot; oder &quot;Nutzung&quot; festgelegt ist, kann kein Wert für die Abrechnungsart ausgewählt werden.</errorMessage>
+        <name>SBQQ__Validate_billing_type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Billing Rule must be selected --></errorMessage>
+        <name>blng__BIllingRuleMustBeSelected</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Revenue Recognition Rule must be selected --></errorMessage>
+        <name>blng__RevenueRecognitionRuleMustBeSelected</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Tax Rule must be selected --></errorMessage>
+        <name>blng__TaxRuleMustBeSelected</name>
+    </validationRules>
+</CustomObjectTranslation>

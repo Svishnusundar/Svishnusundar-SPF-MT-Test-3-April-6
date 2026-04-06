@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Recept plánování</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Recepty plánování</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Recept plánování</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Recepty plánování</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Receptu plánování</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Receptů plánování</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Receptu plánování</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Receptům plánování</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Receptem plánování</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Recepty plánování</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Receptu plánování</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Receptech plánování</value>
+    </caseValues>
+    <fields>
+        <label>Aktivní</label>
+        <name>FSL__Active__c</name>
+    </fields>
+    <fields>
+        <label>Kritéria</label>
+        <name>FSL__Criteria__c</name>
+        <relationshipLabel>Recepty plánování</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Popis</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Očekávané chování</label>
+        <name>FSL__Expected_Behavior__c</name>
+    </fields>
+    <fields>
+        <label>Poslední známý limit lokality</label>
+        <name>FSL__LKL_Threshold__c</name>
+    </fields>
+    <fields>
+        <label>Minulé akce</label>
+        <name>FSL__Post_Actions__c</name>
+    </fields>
+    <fields>
+        <label>Priorita</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>Specifický scénář</label>
+        <name>FSL__Scenario_Specific__c</name>
+    </fields>
+    <fields>
+        <label>Typ scénáře</label>
+        <name>FSL__Scenario_Type__c</name>
+        <picklistValues>
+            <masterLabel>Overlap (Post-Emergency Scheduling)</masterLabel>
+            <translation><!-- Overlap (Post-Emergency Scheduling) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overlap (SA Lengthened)</masterLabel>
+            <translation><!-- Overlap (SA Lengthened) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Canceled</masterLabel>
+            <translation><!-- SA Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Shortened</masterLabel>
+            <translation><!-- SA Shortened --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Zásady pro plánování</label>
+        <name>FSL__Scheduling_Policy__c</name>
+        <relationshipLabel>Recepty plánování</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Částečně automatizovaný</label>
+        <name>FSL__Semi_Automated__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Název plánování receptu</nameFieldLabel>
+</CustomObjectTranslation>

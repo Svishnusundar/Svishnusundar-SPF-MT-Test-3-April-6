@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trajet CDC MC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trajets CDC MC</value>
+    </caseValues>
+    <fields>
+        <label>Changer le type</label>
+        <name>et4ae5__ChangeType__c</name>
+    </fields>
+    <fields>
+        <label>Nom de l’entité</label>
+        <name>et4ae5__EntityName__c</name>
+    </fields>
+    <fields>
+        <label>Clé de définition de l’événement</label>
+        <name>et4ae5__EventDefinitionKey__c</name>
+    </fields>
+    <fields>
+        <label>Champs</label>
+        <name>et4ae5__Fields__c</name>
+    </fields>
+    <fields>
+        <label>Champs de filtre</label>
+        <name>et4ae5__FilterFields__c</name>
+    </fields>
+    <fields>
+        <label>MID du propriétaire</label>
+        <name>et4ae5__OwnerMid__c</name>
+    </fields>
+    <fields>
+        <label>ID d’enregistrement</label>
+        <name>et4ae5__RecordId__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Numéro de trajet</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

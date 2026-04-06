@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Maskerobject</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Maskerobjecten</value>
+    </caseValues>
+    <fields>
+        <label>API-naam</label>
+        <name>datamask__API_Name__c</name>
+    </fields>
+    <fields>
+        <label>Actief</label>
+        <name>datamask__Active__c</name>
+    </fields>
+    <fields>
+        <label>Batchgegevens</label>
+        <name>datamask__Batch_Data__c</name>
+    </fields>
+    <fields>
+        <label>Aangepast</label>
+        <name>datamask__Custom__c</name>
+    </fields>
+    <fields>
+        <label>DataMask-configuratie</label>
+        <name>datamask__DataMask_Configuration__c</name>
+        <relationshipLabel>Maskerobjecten</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Estimated Affected Record Count --></label>
+        <name>datamask__Estimated_Affected_Record_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filter Enabled --></label>
+        <name>datamask__Filter_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>Laatste datum van voorbereiding</label>
+        <name>datamask__Last_Prepped_Date__c</name>
+    </fields>
+    <fields>
+        <label>Hoofdobject</label>
+        <name>datamask__Master_Object__c</name>
+    </fields>
+    <fields>
+        <label>Aantal velden</label>
+        <name>datamask__Number_of_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Filter Data --></label>
+        <name>datamask__Raw_Filter_Data__c</name>
+    </fields>
+    <fields>
+        <label>Recordtelling</label>
+        <name>datamask__Record_Count__c</name>
+    </fields>
+    <fields>
+        <label>Poly uitvoeren</label>
+        <name>datamask__Run_In_Poly__c</name>
+    </fields>
+    <fields>
+        <label>Serieel uitvoeren</label>
+        <name>datamask__Run_In_Serial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Where Criteria LT --></label>
+        <name>datamask__Where_Criteria_LT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Where Criteria --></label>
+        <name>datamask__Where_Criteria__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

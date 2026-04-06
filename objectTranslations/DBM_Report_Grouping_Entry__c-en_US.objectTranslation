@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DBM Report Grouping Entry</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DBM Report Grouping Entries</value>
+    </caseValues>
+    <fields>
+        <label><!-- Display Label --></label>
+        <name>Display_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display as Link --></label>
+        <name>Display_as_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping Order --></label>
+        <name>Grouping_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping --></label>
+        <name>Grouping__c</name>
+        <relationshipLabel><!-- DBM Report Grouping Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Link to Record --></label>
+        <name>Link_to_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record ID --></label>
+        <name>Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Report__c</name>
+        <relationshipLabel><!-- DBM Report Grouping Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- DBM Report Grouping Entries --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

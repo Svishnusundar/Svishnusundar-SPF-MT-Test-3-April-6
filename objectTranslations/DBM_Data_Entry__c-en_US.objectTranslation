@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DBM Data Entry</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DBM Data Entries</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping 1 Display Label --></label>
+        <name>Grouping_1_Display_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping 1 Link to Record --></label>
+        <name>Grouping_1_Link_to_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping 1 Order --></label>
+        <name>Grouping_1_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping 1 User --></label>
+        <name>Grouping_1_User__c</name>
+        <relationshipLabel><!-- DBM Data Entries (Grouping 1 User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Grouping 1 --></label>
+        <name>Grouping_1__c</name>
+        <relationshipLabel><!-- DBM Data Entries (Grouping 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Grouping 2 Display Label --></label>
+        <name>Grouping_2_Display_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping 2 Link to Record --></label>
+        <name>Grouping_2_Link_to_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping 2 Order --></label>
+        <name>Grouping_2_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping 2 User --></label>
+        <name>Grouping_2_User__c</name>
+        <relationshipLabel><!-- DBM Data Entries (Grouping 2 User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Grouping 2 --></label>
+        <name>Grouping_2__c</name>
+        <relationshipLabel><!-- DBM Data Entries (Grouping 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Report --></label>
+        <name>Report__c</name>
+        <relationshipLabel><!-- DBM Data Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

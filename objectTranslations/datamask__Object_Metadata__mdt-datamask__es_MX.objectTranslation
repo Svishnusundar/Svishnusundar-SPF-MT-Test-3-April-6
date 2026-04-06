@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Metadatos de objeto</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Metadatos de objeto</value>
+    </caseValues>
+    <fields>
+        <label>Nombre de API</label>
+        <name>datamask__API_Name__c</name>
+    </fields>
+    <fields>
+        <label>Historial de noticias desactivado</label>
+        <name>datamask__Feed_History_Deactivated__c</name>
+    </fields>
+    <fields>
+        <label>Historial de campo desactivado</label>
+        <name>datamask__Field_History_Deactivated__c</name>
+    </fields>
+    <fields>
+        <label>Id.</label>
+        <name>datamask__Id__c</name>
+    </fields>
+    <fields>
+        <label>Objeto de enmascaramiento</label>
+        <name>datamask__Masking_Object__c</name>
+        <relationshipLabel>Metadatos de objeto</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>datamask__Status__c</name>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>datamask__Type__c</name>
+    </fields>
+    <fields>
+        <label>Número de versión</label>
+        <name>datamask__Version_Number__c</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

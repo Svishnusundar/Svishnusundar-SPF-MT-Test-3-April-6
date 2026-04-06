@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>作業ルール</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>有効</label>
+        <name>FSL__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Compare a numeric service property with a numeric resource property --></help>
+        <label>Boolean 演算子</label>
+        <name>FSL__Boolean_Operator__c</name>
+        <picklistValues>
+            <masterLabel>&lt;</masterLabel>
+            <translation><!-- &lt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;=</masterLabel>
+            <translation><!-- &lt;= --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>=</masterLabel>
+            <translation><!-- = --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;</masterLabel>
+            <translation><!-- &gt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;=</masterLabel>
+            <translation><!-- &gt;= --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Determines the length of the breaks created. 
+Leave this field empty if you don&apos;t want to create breaks. --></help>
+        <label>休憩時間 (分)</label>
+        <name>FSL__Break_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines the minimum break start time (in the format: {HH:MM}) to create breaks. 
+Leave this field empty if you don&apos;t want to create breaks. --></help>
+        <label>休憩の開始</label>
+        <name>FSL__Break_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- The object containing the custom field that&apos;s used for the count. --></help>
+        <label>カウントオブジェクト</label>
+        <name>FSL__CountObject__c</name>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation><!-- Service Appointment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Order</masterLabel>
+            <translation><!-- Work Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Order Line Item</masterLabel>
+            <translation><!-- Work Order Line Item --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The time resolution for the count. --></help>
+        <label>カウント時間分解</label>
+        <name>FSL__CountTimeResolution__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The type of item counted in the work rule. --></help>
+        <label>カウント種別</label>
+        <name>FSL__CountType__c</name>
+        <picklistValues>
+            <masterLabel>Assignments</masterLabel>
+            <translation><!-- Assignments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Value</masterLabel>
+            <translation><!-- Custom Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duration</masterLabel>
+            <translation><!-- Duration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter a number if you want to limit the number of additional service resources that can be added to the crew. Leave empty if any number of service resources can be added. --></help>
+        <label>追加サービスリソースの最大数</label>
+        <name>FSL__Crew_Max_Extra_Resources__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, compare the Minimum Crew Size field on the Work Order or Work Order Line Item to the actual available Service Crew Members. 
+Otherwise, compare the Minimum Crew Size to the Crew Size field on the Service Crew. --></help>
+        <label>サービスクルーメンバーシップを考慮</label>
+        <name>FSL__Crew_Resources_Availability__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name of the custom field on the count object. --></help>
+        <label>カスタム項目名</label>
+        <name>FSL__CustomFieldName__c</name>
+    </fields>
+    <fields>
+        <help><!-- A limit for the count. A limit on the service resource overrides this value. --></help>
+        <label>デフォルトの上限</label>
+        <name>FSL__DefaultLimit__c</name>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>残業を有効化</label>
+        <name>FSL__Enable_Overtime__c</name>
+    </fields>
+    <fields>
+        <help><!-- The junction object used to link service resources to the object that the service appointment matching field references --></help>
+        <label>リンクオブジェクト</label>
+        <name>FSL__Enhanced_Match_Linking_Object__c</name>
+    </fields>
+    <fields>
+        <label>評価の順番</label>
+        <name>FSL__Evaluation_Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, gap between services will be based on the minimum gap field, without travel calculations. --></help>
+        <label>固定間隔</label>
+        <name>FSL__Is_Fixed_Gap__c</name>
+    </fields>
+    <fields>
+        <label>値が True</label>
+        <name>FSL__Match_Constant_Boolean_Value__c</name>
+    </fields>
+    <fields>
+        <label>スキルレベルを照合</label>
+        <name>FSL__Match_Skill_Level__c</name>
+    </fields>
+    <fields>
+        <label>スキル種別ロジック</label>
+        <name>FSL__Matching_Skills_Operator__c</name>
+        <picklistValues>
+            <masterLabel>All Skills Match (AND)</masterLabel>
+            <translation><!-- All Skills Match (AND) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>At Least One Skill Matches (OR)</masterLabel>
+            <translation><!-- At Least One Skill Matches (OR) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>自宅からの最長移動時間種別</label>
+        <name>FSL__Maximum_Travel_From_Home_Type__c</name>
+        <picklistValues>
+            <masterLabel>Distance</masterLabel>
+            <translation><!-- Distance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Time</masterLabel>
+            <translation><!-- Travel Time --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Determines what distance or how many minutes the resource can travel from home to reach a service --></help>
+        <label>自宅からの最長移動時間</label>
+        <name>FSL__Maximum_Travel_From_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines the minimum gap between services. If fixed gap is enabled, determines the gap between the services. --></help>
+        <label>最短間隔 (分)</label>
+        <name>FSL__Minimum_Gap__c</name>
+    </fields>
+    <fields>
+        <label>オブジェクトグループ項目</label>
+        <name>FSL__Object_Group_Field__c</name>
+    </fields>
+    <fields>
+        <label>空の値を渡す</label>
+        <name>FSL__Pass_Empty_Values__c</name>
+    </fields>
+    <fields>
+        <label>リソースグループ項目</label>
+        <name>FSL__Resource_Group_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- A numeric field on the service resource to count against. --></help>
+        <label>リソースのプロパティ</label>
+        <name>FSL__Resource_Property__c</name>
+        <picklistValues>
+            <masterLabel>IsActive</masterLabel>
+            <translation><!-- IsActive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IsCapacityBased</masterLabel>
+            <translation><!-- IsCapacityBased --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The service appointment lookup field that you&apos;re matching --></help>
+        <label>[サービス予定参照] 項目</label>
+        <name>FSL__Service_Appointment_Matching_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- The reference field on the linking object that is matched with the service appointment matching field --></help>
+        <label>[リンクオブジェクト参照] 項目</label>
+        <name>FSL__Service_Linking_Object_Reference_Field__c</name>
+    </fields>
+    <fields>
+        <label>サービスのプロパティ</label>
+        <name>FSL__Service_Property__c</name>
+        <picklistValues>
+            <masterLabel>ArrivalWindowEndTime</masterLabel>
+            <translation><!-- ArrivalWindowEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowStartTime</masterLabel>
+            <translation><!-- ArrivalWindowStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedEndTime</masterLabel>
+            <translation><!-- SchedEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedStartTime</masterLabel>
+            <translation><!-- SchedStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ServiceTerritory</masterLabel>
+            <translation><!-- ServiceTerritory --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>サービススケジュール時間のプロパティ</label>
+        <name>FSL__Service_Schedule_Time_Property__c</name>
+        <picklistValues>
+            <masterLabel>SchedEndTime</masterLabel>
+            <translation><!-- SchedEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedEndTime__c</masterLabel>
+            <translation><!-- SchedEndTime__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedStartTime</masterLabel>
+            <translation><!-- SchedStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchedStartTime__c</masterLabel>
+            <translation><!-- SchedStartTime__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>サービス時間の演算子</label>
+        <name>FSL__Service_Time_Operator__c</name>
+        <picklistValues>
+            <masterLabel>Before</masterLabel>
+            <translation><!-- Before --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before or Equal to</masterLabel>
+            <translation><!-- Before or Equal to --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equal to</masterLabel>
+            <translation><!-- Equal to --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Later than or Equal to</masterLabel>
+            <translation><!-- Later than or Equal to --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>サービス時間のプロパティ</label>
+        <name>FSL__Service_Time_Property__c</name>
+        <picklistValues>
+            <masterLabel>ArrivalWindowEndTime</masterLabel>
+            <translation><!-- ArrivalWindowEndTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowEndTime__c</masterLabel>
+            <translation><!-- ArrivalWindowEndTime__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowStartTime</masterLabel>
+            <translation><!-- ArrivalWindowStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ArrivalWindowStartTime__c</masterLabel>
+            <translation><!-- ArrivalWindowStartTime__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DueDate</masterLabel>
+            <translation><!-- DueDate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DueDate__c</masterLabel>
+            <translation><!-- DueDate__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EarliestStartTime</masterLabel>
+            <translation><!-- EarliestStartTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EarliestStartTime__c</masterLabel>
+            <translation><!-- EarliestStartTime__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>スキル種別 API 参照名</label>
+        <name>FSL__Skill_Type__c</name>
+    </fields>
+    <fields>
+        <label>始業時間</label>
+        <name>FSL__Start_of_Day__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines how many minutes prior to the resource&apos;s calendar start of day will be available for travel (on the resource&apos;s expense).
+When empty, any amount of travel prior to start of work day is valid. --></help>
+        <label>自宅からの移動時間 (分)</label>
+        <name>FSL__Travel_From_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines how many minutes following the resource&apos;s calendar end of day will be available for travel (on the resource&apos;s expense).
+When empty, any amount of travel following the end of work day is valid. --></help>
+        <label>自宅への移動時間 (分)</label>
+        <name>FSL__Travel_To_Home__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Date-Time field name on the Linking Object which represents its end time --></help>
+        <label>終了日項目名</label>
+        <name>FSL__WorkRule_End_DateTime_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Date-Time field name on the Linking Object which represents its start time --></help>
+        <label>開始日項目名</label>
+        <name>FSL__WorkRule_Start_DateTime_Field__c</name>
+    </fields>
+    <fields>
+        <label>プライマリ作業ロケーション有効</label>
+        <name>FSL__Working_Location_Enable_Primary__c</name>
+    </fields>
+    <fields>
+        <label>タイムフェーズ</label>
+        <name>FSL__isTimephased__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>Record_Type__c</name>
+    </fields>
+    <nameFieldLabel>作業ルール名</nameFieldLabel>
+    <recordTypes>
+        <description>指定された条件に従って、指定されたサービステリトリー内のサービスリソースの作業業務量に対する制限を設定します。</description>
+        <label>Field Service - 作業業務量ルール</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定、予定時間、カスタム項目値などの項目の数に基づいてサービスリソースを制限します。</description>
+        <label>Field Service - カウントルール</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定オブジェクトと、サービスリソースオブジェクトのリストに含まれるプロパティとの間でプロパティを照合します</description>
+        <label>Field Service - 拡張照合</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定に割り当てられたリソースが、除外するリソースに含まれないようにします</description>
+        <label>Field Service - 除外するリソース</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービスリソースの作業テリトリーを照合します</description>
+        <label>Field Service - 作業テリトリー</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定に対してサービスリソースを対応可能にします</description>
+        <label>Field Service - サービスリソースの対応可能状況</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Boolean プロパティが true または false に設定されていることを検証します</description>
+        <label>Field Service - Boolean を照合</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>クルー人数をサービスの親の最小クルー人数と照合します</description>
+        <label>Field Service - サービスクルーリソースの対応可能状況</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定オブジェクトとサービスリソースオブジェクトとの間でプロパティを照合します</description>
+        <label>Field Service - 項目を照合</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定オブジェクトと、再配置をサポートするサービスリソースオブジェクトとの間で、テリトリーを照合します</description>
+        <label>Field Service - テリトリーを照合</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定の必須スキルをサービスリソースのスキルと照合します</description>
+        <label>Field Service - スキルを照合</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>自宅からのサービスリソースの移動距離/時間を制限します</description>
+        <label>Field Service - 自宅からの最長移動時間</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定に割り当てられたリソースが、必要なリソースに含まれるようにします</description>
+        <label>Field Service - 必要なリソース</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>顧客が定義した訪問時間内にサービス予定がスケジュールされるようにします</description>
+        <label>Field Service - サービス予定訪問時間</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>該当の時間枠にサービス予定をスケジュールできるようにします。</description>
+        <label>Field Service - 時間枠が指定された作業</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定の日時プロパティに応じてスケジュールの時間枠を制限します</description>
+        <label>Field Service - 時間ルールを照合</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>[サービススケジュール時間のプロパティ] が [SchedEndTime] になっている場合、時間の演算子は [以前] になっている必要があります</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[期間] は正の値にする必要があります</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[自宅からの最長移動時間] は正の値にする必要があります。</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[最短間隔] は負の値にできません</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[時間] は HH:MM の形式にする必要があります</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[時間] は HH:MM の形式にする必要があります</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Състояние на отмяна на смяна на доброволец --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Състояния на отмяна на смяна на доброволец --></value>
+    </caseValues>
+    <fields>
+        <help>Предоставя стойност на състояние, посочваща защо се отменя смяна на доброволеца.</help>
+        <label><!-- Status --></label>
+        <name>PublicSector__Status__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

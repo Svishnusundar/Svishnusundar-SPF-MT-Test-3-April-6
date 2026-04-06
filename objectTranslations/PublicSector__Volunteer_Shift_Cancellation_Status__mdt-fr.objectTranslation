@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Statut d&apos;annulation du poste de bénévole --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Statuts d&apos;annulation de poste de bénévole --></value>
+    </caseValues>
+    <fields>
+        <help>Fournit une valeur de statut qui indique le motif d&apos;annulation d&apos;un poste de bénévole.</help>
+        <label><!-- Status --></label>
+        <name>PublicSector__Status__c</name>
+    </fields>
+    
+    
+</CustomObjectTranslation>

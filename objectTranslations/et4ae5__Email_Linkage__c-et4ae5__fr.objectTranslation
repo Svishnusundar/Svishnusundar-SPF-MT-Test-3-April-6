@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Liaison d&apos;e-mail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Liaisons d&apos;e-mail</value>
+    </caseValues>
+    <fields>
+        <label>Campagnes exclues</label>
+        <name>et4ae5__ExcludedCampaigns__c</name>
+    </fields>
+    <fields>
+        <label>Rapports exclus</label>
+        <name>et4ae5__ExcludedReports__c</name>
+    </fields>
+    <fields>
+        <label>Campagnes exclues</label>
+        <name>et4ae5__Excluded_Campaigns__c</name>
+    </fields>
+    <fields>
+        <label>Rapports exclus</label>
+        <name>et4ae5__Excluded_Reports__c</name>
+    </fields>
+    <fields>
+        <label>Campagnes incluses</label>
+        <name>et4ae5__IncludedCampaigns__c</name>
+    </fields>
+    <fields>
+        <label>Rapports inclus</label>
+        <name>et4ae5__IncludedReports__c</name>
+    </fields>
+    <fields>
+        <label>Listes d’abonnés incluses</label>
+        <name>et4ae5__IncludedSubscriberLists__c</name>
+    </fields>
+    <fields>
+        <label>Campagnes incluses</label>
+        <name>et4ae5__Included_Campaigns__c</name>
+    </fields>
+    <fields>
+        <label>Rapports inclus</label>
+        <name>et4ae5__Included_Reports__c</name>
+    </fields>
+    <fields>
+        <label>Listes d’abonnés incluses</label>
+        <name>et4ae5__Included_Subscriber_Lists__c</name>
+    </fields>
+    <fields>
+        <label>ID d’e-mail</label>
+        <name>et4ae5__emailId__c</name>
+    </fields>
+    <fields>
+        <label>Nom de l’e-mail</label>
+        <name>et4ae5__emailName__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Numéro de liaison d’e-mail</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

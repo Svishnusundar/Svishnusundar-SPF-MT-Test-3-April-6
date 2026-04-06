@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ビジネスユニット</value>
+    </caseValues>
+    <fields>
+        <label>ビジネスユニット IDx</label>
+        <name>et4ae5__BusinessUnitIDx__c</name>
+    </fields>
+    <fields>
+        <label>ビジネスユニット ID</label>
+        <name>et4ae5__Business_Unit_ID2__c</name>
+    </fields>
+    <fields>
+        <label>ビジネスユニット ID</label>
+        <name>et4ae5__Business_Unit_ID__c</name>
+    </fields>
+    <fields>
+        <label>ビジネスユニット名</label>
+        <name>et4ae5__Business_Unit_Name__c</name>
+    </fields>
+    <fields>
+        <label>ボタンの画像</label>
+        <name>et4ae5__Button_Image__c</name>
+    </fields>
+    <fields>
+        <label>有効</label>
+        <name>et4ae5__Enabled__c</name>
+    </fields>
+    <fields>
+        <label>親アカウント の MID</label>
+        <name>et4ae5__IsParentAccountMID__c</name>
+    </fields>
+    <fields>
+        <label>有効</label>
+        <name>et4ae5__PreSaved__c</name>
+    </fields>
+    <nameFieldLabel>ビジネスユニット名</nameFieldLabel>
+</CustomObjectTranslation>

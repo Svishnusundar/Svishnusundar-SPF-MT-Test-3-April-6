@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Vnos delovnega pravila</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Vnosi delovnih pravil</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Vnos delovnega pravila</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Vnose delovnih pravil</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Vnosa delovnega pravila</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Vnosov delovnih pravil</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Vnosu delovnega pravila</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Vnosom delovnih pravil</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Vnosom delovnega pravila</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Vnosi delovnih pravil</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Vnosu delovnega pravila</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Vnosih delovnih pravil</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The length of the break in minutes. --></help>
+        <label>Trajanje odmora (v minutah)</label>
+        <name>FSL__Break_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of minutes from the start of the service resource&apos;s availability to the earliest allowed break start time. For example, enter 120 to schedule a break at least two hours after the day starts. --></help>
+        <label>Najzgodnejši začetek odmora (v minutah)</label>
+        <name>FSL__Earliest_Break_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of minutes from the start of the service resource&apos;s availability to the latest allowed break end time. For example, enter 300 to schedule a lunch break to end no more than five hours after the day starts. --></help>
+        <label>Najpoznejši zaključek odmora (v minutah)</label>
+        <name>FSL__Latest_Break_End__c</name>
+    </fields>
+    <fields>
+        <label>Delovno pravilo</label>
+        <name>FSL__Work_Rule__c</name>
+        <relationshipLabel>Vnosi delovnih pravil</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Ime vnosa delovnega pravila</nameFieldLabel>
+    <recordTypes>
+        <description>Omeji vire storitve na podlagi števila elementov, kot so storitveni sestanki, trajanje sestankov ali vrednosti polja po meri</description>
+        <label>Field Service – razpoložljivost virov storitve</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Uitvoeringslogboek</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Uitvoeringslogboeken</value>
+    </caseValues>
+    <fields>
+        <label>Configuratie-ID</label>
+        <name>datamask__Configuration_Id__c</name>
+    </fields>
+    <fields>
+        <label>Naam van configuratie</label>
+        <name>datamask__Configuration_Name__c</name>
+    </fields>
+    <fields>
+        <label>Foutbericht</label>
+        <name>datamask__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label>Heeft master</label>
+        <name>datamask__Has_Master__c</name>
+    </fields>
+    <fields>
+        <label>ID van Data Mask-uitvoering</label>
+        <name>datamask__Masking_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label>Bericht</label>
+        <name>datamask__Message__c</name>
+    </fields>
+    <fields>
+        <label>Momenteel verwerkt object</label>
+        <name>datamask__Object_Processing__c</name>
+    </fields>
+    <fields>
+        <help><!-- The total number of records on the object being processed. --></help>
+        <label>Totaal van recordtelling</label>
+        <name>datamask__Record_Count_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total number of records failed for this object. --></help>
+        <label>Records mislukt</label>
+        <name>datamask__Records_Failed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total number of records processed for this object. --></help>
+        <label>Records verwerkt</label>
+        <name>datamask__Records_Processed__c</name>
+    </fields>
+    <fields>
+        <label>Status</label>
+        <name>datamask__Status__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Type</label>
+        <name>datamask__Type__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution Completion</masterLabel>
+            <translation><!-- Execution Completion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution Start</masterLabel>
+            <translation><!-- Execution Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Object Processing Completion</masterLabel>
+            <translation><!-- Object Processing Completion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Object Start</masterLabel>
+            <translation><!-- Object Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post-Processing Completion</masterLabel>
+            <translation><!-- Post-Processing Completion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Processing Completion</masterLabel>
+            <translation><!-- Pre-Processing Completion --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Naam van uitvoeringslogboek</nameFieldLabel>
+</CustomObjectTranslation>

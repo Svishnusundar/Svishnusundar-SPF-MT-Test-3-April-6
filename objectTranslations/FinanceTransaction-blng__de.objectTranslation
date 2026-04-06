@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Hauptbuchaccount für Gutschriften</label>
+        <name>blng__CreditGLAccount__c</name>
+        <relationshipLabel>Finanztransaktionen (Hauptbuchaccount für Gutschriften)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Hauptbuchaccount für Belastungen</label>
+        <name>blng__DebitGLAccount__c</name>
+        <relationshipLabel>Finanztransaktionen (Hauptbuchaccount für Belastungen)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Finanzbuch</label>
+        <name>blng__FinanceBook__c</name>
+        <relationshipLabel>Finanztransaktionen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Finanzzeitraum</label>
+        <name>blng__FinancePeriod__c</name>
+        <relationshipLabel>Finanztransaktionen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Hauptbuchregel</label>
+        <name>blng__GLRule__c</name>
+        <relationshipLabel>Finanztransaktionen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Hauptbuchverfahren</label>
+        <name>blng__GLTreatment__c</name>
+        <relationshipLabel>Finanztransaktionen</relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

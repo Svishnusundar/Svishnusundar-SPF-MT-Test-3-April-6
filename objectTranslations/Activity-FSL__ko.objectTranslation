@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Check Out Date --></label>
+        <name>CheckOutDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check Out Distance From Record (mi) --></label>
+        <name>CheckOutDistanceFromRecordMi__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date --></label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distance from Record (mi) --></label>
+        <name>DistanceFromRecordMi__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Count of all events --></help>
+        <label>이벤트 수</label>
+        <name>FSL__Count_of_Events__c</name>
+    </fields>
+    <fields>
+        <label>작업 수</label>
+        <name>FSL__Count_of_Tasks__c</name>
+    </fields>
+    <fields>
+        <label>이벤트 유형</label>
+        <name>FSL__Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Resource Absence</masterLabel>
+            <translation><!-- Resource Absence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation><!-- Service Appointment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Modified Date --></label>
+        <name>LastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check Out Latitude --></label>
+        <name>SDO_MAPS_Check_Out_Latitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check Out Longitude --></label>
+        <name>SDO_MAPS_Check_Out_Longitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Latitude --></label>
+        <name>SDO_MAPS_Created_Latitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Longitude --></label>
+        <name>SDO_MAPS_Created_Longitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Needed? --></label>
+        <name>SDO_MAPS_Follow_Up_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- How Did It Go? --></label>
+        <name>SDO_MAPS_How_Did_It_Go__c</name>
+        <picklistValues>
+            <masterLabel>Fair</masterLabel>
+            <translation><!-- Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Great</masterLabel>
+            <translation><!-- Great --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horrible</masterLabel>
+            <translation><!-- Horrible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- What Did I Do? --></label>
+        <name>SDO_MAPS_What_Did_I_Do__c</name>
+        <picklistValues>
+            <masterLabel>Introduction Call</masterLabel>
+            <translation><!-- Introduction Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular Cadence Meeting</masterLabel>
+            <translation><!-- Regular Cadence Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Call</masterLabel>
+            <translation><!-- Sales Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation><!-- Service Appointment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training/Product Demo</masterLabel>
+            <translation><!-- Training/Product Demo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- What Did I Show? --></label>
+        <name>SDO_MAPS_What_Did_I_Show__c</name>
+        <picklistValues>
+            <masterLabel>Product A</masterLabel>
+            <translation><!-- Product A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product B</masterLabel>
+            <translation><!-- Product B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product C</masterLabel>
+            <translation><!-- Product C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product D</masterLabel>
+            <translation><!-- Product D --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Who Did I Meet With? --></label>
+        <name>SDO_MAPS_Who_Did_I_Meet_With__c</name>
+    </fields>
+    <fields>
+        <label><!-- Safety Checklist Completed --></label>
+        <name>SDO_Maps_Safety_Checklist_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time On Site (Minutes) --></label>
+        <name>Time_On_Site_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Call</masterLabel>
+            <translation><!-- Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting</masterLabel>
+            <translation><!-- Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prep</masterLabel>
+            <translation><!-- Prep --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- analyticsdemo_batch_id__c --></label>
+        <name>analyticsdemo_batch_id__c</name>
+    </fields>
+    <fields>
+        <help><!-- CSS color code for event background color in calendar view --></help>
+        <label><!-- Calendar Background Color --></label>
+        <name>cccalendar__Calendar_Background_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- CSS color code for event border color in calendar view --></help>
+        <label><!-- Calendar Border Color --></label>
+        <name>cccalendar__Calendar_Border_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Mode to render event with on Calendar: The rendering type of this event. Can be empty (normal rendering), &quot;background&quot;, or &quot;inverse-background&quot; --></help>
+        <label><!-- Calendar Rendering --></label>
+        <name>cccalendar__Calendar_Rendering__c</name>
+        <picklistValues>
+            <masterLabel>Background</masterLabel>
+            <translation><!-- Background --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inverse-Background</masterLabel>
+            <translation><!-- Inverse-Background --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- CSS color code for event text color in calendar view --></help>
+        <label><!-- Calendar Text Color --></label>
+        <name>cccalendar__Calendar_Text_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check to display event&apos;s local timezone in event details --></help>
+        <label><!-- Display Event&apos;s Local Timezone --></label>
+        <name>cccalendar__Display_Events_Local_Timezone__c</name>
+    </fields>
+    <fields>
+        <help><!-- SLDS icon name for the event, from http://www.lightningdesignsystem.com/icons/. Example: utility:events --></help>
+        <label><!-- Event Icon Name --></label>
+        <name>cccalendar__Event_Icon_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event URL 2 Open in Same Tab --></label>
+        <name>cccalendar__Event_URL_2_Open_in_Same_Tab__c</name>
+    </fields>
+    <fields>
+        <help><!-- Button link on Event --></help>
+        <label><!-- Event URL 2 --></label>
+        <name>cccalendar__Event_URL_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event URL Open in Same Tab --></label>
+        <name>cccalendar__Event_URL_Open_in_Same_Tab__c</name>
+    </fields>
+    <fields>
+        <help><!-- Text to display on button linking to event URL field --></help>
+        <label><!-- Event URL Text 2 --></label>
+        <name>cccalendar__Event_URL_Text_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Text to display on button linking to event URL field --></help>
+        <label><!-- Event URL Text --></label>
+        <name>cccalendar__Event_URL_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Button link on Event --></help>
+        <label><!-- Event URL --></label>
+        <name>cccalendar__Event_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- URL for Event Image, to be used for Tile Display --></help>
+        <label><!-- Image URL --></label>
+        <name>cccalendar__Image_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify event&apos;s local timezone. Required if Display event&apos;s local timezone is checked --></help>
+        <label><!-- Local Timezone --></label>
+        <name>cccalendar__Local_Timezone__c</name>
+    </fields>
+    <fields>
+        <label><!-- ActivityDate db days --></label>
+        <name>db_days_ActivityDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ActivityDateTime db hours --></label>
+        <name>db_hours_ActivityDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- CheckOutDate__c db hours --></label>
+        <name>db_hours_CheckOutDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- EndDateTime db hours --></label>
+        <name>db_hours_EndDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecurrenceStartDateTime db hours --></label>
+        <name>db_hours_RecurrenceStartDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- ReminderDateTime db hours --></label>
+        <name>db_hours_ReminderDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- StartDateTime db hours --></label>
+        <name>db_hours_StartDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maps Base Object --></label>
+        <name>maps__BaseObjectId__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Layer Id --></label>
+        <name>maps__LayerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maps Advanced Route Waypoint --></label>
+        <name>maps__WA_AdvRouteWaypoint__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

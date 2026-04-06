@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Status van annulering van vrijwilligersdienst</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Statussen van annulering van vrijwilligersdienst</value>
+    </caseValues>
+    <fields>
+        <help><!-- Provide a status value indicating why a volunteer shift is canceled. --></help>
+        <label>Status</label>
+        <name>PublicSector__Status__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

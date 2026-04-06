@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Aftaleafhængigheden</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Aftaleafhængighed</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Aftaleafhængighed</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Aftaleafhængighederne</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Aftaleafhængigheder</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Aftaleafhængigheder</value>
+    </caseValues>
+    <fields>
+        <label>Afhængighed</label>
+        <name>FSL__Dependency__c</name>
+        <picklistValues>
+            <masterLabel>Immediately Follow</masterLabel>
+            <translation><!-- Immediately Follow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Start</masterLabel>
+            <translation><!-- Same Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start After Finish</masterLabel>
+            <translation><!-- Start After Finish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start After Finish And Same Day</masterLabel>
+            <translation><!-- Start After Finish And Same Day --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Rodserviceaftale</label>
+        <name>FSL__Root_Service_Appointment__c</name>
+        <relationshipLabel>Aftaleafhængigheder (rodserviceaftale)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Samme ressource</label>
+        <name>FSL__Same_Resource__c</name>
+    </fields>
+    <fields>
+        <label>Serviceaftale 1</label>
+        <name>FSL__Service_Appointment_1__c</name>
+        <relationshipLabel><!-- Appointment Dependencies (Service Appointment 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Serviceaftale 2</label>
+        <name>FSL__Service_Appointment_2__c</name>
+        <relationshipLabel><!-- Appointment Dependencies (Service Appointment 2) --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Navn på aftaleafhængighed</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Vælg en afhængighedstype.</errorMessage>
+        <name>FSL__Dependency_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vi kunne ikke oprette en afhængighed mellem serviceaftalerne. Bed dig Salesforce-administrator om at give dig tilladelser til alle tilpassede objektfelter for Tidsafhængighed.</errorMessage>
+        <name>FSL__Root_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Afhængigheden Følg umiddelbart kræver samme ressource</errorMessage>
+        <name>FSL__Same_Resource_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Serviceaftale 2 er påkrævet.</errorMessage>
+        <name>FSL__Service_Appointment_2_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Det er ikke tilladt at ændre nogen af serviceaftalerne i relationen</errorMessage>
+        <name>FSL__Service_Appointment_2_Not_Changed</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Standardstatusen för volontärskift</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>En standardstatus för volontärskift</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Standardstatus för volontärskift</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Standardstatusarna för volontärskift</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Standardstatus för volontärskift</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Standardstatus för volontärskift</value>
+    </caseValues>
+    <fields>
+        <help><!-- Provide a status value indicating the default value of a volunteer shift that gets created when a volunteer signs-up for a volunteer project from the community. --></help>
+        <label>Status</label>
+        <name>PublicSector__Status__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Demo Cleanup Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Demo Cleanup Events</value>
+    </caseValues>
+    <fields>
+        <label><!-- Error JSON String --></label>
+        <name>Error_JSON_String__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finished --></label>
+        <name>Finished__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Id --></label>
+        <name>Task_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Errors --></label>
+        <name>Total_Errors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Records Deleted --></label>
+        <name>Total_Records_Deleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Records with Errors --></label>
+        <name>Total_Records_with_Errors__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

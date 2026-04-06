@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Pakkemedlemmer</label>
+        <name>FSL__Bundle_Members</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Pakkemedlems sidestillede</label>
+        <name>FSL__Bundle_Members_Siblings</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Bundler Lightbox</label>
+        <name>FSL__Bundler_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kapacitetsservicekolonner</label>
+        <name>FSL__Capacity_Service_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Opslagsfelter for komplekst arbejde</label>
+        <name>FSL__Complex_Work_Lookups_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Bemandingsstyring</label>
+        <name>FSL__CrewManagement</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Bemandingsstyrings - værktøjstip</label>
+        <name>FSL__CrewManagementTooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Udpegede arbejdsfelter</label>
+        <name>FSL__Designated_Work_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Underkendt</label>
+        <name>FSL__Emergency_Current_Service_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gantt-filter</label>
+        <name>FSL__Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Optimeringskriterier for serviceaftale</label>
+        <name>FSL__Optimization_Filter_By_Booleans</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Udfoldet serviceaftale</label>
+        <name>FSL__Service_Appointment_Expanded</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Serviceaftale - listekolonner</label>
+        <name>FSL__Service_Appointment_List_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Serviceaftale - listeeksempelvisning</label>
+        <name>FSL__Service_Appointment_List_Preview</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Serviceaft. - ressourcekalendervisning</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Display</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Serviceaft. - ressourcekalenderværktøjstip</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Serviceopl. - vinduestilknytning</label>
+        <name>FSL__Service_Info_Window_Map</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Service - Lightbox</label>
+        <name>FSL__Service_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lightbox-serviceadresse</label>
+        <name>FSL__Service_Lightbox_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lightbox-servicetid</label>
+        <name>FSL__Service_Lightbox_Time</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gantt-serviceværktøjstip</label>
+        <name>FSL__Service_Tooltip_Gantt</name>
+    </fieldSets>
+    <fields>
+        <help><!-- &lt;yourcommunitydomain&gt; --></help>
+        <label><!-- AppointmentUrlFormula --></label>
+        <name>AppointmentUrlFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Service Appointments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer NPS --></label>
+        <name>Customer_NPS__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- FSLDemoTools AR Actual Travel Time --></label>
+        <name>FSLDemoTools_AR_Actual_Travel_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Resource --></label>
+        <name>FSLDemoTools_Service_Resource__c</name>
+        <relationshipLabel><!-- Service Appointments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- FSLDemoTools Wave Data --></label>
+        <name>FSLDemoTools_Wave_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- FSLDemoTools Wave Week --></label>
+        <name>FSLDemoTools_Wave_Week__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Compliance --></label>
+        <name>FSL_Compliance__c</name>
+    </fields>
+    <fields>
+        <label><!-- FTFR Count --></label>
+        <name>FSL_FTFR_Count__c</name>
+    </fields>
+    <fields>
+        <label>Aftaleklassificering</label>
+        <name>FSL__Appointment_Grade__c</name>
+    </fields>
+    <fields>
+        <label>Planlæg automatisk</label>
+        <name>FSL__Auto_Schedule__c</name>
+    </fields>
+    <fields>
+        <label>Planlagt varighed</label>
+        <name>FSL__Duration_In_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Akut</label>
+        <name>FSL__Emergency__c</name>
+    </fields>
+    <fields>
+        <label>Gantt-farve</label>
+        <name>FSL__GanttColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a URL for an icon. The URL must end in an image suffix, such as .png. --></help>
+        <label>Gantt-ikon</label>
+        <name>FSL__GanttIcon__c</name>
+    </fields>
+    <fields>
+        <label>Gantt-betegnelse</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Gantt-visningsdato</label>
+        <name>FSL__Gantt_Display_Date__c</name>
+    </fields>
+    <fields>
+        <label>Årsag til I fare</label>
+        <name>FSL__InJeopardyReason__c</name>
+        <picklistValues>
+            <masterLabel>Delayed Finish</masterLabel>
+            <translation><!-- Delayed Finish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delayed Start</masterLabel>
+            <translation><!-- Delayed Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due Date Approaching</masterLabel>
+            <translation><!-- Due Date Approaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response</masterLabel>
+            <translation><!-- No Response --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>I fare</label>
+        <name>FSL__InJeopardy__c</name>
+    </fields>
+    <fields>
+        <label>Intern SLR-geoplacering</label>
+        <name>FSL__InternalSLRGeolocation__c</name>
+    </fields>
+    <fields>
+        <label>Er erstatningskandidat</label>
+        <name>FSL__IsFillInCandidate__c</name>
+    </fields>
+    <fields>
+        <label>Er flerdags</label>
+        <name>FSL__IsMultiDay__c</name>
+    </fields>
+    <fields>
+        <label>Sidst opdateret periode</label>
+        <name>FSL__Last_Updated_Epoch__c</name>
+    </fields>
+    <fields>
+        <label>Beregnet længde på flerdages arbejde</label>
+        <name>FSL__MDS_Calculated_length__c</name>
+    </fields>
+    <fields>
+        <label>Driftstid for flerdages arbejde</label>
+        <name>FSL__MDT_Operational_Time__c</name>
+    </fields>
+    <fields>
+        <label>Fastgjort</label>
+        <name>FSL__Pinned__c</name>
+    </fields>
+    <fields>
+        <label>Undgå geokodning for Chatter-handlinger</label>
+        <name>FSL__Prevent_Geocoding_For_Chatter_Actions__c</name>
+    </fields>
+    <fields>
+        <label>Relateret service</label>
+        <name>FSL__Related_Service__c</name>
+        <relationshipLabel>Serviceaftaler</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Samme dag</label>
+        <name>FSL__Same_Day__c</name>
+    </fields>
+    <fields>
+        <label>Samme ressource</label>
+        <name>FSL__Same_Resource__c</name>
+    </fields>
+    <fields>
+        <label>Planlægningstilstand</label>
+        <name>FSL__Schedule_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Automatic</masterLabel>
+            <translation><!-- Automatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drag and Drop</masterLabel>
+            <translation><!-- Drag and Drop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Optimization</masterLabel>
+            <translation><!-- Global Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Day Optimization</masterLabel>
+            <translation><!-- In Day Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimization</masterLabel>
+            <translation><!-- Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Optimization</masterLabel>
+            <translation><!-- Resource Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule</masterLabel>
+            <translation><!-- Schedule --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Planlæg over aftale med lavest prioritet</label>
+        <name>FSL__Schedule_over_lower_priority_appointment__c</name>
+    </fields>
+    <fields>
+        <label>Planlægningspolitik anvendt</label>
+        <name>FSL__Scheduling_Policy_Used__c</name>
+        <relationshipLabel>Serviceaftaler</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tidsafhængighed</label>
+        <name>FSL__Time_Dependency__c</name>
+        <picklistValues>
+            <masterLabel>Finish Before Start</masterLabel>
+            <translation><!-- Finish Before Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Start</masterLabel>
+            <translation><!-- Same Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start After Finish</masterLabel>
+            <translation><!-- Start After Finish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>UpdatedByOptimization</label>
+        <name>FSL__UpdatedByOptimization__c</name>
+    </fields>
+    <fields>
+        <label>Brug asynkron logik</label>
+        <name>FSL__Use_Async_Logic__c</name>
+    </fields>
+    <fields>
+        <label>Virtuel service for Chatter-handl. (SLR)</label>
+        <name>FSL__Virtual_Service_For_Chatter_Action__c</name>
+    </fields>
+    <fields>
+        <help><!-- Add the installed Asset to the account maintenance plan upon completion --></help>
+        <label><!-- Add Asset to Account Maintenance Plan --></label>
+        <name>FSSK__FSK_Add_Asset_to_Maintenance_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Service Resource --></label>
+        <name>FSSK__FSK_Assigned_Service_Resource__c</name>
+        <relationshipLabel><!-- Service Appointments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mobile End Time --></label>
+        <name>FSSK__FSK_Mobile_End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Start Time --></label>
+        <name>FSSK__FSK_Mobile_Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned Scheduled End --></label>
+        <name>FSSK__FSK_Planned_Scheduled_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned Scheduled Start --></label>
+        <name>FSSK__FSK_Planned_Scheduled_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reject Service Appointment --></label>
+        <name>FSSK__FSK_Reject_Service_Appointment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>FSSK__FSK_Work_Order__c</name>
+        <relationshipLabel><!-- Service Appointments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- LSDemoTools Master Data --></label>
+        <name>LSDemoTools_Master_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Opportunity Value --></label>
+        <name>Open_Opportunity_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Work Order --></label>
+        <name>Parent_Work_Order__c</name>
+        <relationshipLabel><!-- Service Appointments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Contractor Appointment --></label>
+        <name>Related_Contractor_Appointment__c</name>
+        <relationshipLabel><!-- Service Appointments (Related Contractor Appointment) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Requires Contractor --></label>
+        <name>Requires_Contractor__c</name>
+    </fields>
+    <fields>
+        <help><!-- A reference to the Contact&apos;s First Name --></help>
+        <label><!-- Rider Contact FirstName --></label>
+        <name>Rider_ContactFirstName__c</name>
+    </fields>
+    <fields>
+        <help><!-- URL to public service report --></help>
+        <label><!-- Rider Service Report URL --></label>
+        <name>Rider_ServiceReport_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rider StartTime --></label>
+        <name>Rider_StartTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Running Late (in mins) --></label>
+        <name>Running_Late_in_mins__c</name>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45</masterLabel>
+            <translation><!-- 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tracker Assigned Resource Contact --></label>
+        <name>SDO_SFS_Tracker_Resource_Contact__c</name>
+        <relationshipLabel><!-- Service Appointments (Those Assigned to Resource) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tracker StartTime --></label>
+        <name>SDO_SFS_Tracker_StartTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- FSLDemoTools Master Data --></label>
+        <name>SDO_Tool_FSLDemoTools_Master_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Crew --></label>
+        <name>SDO_Tool_Service_Crew__c</name>
+    </fields>
+    <fields>
+        <label><!-- SchEndDateFormatted --></label>
+        <name>SchEndDateFormatted__c</name>
+    </fields>
+    <fields>
+        <label><!-- SchEndTimeFormatted --></label>
+        <name>SchEndTimeFormatted__c</name>
+    </fields>
+    <fields>
+        <label><!-- SchStartDateFormatted --></label>
+        <name>SchStartDateFormatted__c</name>
+    </fields>
+    <fields>
+        <label><!-- SchStartTimeFormatted --></label>
+        <name>SchStartTimeFormatted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Territory Name --></label>
+        <name>Service_Territory_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Inspection --></label>
+        <name>Site_Inspection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tech Color --></label>
+        <name>Tech_Color__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Why Not Alt1 Candidates --></label>
+        <name>Why_Not_Alt1_Candidates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why Not Alt1 Count --></label>
+        <name>Why_Not_Alt1_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why Not Alt2 Candidates --></label>
+        <name>Why_Not_Alt2_Candidates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why Not Alt2 Count --></label>
+        <name>Why_Not_Alt2_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why Not Alt3 Candidates --></label>
+        <name>Why_Not_Alt3_Candidates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why Not Alt3 Count --></label>
+        <name>Why_Not_Alt3_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why Not Alt4 Candidates --></label>
+        <name>Why_Not_Alt4_Candidates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why Not Alt4 Count --></label>
+        <name>Why_Not_Alt4_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why Not Last Run --></label>
+        <name>Why_Not_Last_Run__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why Not Main Candidates --></label>
+        <name>Why_Not_Main_Candidates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why Not Main Count --></label>
+        <name>Why_Not_Main_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why Not NoAvail Candidates --></label>
+        <name>Why_Not_NoAvail_Candidates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why Not NoAvail Count --></label>
+        <name>Why_Not_NoAvail_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Acceptance Status --></label>
+        <name>Work_Acceptance_Status__c</name>
+        <picklistValues>
+            <masterLabel>Accept</masterLabel>
+            <translation><!-- Accept --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Chronos Bot Work Type Group Name --></label>
+        <name>Work_Type_Group_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chronos Bot Work Type Group --></label>
+        <name>Work_Type_Group__c</name>
+        <relationshipLabel><!-- Service Appointments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- latitude --></label>
+        <name>sfsdg__latitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- longitude --></label>
+        <name>sfsdg__longitude__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Can&apos;t Edit FSLDemoTools Master Data --></errorMessage>
+        <name>FSLDemoTools_Master_Data</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ny serviceaftale kan ikke oprettes i statusserne Planlagt og Udsendt.</errorMessage>
+        <name>FSL__Dont_allow_scheduled_or_dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vælg en gyldig afhængighedstype. Hvis aftalerne skal tildeles til den samme ressource, kan afhængighedstypen ikke være Samme start.</errorMessage>
+        <name>FSL__Related_Service_with_time_dependency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ressourceafhængighed er ugyldig. Tidsafhængighed må ikke være Samme start, når samme ressource er påkrævet.</errorMessage>
+        <name>FSL__Same_Resource_Same_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Både planlagt start og afslutning er påkrævet</errorMessage>
+        <name>FSL__Schedule_End_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Både planlagt start og afslutning er påkrævet</errorMessage>
+        <name>FSL__Schedule_Start_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Gantt-farve skal være i hexadecimalt format format: (f.eks.: #ffffff)</errorMessage>
+        <name>FSL__Service_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vælg relateret service.</errorMessage>
+        <name>FSL__Time_dependency_with_related_service</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>DueDate-felt er påkrævet</errorMessage>
+        <name>FSL__isDueDateExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Varighedsfelt er påkrævet</errorMessage>
+        <name>FSL__isDurationExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>EarliestStartTime-felt er påkrævet</errorMessage>
+        <name>FSL__isEarliestStartTimeExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Planlagt start skal være tidligere end planlagt afslutning</errorMessage>
+        <name>FSL__startTimeShouldPrecedeEndTime</name>
+    </validationRules>
+</CustomObjectTranslation>

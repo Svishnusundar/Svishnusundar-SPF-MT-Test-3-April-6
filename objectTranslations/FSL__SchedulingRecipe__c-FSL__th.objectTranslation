@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>สูตรการจัดตารางเวลา</value>
+    </caseValues>
+    <fields>
+        <label>ทำงาน</label>
+        <name>FSL__Active__c</name>
+    </fields>
+    <fields>
+        <label>เกณฑ์</label>
+        <name>FSL__Criteria__c</name>
+        <relationshipLabel>สูตรการจัดตารางเวลา</relationshipLabel>
+    </fields>
+    <fields>
+        <label>คำอธิบาย</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>ลักษณะการทำงานที่คาด</label>
+        <name>FSL__Expected_Behavior__c</name>
+    </fields>
+    <fields>
+        <label>ค่าเกณฑ์สถานที่ตั้งที่รู้จักครั้งล่าสุด</label>
+        <name>FSL__LKL_Threshold__c</name>
+    </fields>
+    <fields>
+        <label>การดำเนินการโพสต์</label>
+        <name>FSL__Post_Actions__c</name>
+    </fields>
+    <fields>
+        <label>ลำดับความสำคัญ</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>สถานการณ์สมมติที่กำหนด</label>
+        <name>FSL__Scenario_Specific__c</name>
+    </fields>
+    <fields>
+        <label>ประเภทสถานการณ์สมมติ</label>
+        <name>FSL__Scenario_Type__c</name>
+        <picklistValues>
+            <masterLabel>Overlap (Post-Emergency Scheduling)</masterLabel>
+            <translation><!-- Overlap (Post-Emergency Scheduling) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overlap (SA Lengthened)</masterLabel>
+            <translation><!-- Overlap (SA Lengthened) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Canceled</masterLabel>
+            <translation><!-- SA Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Shortened</masterLabel>
+            <translation><!-- SA Shortened --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>นโยบายการจัดตารางเวลา</label>
+        <name>FSL__Scheduling_Policy__c</name>
+        <relationshipLabel>สูตรการจัดตารางเวลา</relationshipLabel>
+    </fields>
+    <fields>
+        <label>กึ่งอัตโนมัติ</label>
+        <name>FSL__Semi_Automated__c</name>
+    </fields>
+    <nameFieldLabel>ชื่อสูตรการจัดตารางเวลา</nameFieldLabel>
+</CustomObjectTranslation>

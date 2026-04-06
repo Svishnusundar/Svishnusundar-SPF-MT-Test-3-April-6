@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Boat Length --></label>
+        <name>Boat_Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget vs Requested Amount --></label>
+        <name>Budget_vs_Requested_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Community Contact Match --></label>
+        <name>Community_Contact_Match__c</name>
+    </fields>
+    <fields>
+        <label><!-- Golden Record --></label>
+        <name>Golden_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applying Contact Info Verified --></label>
+        <name>IDOApplying_Contact_Info_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applying Organization Info Verified --></label>
+        <name>IDOApplying_Organization_Info_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funding Organization Name --></label>
+        <name>IDOFunding_Organization_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Description --></label>
+        <name>IDOProject_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Start Date --></label>
+        <name>IDOProject_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Title --></label>
+        <name>IDOProject_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Type --></label>
+        <name>IDOProject_Type__c</name>
+        <picklistValues>
+            <masterLabel>Affordable Housing Development</masterLabel>
+            <translation><!-- Affordable Housing Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction Project</masterLabel>
+            <translation><!-- Construction Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Housing Related Infrastructure</masterLabel>
+            <translation><!-- Housing Related Infrastructure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integrated Community Project</masterLabel>
+            <translation><!-- Integrated Community Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Construction Project</masterLabel>
+            <translation><!-- Non-Construction Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program Costs</masterLabel>
+            <translation><!-- Program Costs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rural Innovation Project</masterLabel>
+            <translation><!-- Rural Innovation Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainable Transportation Infrastructure</masterLabel>
+            <translation><!-- Sustainable Transportation Infrastructure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transit Oriented Development</masterLabel>
+            <translation><!-- Transit Oriented Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation-Related Amenities</masterLabel>
+            <translation><!-- Transportation-Related Amenities --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Make/Model --></label>
+        <name>Make_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name of Boat --></label>
+        <name>Name_of_Boat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Agency --></label>
+        <name>Previous_Agency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous End --></label>
+        <name>Previous_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Foster Parent State --></label>
+        <name>Previous_Foster_Parent_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Foster Parent --></label>
+        <name>Previous_Foster_Parent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Start --></label>
+        <name>Previous_Start__c</name>
+    </fields>
+    <fields>
+        <label>سبب الدخول</label>
+        <name>PublicSector__AccessReason__c</name>
+        <picklistValues>
+            <masterLabel>Conference</masterLabel>
+            <translation><!-- Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meetings</masterLabel>
+            <translation><!-- Meetings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shift Work</masterLabel>
+            <translation><!-- Shift Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>تفاصيل الموقع الإضافية</label>
+        <name>PublicSector__AdditionalLocationDetails__c</name>
+    </fields>
+    <fields>
+        <label>العمل أو الدور المهني</label>
+        <name>PublicSector__BusinessOrOccupationRole__c</name>
+        <picklistValues>
+            <masterLabel>Airline Operations</masterLabel>
+            <translation><!-- Airline Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Border Protection and Transportation Security</masterLabel>
+            <translation><!-- Border Protection and Transportation Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Traveler</masterLabel>
+            <translation><!-- Business Traveler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correctional Facility Operations</masterLabel>
+            <translation><!-- Correctional Facility Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dentistry</masterLabel>
+            <translation><!-- Dentistry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Response and Public Safety</masterLabel>
+            <translation><!-- Emergency Response and Public Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental or Janitorial  Services</masterLabel>
+            <translation><!-- Environmental or Janitorial  Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farmworker</masterLabel>
+            <translation><!-- Farmworker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Preparation</masterLabel>
+            <translation><!-- Food Preparation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare</masterLabel>
+            <translation><!-- Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Home Repair Services</masterLabel>
+            <translation><!-- In-Home Repair Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laboratory</masterLabel>
+            <translation><!-- Laboratory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meat and Poultry Processing</masterLabel>
+            <translation><!-- Meat and Poultry Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office Worker</masterLabel>
+            <translation><!-- Office Worker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postmortem Care</masterLabel>
+            <translation><!-- Postmortem Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Operations</masterLabel>
+            <translation><!-- Retail Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solid Waste or Wastewater Management</masterLabel>
+            <translation><!-- Solid Waste or Wastewater Management --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>التفاصيل</label>
+        <name>PublicSector__Details__c</name>
+    </fields>
+    <fields>
+        <label>دخول متكرر</label>
+        <name>PublicSector__FrequencyofAccess__c</name>
+        <picklistValues>
+            <masterLabel>Ongoing Shift Work</masterLabel>
+            <translation><!-- Ongoing Shift Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Visit</masterLabel>
+            <translation><!-- Single Visit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>عنوان الموقع</label>
+        <name>PublicSector__LocationAddress__c</name>
+        <relationshipLabel>الطلبات الفردية</relationshipLabel>
+    </fields>
+    <fields>
+        <label>اسم مسؤول اتصال الموقع</label>
+        <name>PublicSector__LocationContactName__c</name>
+    </fields>
+    <fields>
+        <label>هاتف مسؤول اتصال الموقع</label>
+        <name>PublicSector__LocationContactPhone__c</name>
+    </fields>
+    <fields>
+        <label>عنوان مسؤول اتصال الموقع</label>
+        <name>PublicSector__LocationContactTitle__c</name>
+    </fields>
+    <fields>
+        <label>اسم المؤسسة</label>
+        <name>PublicSector__OrganizationName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Role of the applicant --></help>
+        <label>الدور</label>
+        <name>PublicSector__Role__c</name>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation><!-- Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visitor</masterLabel>
+            <translation><!-- Visitor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Purchase Date --></label>
+        <name>Purchase_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Price --></label>
+        <name>Purchase_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Questions/Comments --></label>
+        <name>Questions_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral Source --></label>
+        <name>Referral_Source__c</name>
+        <picklistValues>
+            <masterLabel>Community Event</masterLabel>
+            <translation><!-- Community Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friend</masterLabel>
+            <translation><!-- Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newspaper</masterLabel>
+            <translation><!-- Newspaper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online</masterLabel>
+            <translation><!-- Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radio</masterLabel>
+            <translation><!-- Radio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TV</masterLabel>
+            <translation><!-- TV --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Budget --></label>
+        <name>Total_Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Care --></label>
+        <name>Type_of_Care__c</name>
+        <picklistValues>
+            <masterLabel>Adoption</masterLabel>
+            <translation><!-- Adoption --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adoptive Care</masterLabel>
+            <translation><!-- Adoptive Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relative Care</masterLabel>
+            <translation><!-- Relative Care --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type of Fuel Used --></label>
+        <name>Type_of_Fuel_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of License --></label>
+        <name>Type_of_License__c</name>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Therapuetic</masterLabel>
+            <translation><!-- Therapuetic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Interest Reason --></label>
+        <name>Why_Interested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year Built --></label>
+        <name>Year_Built__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hull ID Number --></label>
+        <name>gps_Hull_ID_Number__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- For Benefits Assignments ex (Heating Assistance) --></description>
+        <label><!-- Benefits --></label>
+        <name>Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Grantmaking --></label>
+        <name>Grantmaking</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For LPI related IAs --></description>
+        <label><!-- Individual Application --></label>
+        <name>Individual_Application</name>
+    </recordTypes>
+    <recordTypes>
+        <label>طلب الطوارئ</label>
+        <name>PublicSector__Emergency_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>طلب تصريح الدخول إلى الموقع</label>
+        <name>PublicSector__Location_Access_Permit_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>شهادة التدريب</label>
+        <name>PublicSector__Training_Certificate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Social Insurance --></label>
+        <name>Social_Insurance</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- gps_Assign_Reviews --></label>
+        <name>gps_Assign_Reviews</name>
+    </webLinks>
+</CustomObjectTranslation>

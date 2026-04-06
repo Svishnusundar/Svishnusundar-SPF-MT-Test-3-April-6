@@ -1,7 +1,3 @@
 [
-    "DataRaptor/PSSDRFetchNotImportantFieldsName1",
-    "DataRaptor/PSSFetchIncomeFromPartyIncomeId1",
-    "DataRaptor/PSSFetchPartyIncome1",
-    "DataRaptor/PSSGetParentIA1",
     "IntegrationProcedure/BenefitManagement_FetchApplicationSummaryInformation"
 ]

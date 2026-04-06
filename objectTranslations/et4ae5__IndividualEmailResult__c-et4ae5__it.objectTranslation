@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Risultato delle email individuali</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Risultati delle email individuali</value>
+    </caseValues>
+    <fields>
+        <label>BatchID</label>
+        <name>et4ae5__BatchId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Member ID --></label>
+        <name>et4ae5__CampaignMemberId__c</name>
+    </fields>
+    <fields>
+        <label>Cliccati</label>
+        <name>et4ae5__Clicked__c</name>
+    </fields>
+    <fields>
+        <label>ID referente</label>
+        <name>et4ae5__Contact_ID__c</name>
+    </fields>
+    <fields>
+        <label>Referente</label>
+        <name>et4ae5__Contact__c</name>
+        <relationshipLabel>Risultati delle email individuali</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID tracking DM</label>
+        <name>et4ae5__DMTrackingId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date and time when this subscriber&apos;s email address bounced --></help>
+        <label>Data del bounce</label>
+        <name>et4ae5__DateBounced__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date and time when the subscriber opened the email --></help>
+        <label>Data di apertura</label>
+        <name>et4ae5__DateOpened__c</name>
+    </fields>
+    <fields>
+        <label>Data di invio</label>
+        <name>et4ae5__DateSent__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date and time when the subscriber unsubscribed --></help>
+        <label>Data di annullamento iscrizione</label>
+        <name>et4ae5__DateUnsubscribed__c</name>
+    </fields>
+    <fields>
+        <label>ID asset email</label>
+        <name>et4ae5__Email_Asset_ID__c</name>
+    </fields>
+    <fields>
+        <label>ID email</label>
+        <name>et4ae5__Email_ID__c</name>
+    </fields>
+    <fields>
+        <label>Email</label>
+        <name>et4ae5__Email__c</name>
+    </fields>
+    <fields>
+        <label>Indirizzo mittente</label>
+        <name>et4ae5__FromAddress__c</name>
+    </fields>
+    <fields>
+        <label>Nome mittente</label>
+        <name>et4ae5__FromName__c</name>
+    </fields>
+    <fields>
+        <help><!-- The email sent to this subscriber  was rejected due to permanent conditions (this typically results when &quot;user unknown&quot; or &quot;domain not found&quot; errors occur) --></help>
+        <label>Hard bounce</label>
+        <name>et4ae5__HardBounce__c</name>
+    </fields>
+    <fields>
+        <label>JobID</label>
+        <name>et4ae5__JobId__c</name>
+    </fields>
+    <fields>
+        <label>ID lead</label>
+        <name>et4ae5__Lead_ID__c</name>
+    </fields>
+    <fields>
+        <label>Lead</label>
+        <name>et4ae5__Lead__c</name>
+        <relationshipLabel>Risultati delle email individuali</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ListID</label>
+        <name>et4ae5__ListId__c</name>
+    </fields>
+    <fields>
+        <label>ID unione</label>
+        <name>et4ae5__MergeId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The total number of times this subscriber clicked on the links on this email --></help>
+        <label>Numero di clic totali</label>
+        <name>et4ae5__NumberOfTotalClicks__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the value is 0, the individual subscriber didn&apos;t click links in the email. If the value is 1, the individual subscriber clicked links in the email. --></help>
+        <label>Collegamenti cliccati</label>
+        <name>et4ae5__NumberOfUniqueClicks__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether the subscriber opened the email or not --></help>
+        <label>Aperti</label>
+        <name>et4ae5__Opened__c</name>
+    </fields>
+    <fields>
+        <help><!-- The unique identifier of the email send. You may be asked to reference this number when calling Marketing Cloud support if the need arises. --></help>
+        <label>Definizione di invio</label>
+        <name>et4ae5__SendDefinition__c</name>
+        <relationshipLabel>Risultati delle email individuali</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The email sent was rejected due to a seemingly temporary condition, such as a full inbox, after the system retries unsuccessfully to send the email every 15 minutes for 72 hours. A subscriber will be set to Held status after three soft bounces --></help>
+        <label>Soft bounce</label>
+        <name>et4ae5__SoftBounce__c</name>
+    </fields>
+    <fields>
+        <label>Riga dell&apos;oggetto</label>
+        <name>et4ae5__SubjectLine__c</name>
+    </fields>
+    <fields>
+        <label>SubscriberID</label>
+        <name>et4ae5__SubscriberId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date and time the last tracking update was received by Salesforce --></help>
+        <label>Tracking al</label>
+        <name>et4ae5__Tracking_As_Of__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this email was automatically generated by a Triggered Send, the name of the Triggered Send that generated the email will be displayed here. --></help>
+        <label>Nome di invio con trigger</label>
+        <name>et4ae5__TriggeredSendDefinitionName__c</name>
+    </fields>
+    <fields>
+        <label>Invio con trigger</label>
+        <name>et4ae5__TriggeredSendDefinition__c</name>
+        <relationshipLabel>Risultati delle email individuali</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome email</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>È necessario assegnare a un Risultato delle email individuali un Invio email o una Definizione di invio con trigger (ma non entrambi).</errorMessage>
+        <name>et4ae5__Prevent_Email_and_Triggered_Send_link</name>
+    </validationRules>
+    <webLinks>
+        <label>Richiedi tracking immediatamente</label>
+        <name>et4ae5__Request_Tracking_Immediately</name>
+    </webLinks>
+</CustomObjectTranslation>

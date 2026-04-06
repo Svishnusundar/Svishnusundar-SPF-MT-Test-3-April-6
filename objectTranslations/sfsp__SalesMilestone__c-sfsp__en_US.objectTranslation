@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sales Milestone</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sales Milestones</value>
+    </caseValues>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>sfsp__CompletedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>sfsp__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>sfsp__DueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>sfsp__Owner__c</name>
+        <relationshipLabel><!-- Sales Milestones --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Segment --></label>
+        <name>sfsp__Segment__c</name>
+        <relationshipLabel><!-- Sales Node Milestones --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>sfsp__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

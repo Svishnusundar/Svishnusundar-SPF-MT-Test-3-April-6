@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CheckOutDate__c</fullName>
+        <label>Check Out Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CheckOutDistanceFromRecordMi__c</fullName>
+        <externalId>false</externalId>
+        <label>Check Out Distance From Record (mi)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CreatedDate__c</fullName>
+        <label>Created Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DB_Days__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>This is used by the &quot;Perfect Date Wizard&quot; SE tool to adjust the Due Date on a task or event.</description>
+        <externalId>false</externalId>
+        <label>DB Days</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DistanceFromRecordMi__c</fullName>
+        <externalId>false</externalId>
+        <label>Distance from Record (mi)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>This is used to consistently import data to a version of the SDO and translate data into other languages.</description>
+        <externalId>true</externalId>
+        <label>External ID</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>FSL__Count_of_Events__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Count of all events</description>
+        <externalId>false</externalId>
+        <formula>IF( IsTask,0,1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Count of all events</inlineHelpText>
+        <label>Count of Events</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSL__Count_of_Tasks__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF( IsTask,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Count of Tasks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FSL__Event_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Event Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Service Appointment</fullName>
+                    <default>false</default>
+                    <label>Service Appointment</label>
+                </value>
+                <value>
+                    <fullName>Resource Absence</fullName>
+                    <default>false</default>
+                    <label>Resource Absence</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LastModifiedDate__c</fullName>
+        <label>Last Modified Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SDO_MAPS_Check_Out_Latitude__c</fullName>
+        <description>SDO MAPS Activity Latitude field for capturing Task/Event location details 02-06-23</description>
+        <externalId>false</externalId>
+        <label>Check Out Latitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>15</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SDO_MAPS_Check_Out_Longitude__c</fullName>
+        <description>SDO MAPS Activity Longitude field for capturing Task/Event location details 02-06-23</description>
+        <externalId>false</externalId>
+        <label>Check Out Longitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>15</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SDO_MAPS_Created_Latitude__c</fullName>
+        <description>SDO MAPS check in/out created location field 02-02-23 AB</description>
+        <externalId>false</externalId>
+        <label>Created Latitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>15</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SDO_MAPS_Created_Longitude__c</fullName>
+        <description>SDO MAPS check-in/out created location field 02-02-23 AB</description>
+        <externalId>false</externalId>
+        <label>Created Longitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>15</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SDO_MAPS_Follow_Up_Needed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Follow Up Needed?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SDO_MAPS_How_Did_It_Go__c</fullName>
+        <label>How Did It Go?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Great</fullName>
+                    <default>false</default>
+                    <label>Great</label>
+                </value>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Fair</fullName>
+                    <default>false</default>
+                    <label>Fair</label>
+                </value>
+                <value>
+                    <fullName>Poor</fullName>
+                    <default>false</default>
+                    <label>Poor</label>
+                </value>
+                <value>
+                    <fullName>Horrible</fullName>
+                    <default>false</default>
+                    <label>Horrible</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SDO_MAPS_What_Did_I_Do__c</fullName>
+        <label>What Did I Do?</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sales Call</fullName>
+                    <default>false</default>
+                    <label>Sales Call</label>
+                </value>
+                <value>
+                    <fullName>Service Appointment</fullName>
+                    <default>false</default>
+                    <label>Service Appointment</label>
+                </value>
+                <value>
+                    <fullName>Training/Product Demo</fullName>
+                    <default>false</default>
+                    <label>Training/Product Demo</label>
+                </value>
+                <value>
+                    <fullName>Regular Cadence Meeting</fullName>
+                    <default>false</default>
+                    <label>Regular Cadence Meeting</label>
+                </value>
+                <value>
+                    <fullName>Introduction Call</fullName>
+                    <default>false</default>
+                    <label>Introduction Call</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SDO_MAPS_What_Did_I_Show__c</fullName>
+        <label>What Did I Show?</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product A</fullName>
+                    <default>false</default>
+                    <label>Product A</label>
+                </value>
+                <value>
+                    <fullName>Product B</fullName>
+                    <default>false</default>
+                    <label>Product B</label>
+                </value>
+                <value>
+                    <fullName>Product C</fullName>
+                    <default>false</default>
+                    <label>Product C</label>
+                </value>
+                <value>
+                    <fullName>Product D</fullName>
+                    <default>false</default>
+                    <label>Product D</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SDO_MAPS_Who_Did_I_Meet_With__c</fullName>
+        <externalId>false</externalId>
+        <label>Who Did I Meet With?</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SDO_Maps_Safety_Checklist_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>What: Used in the Safety Checklist Flow. Who: Dylan Friddle &amp; Aaron Bendickson. When: Aug 30,2021</description>
+        <label>Safety Checklist Completed</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Time_On_Site_Minutes__c</fullName>
+        <description>Added May 2021 to support the Salesforce Maps Dashboards.</description>
+        <externalId>false</externalId>
+        <label>Time On Site (Minutes)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <description>This custom field is required to expose the Activity Type field to reporting.  It is updated automatically by a trigger called &quot;qbranch_activity_type_update&quot;.</description>
+        <label>Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Call</fullName>
+                    <default>true</default>
+                    <label>Call</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Meeting</fullName>
+                    <default>false</default>
+                    <label>Meeting</label>
+                </value>
+                <value>
+                    <fullName>Prep</fullName>
+                    <default>false</default>
+                    <label>Prep</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>analyticsdemo_batch_id__c</fullName>
+        <description>What: Used by the Analytics Demo Data Tool. Do Not Remove.</description>
+        <externalId>false</externalId>
+        <label>analyticsdemo_batch_id__c</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Calendar_Background_Color__c</fullName>
+        <defaultValue>&quot;Blue&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>CSS color code for event background color in calendar view</description>
+        <externalId>false</externalId>
+        <inlineHelpText>CSS color code for event background color in calendar view</inlineHelpText>
+        <label>Calendar Background Color</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Calendar_Border_Color__c</fullName>
+        <defaultValue>&quot;Blue&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>CSS color code for event border color in calendar view</description>
+        <externalId>false</externalId>
+        <inlineHelpText>CSS color code for event border color in calendar view</inlineHelpText>
+        <label>Calendar Border Color</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Calendar_Rendering__c</fullName>
+        <defaultValue>&quot;Normal&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Mode to render event with on Calendar: The rendering type of this event. Can be empty (normal rendering), &quot;background&quot;, or &quot;inverse-background&quot;</description>
+        <inlineHelpText>Mode to render event with on Calendar: The rendering type of this event. Can be empty (normal rendering), &quot;background&quot;, or &quot;inverse-background&quot;</inlineHelpText>
+        <label>Calendar Rendering</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Normal</fullName>
+                    <default>true</default>
+                    <label>Normal</label>
+                </value>
+                <value>
+                    <fullName>Background</fullName>
+                    <default>false</default>
+                    <label>Background</label>
+                </value>
+                <value>
+                    <fullName>Inverse-Background</fullName>
+                    <default>false</default>
+                    <label>Inverse-Background</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Calendar_Text_Color__c</fullName>
+        <defaultValue>&quot;White&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>CSS color code for event text color in calendar view</description>
+        <externalId>false</externalId>
+        <inlineHelpText>CSS color code for event text color in calendar view</inlineHelpText>
+        <label>Calendar Text Color</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Display_Events_Local_Timezone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check to display event&apos;s local timezone in event details</description>
+        <inlineHelpText>Check to display event&apos;s local timezone in event details</inlineHelpText>
+        <label>Display Event&apos;s Local Timezone</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Event_Icon_Name__c</fullName>
+        <defaultValue>&quot;utility:events&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>SLDS icon name for the event, from http://www.lightningdesignsystem.com/icons/. Example: utility:events</description>
+        <externalId>false</externalId>
+        <inlineHelpText>SLDS icon name for the event, from http://www.lightningdesignsystem.com/icons/. Example: utility:events</inlineHelpText>
+        <label>Event Icon Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Event_URL_2_Open_in_Same_Tab__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Event URL 2 Open in Same Tab</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Event_URL_2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Button link on Event</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Button link on Event</inlineHelpText>
+        <label>Event URL 2</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Event_URL_Open_in_Same_Tab__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Event URL Open in Same Tab</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Event_URL_Text_2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Text to display on button linking to event URL field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Text to display on button linking to event URL field</inlineHelpText>
+        <label>Event URL Text 2</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Event_URL_Text__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Text to display on button linking to event URL field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Text to display on button linking to event URL field</inlineHelpText>
+        <label>Event URL Text</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Event_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Button link on Event</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Button link on Event</inlineHelpText>
+        <label>Event URL</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Image_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <description>URL for Event Image, to be used for Tile Display</description>
+        <externalId>false</externalId>
+        <inlineHelpText>URL for Event Image, to be used for Tile Display</inlineHelpText>
+        <label>Image URL</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cccalendar__Local_Timezone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specify event&apos;s local timezone. Required if Display event&apos;s local timezone is checked</description>
+        <inlineHelpText>Specify event&apos;s local timezone. Required if Display event&apos;s local timezone is checked</inlineHelpText>
+        <label>Local Timezone</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>cccalendar__IANA_Timezones</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>db_days_ActivityDate__c</fullName>
+        <description>This is for the Perfect Date Wizard Tool (v2)</description>
+        <externalId>false</externalId>
+        <label>ActivityDate db days</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>db_hours_ActivityDateTime__c</fullName>
+        <description>This is for the Perfect Date Wizard Tool (v2)</description>
+        <externalId>false</externalId>
+        <label>ActivityDateTime db hours</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>db_hours_CheckOutDate__c</fullName>
+        <description>This is for the Perfect Date Wizard Tool (v2)</description>
+        <externalId>false</externalId>
+        <label>CheckOutDate__c db hours</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>db_hours_EndDateTime__c</fullName>
+        <description>This is for the Perfect Date Wizard Tool (v2)</description>
+        <externalId>false</externalId>
+        <label>EndDateTime db hours</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>db_hours_RecurrenceStartDateTime__c</fullName>
+        <description>This is for the Perfect Date Wizard Tool (v2)</description>
+        <externalId>false</externalId>
+        <label>RecurrenceStartDateTime db hours</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>db_hours_ReminderDateTime__c</fullName>
+        <description>This is for the Perfect Date Wizard Tool (v2)</description>
+        <externalId>false</externalId>
+        <label>ReminderDateTime db hours</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>db_hours_StartDateTime__c</fullName>
+        <description>This is for the Perfect Date Wizard Tool (v2)</description>
+        <externalId>false</externalId>
+        <label>StartDateTime db hours</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>maps__BaseObjectId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Maps Base Object</label>
+        <referenceTo>maps__BaseObject__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>BaseObjectIds</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>maps__LayerId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Layer Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>maps__WA_AdvRouteWaypoint__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This is the default lookup to associate the Advanced Route Waypoint</description>
+        <label>Maps Advanced Route Waypoint</label>
+        <referenceTo>maps__AdvRouteWaypoint__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>MyActivities</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDelegatedActivities</fullName>
+        <filterScope>Delegated</filterScope>
+        <label>My Delegated Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>My Team&apos;s Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysTasks</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Today&apos;s Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>UpcomingEvents</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>Upcoming Events</label>
+    </listViews>
+    <searchLayouts>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

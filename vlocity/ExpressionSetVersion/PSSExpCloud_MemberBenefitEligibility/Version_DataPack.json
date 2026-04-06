@@ -1,10 +1,10 @@
 {
     "%vlocity_namespace%__GlobalKey__c": "PSSExpCloud_MemberBenefitEligibility",
-    "CalculationProcedure.Name": "PSSExpCloud_MemberBenefitEligibility 2",
+    "CalculationProcedure.Name": "PSSExpCloud_MemberBenefitEligibility",
     "CalculationProcedureId": {
-        "Name": "PSSExpCloud_MemberBenefitEligibility 2",
+        "Name": "PSSExpCloud_MemberBenefitEligibility",
         "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
-        "VlocityLookupRecordSourceKey": "CalculationProcedure/PSSExpCloud_MemberBenefitEligibility 2",
+        "VlocityLookupRecordSourceKey": "CalculationProcedure/PSSExpCloud_MemberBenefitEligibility",
         "VlocityRecordSObjectType": "CalculationProcedure"
     },
     "Constants": "",
@@ -21,9 +21,9 @@
     "Name": "PSSExpCloud_MemberBenefitEligibility",
     "Namespace": "",
     "Rank": 1,
-    "StartDateTime": "2023-05-24T00:00:00.000Z",
+    "StartDateTime": "2023-01-02T01:00:00.000Z",
     "VersionNumber": 1,
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "CalculationProcedureVersion",
-    "VlocityRecordSourceKey": "CalculationProcedureVersion/1/CalculationProcedure/PSSExpCloud_MemberBenefitEligibility 2"
+    "VlocityRecordSourceKey": "CalculationProcedureVersion/1/CalculationProcedure/PSSExpCloud_MemberBenefitEligibility"
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Територия на настройката на потребителя</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Територии на настройката на потребителя</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Територия на обслужване</label>
+        <name>FSL__Service_Territory__c</name>
+        <relationshipLabel>Потребителски настройки</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Потребителска настройка</label>
+        <name>FSL__User_Setting__c</name>
+        <relationshipLabel>Територии</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Име на територията на потребителската на</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Settings for configuring the Key Metrics LWC. The LWC sits on a Lightning Record Page and displays up to four key metrics in nicely displayed cards with dynamic rendering. As records are updated, metrics cards are updated in real time.</description>
+    <fields>
+        <fullName>Card_Format__c</fullName>
+        <description>Displays cards across the layout either in a 1, 2, 3, or 4-up configuration.</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>It is recommended for smaller devices to use the 1-up or 2-Up configuration</inlineHelpText>
+        <label>Card Format</label>
+        <required>true</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>true</default>
+                    <label>1-Up</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2-Up</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3-Up</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4-Up</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Currency_Format__c</fullName>
+        <description>Used to configure the currency-display-as of the formatted number base component for currency metrics</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Will render as follows: symbol: $, Code: USD, Name: US dollars</inlineHelpText>
+        <label>Currency Format</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>symbol</fullName>
+                    <default>true</default>
+                    <label>symbol</label>
+                </value>
+                <value>
+                    <fullName>code</fullName>
+                    <default>false</default>
+                    <label>code</label>
+                </value>
+                <value>
+                    <fullName>name</fullName>
+                    <default>false</default>
+                    <label>name</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Currency_Notation__c</fullName>
+        <description>Based on Intl.NumberFormat() javascript object standard values to determine how numbers are rendered</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>E.g. &quot;standard&quot; = $3,500,000; &quot;compact&quot; = $3.5M</inlineHelpText>
+        <label>Currency Notation</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>standard</fullName>
+                    <default>true</default>
+                    <label>standard</label>
+                </value>
+                <value>
+                    <fullName>compact</fullName>
+                    <default>false</default>
+                    <label>compact</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date_Day_Format__c</fullName>
+        <description>Determines the length of day values in dates being rendered</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>&apos;numeric&apos; will drop leading zeros. Visit http://sfdc.co/date-component for more details.</inlineHelpText>
+        <label>Date Day Format</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>numeric</fullName>
+                    <default>true</default>
+                    <label>numeric</label>
+                </value>
+                <value>
+                    <fullName>2-digit</fullName>
+                    <default>false</default>
+                    <label>2-digit</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date_Month_Format__c</fullName>
+        <description>Determines the length of month values in dates being rendered</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>For options, in order, will display the following: 1, 01, J, Jan, January. Visit http://sfdc.co/date-component for more details.</inlineHelpText>
+        <label>Date Month Format</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>numeric</fullName>
+                    <default>true</default>
+                    <label>numeric</label>
+                </value>
+                <value>
+                    <fullName>2-digit</fullName>
+                    <default>false</default>
+                    <label>2-digit</label>
+                </value>
+                <value>
+                    <fullName>narrow</fullName>
+                    <default>false</default>
+                    <label>narrow</label>
+                </value>
+                <value>
+                    <fullName>short</fullName>
+                    <default>false</default>
+                    <label>short</label>
+                </value>
+                <value>
+                    <fullName>long</fullName>
+                    <default>false</default>
+                    <label>long</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date_Weekday_Format__c</fullName>
+        <description>Determines the length of the weekday values in dates being rendered, if at all</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>For options, in order, will display the following: M, Mon, Monday. Visit http://sfdc.co/date-component for more details.</inlineHelpText>
+        <label>Date Weekday Format</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>narrow</fullName>
+                    <default>false</default>
+                    <label>narrow</label>
+                </value>
+                <value>
+                    <fullName>short</fullName>
+                    <default>false</default>
+                    <label>short</label>
+                </value>
+                <value>
+                    <fullName>long</fullName>
+                    <default>false</default>
+                    <label>long</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date_Year_Format__c</fullName>
+        <description>Determines the length of year values in dates being rendered</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>&apos;numeric&apos; will display the entire year (e.g. 2024). Visit http://sfdc.co/date-component for more details.</inlineHelpText>
+        <label>Date Year Format</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>numeric</fullName>
+                    <default>true</default>
+                    <label>numeric</label>
+                </value>
+                <value>
+                    <fullName>2-digit</fullName>
+                    <default>false</default>
+                    <label>2-digit</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Metric_1_API_Name__c</fullName>
+        <description>API Name of the field on the object for metric 1</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metric 1 API Name</label>
+        <length>50</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Metric_1_Format__c</fullName>
+        <description>Determines how the metric will be formatted on the LWC</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metric 1 Format</label>
+        <required>true</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>decimal</fullName>
+                    <default>true</default>
+                    <label>decimal</label>
+                </value>
+                <value>
+                    <fullName>currency</fullName>
+                    <default>false</default>
+                    <label>currency</label>
+                </value>
+                <value>
+                    <fullName>percent</fullName>
+                    <default>false</default>
+                    <label>percent</label>
+                </value>
+                <value>
+                    <fullName>date</fullName>
+                    <default>false</default>
+                    <label>date</label>
+                </value>
+                <value>
+                    <fullName>text</fullName>
+                    <default>false</default>
+                    <label>text</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Metric_1_Label__c</fullName>
+        <description>Label of the metric as you&apos;d like it displayed in the LWC</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metric 1 Label</label>
+        <length>50</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Metric_2_API_Name__c</fullName>
+        <description>API Name of the field on the object for metric 2</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metric 2 API Name</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Metric_2_Format__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metric 2 Format</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>decimal</fullName>
+                    <default>true</default>
+                    <label>decimal</label>
+                </value>
+                <value>
+                    <fullName>currency</fullName>
+                    <default>false</default>
+                    <label>currency</label>
+                </value>
+                <value>
+                    <fullName>percent</fullName>
+                    <default>false</default>
+                    <label>percent</label>
+                </value>
+                <value>
+                    <fullName>date</fullName>
+                    <default>false</default>
+                    <label>date</label>
+                </value>
+                <value>
+                    <fullName>text</fullName>
+                    <default>false</default>
+                    <label>text</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Metric_2_Label__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metric 2 Label</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Metric_3_API_Name__c</fullName>
+        <description>API Name of the field on the object for metric 3</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metric 3 API Name</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Metric_3_Format__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metric 3 Format</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>decimal</fullName>
+                    <default>true</default>
+                    <label>decimal</label>
+                </value>
+                <value>
+                    <fullName>currency</fullName>
+                    <default>false</default>
+                    <label>currency</label>
+                </value>
+                <value>
+                    <fullName>percent</fullName>
+                    <default>false</default>
+                    <label>percent</label>
+                </value>
+                <value>
+                    <fullName>date</fullName>
+                    <default>false</default>
+                    <label>date</label>
+                </value>
+                <value>
+                    <fullName>text</fullName>
+                    <default>false</default>
+                    <label>text</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Metric_3_Label__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metric 3 Label</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Metric_4_API_Name__c</fullName>
+        <description>API Name of the field on the object for metric 2</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metric 4 API Name</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Metric_4_Format__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metric 4 Format</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>decimal</fullName>
+                    <default>true</default>
+                    <label>decimal</label>
+                </value>
+                <value>
+                    <fullName>currency</fullName>
+                    <default>false</default>
+                    <label>currency</label>
+                </value>
+                <value>
+                    <fullName>percent</fullName>
+                    <default>false</default>
+                    <label>percent</label>
+                </value>
+                <value>
+                    <fullName>date</fullName>
+                    <default>false</default>
+                    <label>date</label>
+                </value>
+                <value>
+                    <fullName>text</fullName>
+                    <default>false</default>
+                    <label>text</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Metric_4_Label__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metric 4 Label</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_Notation__c</fullName>
+        <description>Based on Intl.NumberFormat() javascript object standard values to determine how numbers are rendered</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>E.g. &quot;standard&quot; = 3,500,000; &quot;scientific&quot; = 3.5E6; &quot;compact&quot; = 3.5M. Applies only to &apos;decimal&apos; metric formats</inlineHelpText>
+        <label>Number Notation</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>standard</fullName>
+                    <default>true</default>
+                    <label>standard</label>
+                </value>
+                <value>
+                    <fullName>scientific</fullName>
+                    <default>false</default>
+                    <label>scientific</label>
+                </value>
+                <value>
+                    <fullName>compact</fullName>
+                    <default>false</default>
+                    <label>compact</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Object_API_Name__c</fullName>
+        <description>Object API name of the record metrics</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>If using a custom object, include the __c suffix. E.g. My_Custom_Object__c</inlineHelpText>
+        <label>Object API Name</label>
+        <length>50</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Key Metrics Setting</label>
+    <pluralLabel>Key Metrics Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

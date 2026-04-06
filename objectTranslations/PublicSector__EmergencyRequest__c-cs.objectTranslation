@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Žádost v nouzové situaci</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Žádosti v nouzové situaci</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Žádost v nouzové situaci</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Žádosti v nouzové situaci</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Žádosti v nouzové situaci</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Žádostí v nouzové situaci</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Žádosti v nouzové situaci</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Žádostem v nouzové situaci</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Žádostí v nouzové situaci</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Žádostmi v nouzové situaci</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Žádosti v nouzové situaci</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Žádostech v nouzové situaci</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>PublicSector__Account__c</name>
+        <relationshipLabel><!-- Emergency Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Delivery Address --></label>
+        <name>PublicSector__Address__c</name>
+        <relationshipLabel><!-- Emergency Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Application --></label>
+        <name>PublicSector__BusinessApplication__c</name>
+        <relationshipLabel><!-- Emergency Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Address --></label>
+        <name>PublicSector__Contact_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Required --></label>
+        <name>PublicSector__DateRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Instructions --></label>
+        <name>PublicSector__DeliveryInstructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Health or Safety Concerns --></label>
+        <name>PublicSector__DeliverySafetyConcerns__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disinfectant Quantity --></label>
+        <name>PublicSector__DisinfectantQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Drop-Off Date --></label>
+        <name>PublicSector__DropOffDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>PublicSector__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Face Shields Quantity --></label>
+        <name>PublicSector__FaceShieldsQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gloves Quantity (Surgical or Exam) --></label>
+        <name>PublicSector__GlovesQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Safety or Protective Goggles Quantity --></label>
+        <name>PublicSector__GogglesQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gowns Quantity(Surgical or Exam) --></label>
+        <name>PublicSector__GownsQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hand Sanitizer Quantity --></label>
+        <name>PublicSector__HandSanitizerQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Application --></label>
+        <name>PublicSector__IndividualApplication__c</name>
+        <relationshipLabel><!-- Emergency Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Drop-Off Donation --></label>
+        <name>PublicSector__IsDropOffDonation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Masks Quantity (Surgical or Exam) --></label>
+        <name>PublicSector__MasksQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization Address --></label>
+        <name>PublicSector__OrganizationAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization Name --></label>
+        <name>PublicSector__OrganizationName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization Type --></label>
+        <name>PublicSector__OrganizationType__c</name>
+        <picklistValues>
+            <masterLabel>Acute Psychiatric Hospital (APH)</masterLabel>
+            <translation>Akutní psychiatrická léčebna (APH)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adult Day Health Care (ADHC)</masterLabel>
+            <translation>Běžná péče o zdraví dospělých (ADHC)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ambulatory Surgical Center (ASC)</masterLabel>
+            <translation>Ambulantní chirurgické centrum (ASC)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Dependency Recovery Hospital (CDRH)</masterLabel>
+            <translation>Odvykací léčebna (CDRH)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chronic Dialysis Clinic (CDC)</masterLabel>
+            <translation>Klinika pro chronickou dialýzu (CDC)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congregate Living Health Facility (CLHF)</masterLabel>
+            <translation>Zdravotnické zařízení se společným bydlením (CLHF)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End Stage Renal Dialysis (CDC/ESRD)</masterLabel>
+            <translation>Renální dialýza ve finální fázi (CDC/ESRD)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Acute Care Hospital (GACH)</masterLabel>
+            <translation>Obecná akutní nemocniční péče (GACH)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Health Agency (HHA)</masterLabel>
+            <translation>Agentura péče o zdraví v domácnosti (HHA)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospice Facility (HOFA)</masterLabel>
+            <translation>Hospic (HOFA)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate Care Facility (ICF)</masterLabel>
+            <translation>Zařízení na zprostředkování péče (ICF)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Jiné</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pediatric Day Health &amp; Respite Care Facility (PDHRC)</masterLabel>
+            <translation>Zařízení pediatrické denní a respitní péče (PDHRC)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Care Clinic (PCC)</masterLabel>
+            <translation>Klinika primární péče (PCC)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skilled Nursing Facility (SNF)</masterLabel>
+            <translation>Zařízení poskytující kvalifikovanou péčí (SNF)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgical Clinic (SURGC)</masterLabel>
+            <translation>Chirurgická klinika (SURGC)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>PublicSector__Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pick-Up Date --></label>
+        <name>PublicSector__PickUpDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact Name --></label>
+        <name>PublicSector__PrimaryContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact Phone --></label>
+        <name>PublicSector__PrimaryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact Title --></label>
+        <name>PublicSector__PrimaryContactTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Details --></label>
+        <name>PublicSector__RequestDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Reason --></label>
+        <name>PublicSector__RequestReason__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation>Handicapovaný</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elderly</masterLabel>
+            <translation>Starý</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homeless</masterLabel>
+            <translation>Bez domova</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isolated</masterLabel>
+            <translation>Izolovaný</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Jiné</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarantined</masterLabel>
+            <translation>V karanténě</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Length Of Stay --></label>
+        <name>PublicSector__RequestedLengthOfStay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Service --></label>
+        <name>PublicSector__RequestedService__c</name>
+        <picklistValues>
+            <masterLabel>Food Delivery</masterLabel>
+            <translation>Zajištění potravin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicine / Medical Supplies Delivery</masterLabel>
+            <translation>Zajištění léků/dodávek léků</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary Housing</masterLabel>
+            <translation>Dočasné ubytování</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Well-Being Check</masterLabel>
+            <translation>Kontrola blaha</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Start Date Of Stay --></label>
+        <name>PublicSector__RequestedStartDateOfStay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requestor Name --></label>
+        <name>PublicSector__RequestorName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Respirator Quantity (N95 Mask) --></label>
+        <name>PublicSector__RespiratorN95MaskQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Contact Name --></label>
+        <name>PublicSector__SecondaryContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Contact Phone --></label>
+        <name>PublicSector__SecondaryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Contact Title --></label>
+        <name>PublicSector__SecondaryContactTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>PublicSector__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ventilator Quantity --></label>
+        <name>PublicSector__VentilatorQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Viral Swabs Quantity --></label>
+        <name>PublicSector__ViralSwabsQuantity__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Žádost v nouzové situaci</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Emergency Assistance Request --></label>
+        <name>PublicSector__Emergency_Assistance_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Emergency Supplies Donation --></label>
+        <name>PublicSector__Emergency_Supplies_Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Emergency Supplies Request --></label>
+        <name>PublicSector__Emergency_Supplies_Request</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LPI Demo Scenario</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>LPI Demo Scenarios</value>
+    </caseValues>
+    <fields>
+        <label><!-- Demo Script --></label>
+        <name>Demo_Script__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Type --></label>
+        <name>Demo_Type__c</name>
+        <picklistValues>
+            <masterLabel>Grants</masterLabel>
+            <translation><!-- Grants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LPI</masterLabel>
+            <translation><!-- LPI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- OmniScript --></label>
+        <name>OmniScript__c</name>
+        <relationshipLabel><!-- LPI Demo Scenarios --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Personas --></label>
+        <name>Personas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Demo Script --></label>
+        <name>Secondary_Demo_Script__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Asset</masterLabel>
+            <translation><!-- Asset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation><!-- Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grants</masterLabel>
+            <translation><!-- Grants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Occupational</masterLabel>
+            <translation><!-- Occupational --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permit</masterLabel>
+            <translation><!-- Permit --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

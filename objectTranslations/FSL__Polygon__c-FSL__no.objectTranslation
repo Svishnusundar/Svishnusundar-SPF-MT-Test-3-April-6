@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Kartpolygonet</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Kartpolygon</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Kartpolygon</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Kartpolygonene</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Kartpolygoner</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Kartpolygoner</value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Farge</label>
+        <name>FSL__Color__c</name>
+    </fields>
+    <fields>
+        <label>Beskrivelse</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>KML-detaljer</label>
+        <name>FSL__KML__c</name>
+    </fields>
+    <fields>
+        <label>Største breddegrad</label>
+        <name>FSL__Ma_La__c</name>
+    </fields>
+    <fields>
+        <label>Største lengdegrad</label>
+        <name>FSL__Ma_Lo__c</name>
+    </fields>
+    <fields>
+        <label>Minste breddegrad</label>
+        <name>FSL__Mi_La__c</name>
+    </fields>
+    <fields>
+        <label>Minste lengdegrad</label>
+        <name>FSL__Mi_Lo__c</name>
+    </fields>
+    <fields>
+        <label>Tjenesteområde</label>
+        <name>FSL__Service_Territory__c</name>
+        <relationshipLabel>Polygoner</relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Navn på polygon</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Polygonfarge må være i heksadesimalt format: (for eksempel: #ffffff)</errorMessage>
+        <name>FSL__Polygon_Color_HEX_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

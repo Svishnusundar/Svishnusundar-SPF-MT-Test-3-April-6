@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Chính Sách Lên Lịch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Chính Sách Lên Lịch --></value>
+    </caseValues>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Chế Độ Thực Thi</label>
+        <name>FSL__Commit_Mode__c</name>
+        <picklistValues>
+            <masterLabel>AlwaysCommit</masterLabel>
+            <translation><!-- AlwaysCommit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollback</masterLabel>
+            <translation><!-- Rollback --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tối Ưu Hóa Trong Ngày</label>
+        <name>FSL__Daily_Optimization__c</name>
+    </fields>
+    <fields>
+        <label>Mô tả</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Chỉnh Sửa Các Trùng Lặp</label>
+        <name>FSL__Fix_Overlaps__c</name>
+    </fields>
+    <fields>
+        <label>Trọng Số Nhóm D.Vụ (Thí Điểm Đóng)</label>
+        <name>FSL__Service_Clustering_Weight__c</name>
+    </fields>
+    <fields>
+        <label>Trọng Số Ưu Tiên D.Vụ (Thí Điểm Đóng)</label>
+        <name>FSL__Service_Priority_Weight__c</name>
+    </fields>
+    <fields>
+        <label>Chế Độ Di Chuyển (Thí Điểm Đóng)</label>
+        <name>FSL__Travel_Mode__c</name>
+    </fields>
+    <nameFieldLabel>Tên Chính Sách Lên Lịch</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Trọng số đối tượng chính sách không được là số âm</errorMessage>
+        <name>FSL__Deny_Objectives_Negative_Weight</name>
+    </validationRules>
+    <webLinks>
+        <label>Sao Chép Chính Sách (không khuyến khích)</label>
+        <name>FSL__Deep_Clone</name>
+    </webLinks>
+    <webLinks>
+        <label>Đếm mục (không khuyến khích)</label>
+        <name>FSL__test2</name>
+    </webLinks>
+</CustomObjectTranslation>

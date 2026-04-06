@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchResultActionConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionReference>Referral_OutboundReferral_English_1</actionReference>
+    <actionScope>Global</actionScope>
+    <actionType>OmniScript</actionType>
+    <isAiAction>false</isAiAction>
+    <masterLabel>Create Referral</masterLabel>
+</SearchResultActionConfig>

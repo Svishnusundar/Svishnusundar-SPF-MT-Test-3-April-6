@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>モバイル送信</value>
+    </caseValues>
+    <fields>
+        <label>すべてのソース</label>
+        <name>et4ae5__AllSources__c</name>
+    </fields>
+    <fields>
+        <label>ワークフローのバックアップ日時</label>
+        <name>et4ae5__BackupWorkflow__c</name>
+    </fields>
+    <fields>
+        <help><!-- The percentage of bounces versus the emails that were sent --></help>
+        <label>バウンス率</label>
+        <name>et4ae5__Bounce_Rate_del__c</name>
+    </fields>
+    <fields>
+        <label>ビジネスユニット</label>
+        <name>et4ae5__Business_Unit__c</name>
+        <relationshipLabel>SMS 送信</relationshipLabel>
+    </fields>
+    <fields>
+        <label>保存されたビジネスユニット</label>
+        <name>et4ae5__Business_Unit_saved__c</name>
+    </fields>
+    <fields>
+        <label>キャンペーン</label>
+        <name>et4ae5__Campaign__c</name>
+        <relationshipLabel>SMS 送信</relationshipLabel>
+    </fields>
+    <fields>
+        <label>キャンペーン</label>
+        <name>et4ae5__Campaigns__c</name>
+    </fields>
+    <fields>
+        <help><!-- The percentage of unique clicks versus the emails that were sent (excluding bounces) --></help>
+        <label>クリックスルー率</label>
+        <name>et4ae5__Click_Through_Rate__c</name>
+    </fields>
+    <fields>
+        <label>取引先責任者</label>
+        <name>et4ae5__Contact__c</name>
+        <relationshipLabel>SMS 送信</relationshipLabel>
+    </fields>
+    <fields>
+        <label>対話 ID</label>
+        <name>et4ae5__ConversationId__c</name>
+    </fields>
+    <fields>
+        <label>対話 ID</label>
+        <name>et4ae5__ConversationId_old__c</name>
+    </fields>
+    <fields>
+        <label>国コード</label>
+        <name>et4ae5__Country_Code__c</name>
+    </fields>
+    <fields>
+        <label>作成日時</label>
+        <name>et4ae5__Created_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label>データエクステンション ID</label>
+        <name>et4ae5__DataExtensionId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date and time the send was actually sent by Marketing Cloud --></help>
+        <label>送信日</label>
+        <name>et4ae5__DateSent__c</name>
+    </fields>
+    <fields>
+        <label>購読者の重複を除去</label>
+        <name>et4ae5__DedupeSubscribers__c</name>
+    </fields>
+    <fields>
+        <help><!-- The percentage of emails that were successfully delivered versus the emails that bounced --></help>
+        <label>配信到達率</label>
+        <name>et4ae5__Deliverability_Rate__c</name>
+    </fields>
+    <fields>
+        <label>送信定義</label>
+        <name>et4ae5__ETSendDef__c</name>
+    </fields>
+    <fields>
+        <label>除外キャンペーン</label>
+        <name>et4ae5__ExclusionCampaign__c</name>
+        <relationshipLabel>除外された SMS 送信</relationshipLabel>
+    </fields>
+    <fields>
+        <label>除外リスト</label>
+        <name>et4ae5__ExclusionLists__c</name>
+    </fields>
+    <fields>
+        <label>除外キャンペーン</label>
+        <name>et4ae5__Exclusion_Campaigns__c</name>
+    </fields>
+    <fields>
+        <label>除外レポート</label>
+        <name>et4ae5__Exclusion_Reports__c</name>
+    </fields>
+    <fields>
+        <label>送信者アドレス</label>
+        <name>et4ae5__FromAddress__c</name>
+    </fields>
+    <fields>
+        <label>送信者メール</label>
+        <name>et4ae5__FromEmail__c</name>
+    </fields>
+    <fields>
+        <label>送信者名</label>
+        <name>et4ae5__FromName__c</name>
+    </fields>
+    <fields>
+        <label>キューに登録されました</label>
+        <name>et4ae5__HasBeenQueued__c</name>
+    </fields>
+    <fields>
+        <help><!-- This job was retried at some point in the process. A job will be mainly retried due to connectivity issues. --></help>
+        <label>再試行済み</label>
+        <name>et4ae5__HasEnteredRetry__c</name>
+    </fields>
+    <fields>
+        <label>開始日</label>
+        <name>et4ae5__InitiatedDate__c</name>
+    </fields>
+    <fields>
+        <label>ジョブ ID</label>
+        <name>et4ae5__JobId__c</name>
+    </fields>
+    <fields>
+        <label>ジョブ開始日</label>
+        <name>et4ae5__JobStarted__c</name>
+    </fields>
+    <fields>
+        <label>ジョブ状況</label>
+        <name>et4ae5__JobStatus__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>キーワード</label>
+        <name>et4ae5__Keyword__c</name>
+    </fields>
+    <fields>
+        <label>リード</label>
+        <name>et4ae5__Lead__c</name>
+        <relationshipLabel>SMS 送信</relationshipLabel>
+    </fields>
+    <fields>
+        <label>メンバー ID</label>
+        <name>et4ae5__MemberID__c</name>
+    </fields>
+    <fields>
+        <label>メッセージテキスト</label>
+        <name>et4ae5__Message_Text__c</name>
+    </fields>
+    <fields>
+        <label>メッセージ</label>
+        <name>et4ae5__Messages__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of subscribers who did not perform any action on the email (i.e.: did not click on any link) --></help>
+        <label>数がクリックされていません</label>
+        <name>et4ae5__NumberNotClicked__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of email messages sent. This value is the number of subscribers that were targeted for this send, minus any excluded subscribers. --></help>
+        <label>送信数</label>
+        <name>et4ae5__NumberSent__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of subscribers who unsubscribed from the send --></help>
+        <label>購読取り消し数</label>
+        <name>et4ae5__NumberUnsubscribed__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of email messages that bounced regardless of whether it was a soft or hard bounce --></help>
+        <label>バウンス数</label>
+        <name>et4ae5__Number_Bounced__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of email messages that did not bounce --></help>
+        <label>配信数</label>
+        <name>et4ae5__Number_Delivered__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of subscribers who did not open the email --></help>
+        <label>未開封数</label>
+        <name>et4ae5__Number_Not_Opened__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of subscribers to whom the message could not be delivered --></help>
+        <label>既存の配信不能数</label>
+        <name>et4ae5__NumberofExistingUndeliverables__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of subscribers who had unsubscribed or opted out prior to the time the email was sent --></help>
+        <label>既存の購読取り消し数</label>
+        <name>et4ae5__NumberofExistingUnsubscribes__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of email messages that were not delivered due to permanent errors --></help>
+        <label>ハードバウンス数</label>
+        <name>et4ae5__NumberofHardBounces__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of email messages that were not delivered due to non-permanent errors --></help>
+        <label>ソフトバウンス数</label>
+        <name>et4ae5__NumberofSoftBounces__c</name>
+    </fields>
+    <fields>
+        <help><!-- The total number of subscribers who clicked on the Forward link --></help>
+        <label>転送する購読者数</label>
+        <name>et4ae5__NumberofSubscribersForwardingEmail__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of actions taken on an email (i.e.: by clicking on any link). This value includes multiple actions by the same subscriber --></help>
+        <label>合計クリック数</label>
+        <name>et4ae5__NumberofTotalClicks__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of times the message was opened. This value includes multiple opens by the same subscriber. --></help>
+        <label>合計開封数</label>
+        <name>et4ae5__NumberofTotalOpens__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of subscribers who performed an action on the email (i.e.: by clicking on any link) --></help>
+        <label>一意のクリック数</label>
+        <name>et4ae5__NumberofUniqueClicks__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of unique email messages that were opened. This value includes only one open per subscriber. --></help>
+        <label>一意の開封数</label>
+        <name>et4ae5__NumberofUniqueOpens__c</name>
+    </fields>
+    <fields>
+        <help><!-- The percentage of emails that were opened versus the emails that were sent (excluding bounces) --></help>
+        <label>開封率</label>
+        <name>et4ae5__Open_Rate__c</name>
+    </fields>
+    <fields>
+        <label>オプトイン証明日時</label>
+        <name>et4ae5__Opt_in_Certification_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label>オプトイン証明ユーザー</label>
+        <name>et4ae5__Opt_in_Certification_User__c</name>
+        <relationshipLabel>SMS 送信</relationshipLabel>
+    </fields>
+    <fields>
+        <label>受信者のオプトイン登録</label>
+        <name>et4ae5__RecipientsOptedIn__c</name>
+    </fields>
+    <fields>
+        <label>レポート ID</label>
+        <name>et4ae5__ReportId__c</name>
+    </fields>
+    <fields>
+        <label>レポート名</label>
+        <name>et4ae5__ReportName__c</name>
+    </fields>
+    <fields>
+        <label>レポート</label>
+        <name>et4ae5__Reports__c</name>
+    </fields>
+    <fields>
+        <label>スケジュール日時</label>
+        <name>et4ae5__Scheduled_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label>送信分類 ID</label>
+        <name>et4ae5__SendClassificationId__c</name>
+    </fields>
+    <fields>
+        <label>送信状況</label>
+        <name>et4ae5__SendStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation><!-- Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>送信時間</label>
+        <name>et4ae5__SendTime__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Send Status indicates where in the process the send is. --></help>
+        <label>送信状況</label>
+        <name>et4ae5__Send_Status_View__c</name>
+    </fields>
+    <fields>
+        <label>送信者プロファイル ID</label>
+        <name>et4ae5__SenderProfileId__c</name>
+    </fields>
+    <fields>
+        <label>状況の日時</label>
+        <name>et4ae5__Status_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label>件名</label>
+        <name>et4ae5__Subject__c</name>
+    </fields>
+    <fields>
+        <label>購読者リスト ID</label>
+        <name>et4ae5__SubscriberListId__c</name>
+    </fields>
+    <fields>
+        <label>購読者リスト名</label>
+        <name>et4ae5__SubscriberListName__c</name>
+    </fields>
+    <fields>
+        <label>同期完了</label>
+        <name>et4ae5__SyncComplete__c</name>
+    </fields>
+    <fields>
+        <label>同期 ID</label>
+        <name>et4ae5__SyncId__c</name>
+    </fields>
+    <fields>
+        <label>サムネイル</label>
+        <name>et4ae5__Thumbnail__c</name>
+    </fields>
+    <fields>
+        <label>要求経過時間</label>
+        <name>et4ae5__TimeSinceRequest__c</name>
+    </fields>
+    <fields>
+        <label>トラッキング最終要求日</label>
+        <name>et4ae5__TrackingLastRequested__c</name>
+    </fields>
+    <fields>
+        <label>トラッキングのみ</label>
+        <name>et4ae5__TrackingOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date and time the last tracking update was received --></help>
+        <label>トラッキング日時</label>
+        <name>et4ae5__Tracking_As_Of__c</name>
+    </fields>
+    <fields>
+        <label>トリガー遅延送信</label>
+        <name>et4ae5__TriggerDelayedSend__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーの有効なビジネスユニット</label>
+        <name>et4ae5__UEBU__c</name>
+        <relationshipLabel>SMS 送信</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The percentage of subscribers who unsubscribed versus the emails that were sent (excluding bounces) --></help>
+        <label>購読取り消し率</label>
+        <name>et4ae5__Unsubscribe_Rate__c</name>
+    </fields>
+    <fields>
+        <label>ビジネスユニット</label>
+        <name>et4ae5__fBusiness_Unit__c</name>
+    </fields>
+    <fields>
+        <label>メッセージテキスト (廃止 5.31)</label>
+        <name>et4ae5__message__c</name>
+    </fields>
+    <fields>
+        <label>ショートコード</label>
+        <name>et4ae5__shortCode__c</name>
+    </fields>
+    <fields>
+        <label>メッセージ ID</label>
+        <name>et4ae5__smsId__c</name>
+    </fields>
+    <fields>
+        <label>メッセージ名</label>
+        <name>et4ae5__smsName__c</name>
+    </fields>
+    <nameFieldLabel>モバイル送信定義番号</nameFieldLabel>
+    <recordTypes>
+        <label>キューに登録済みの SMS 定義</label>
+        <name>et4ae5__Queued_SMS_Definition</name>
+    </recordTypes>
+    <recordTypes>
+        <label>SMS 定義</label>
+        <name>et4ae5__SMS_Definition</name>
+    </recordTypes>
+    <webLinks>
+        <label>モバイル送信をキャンセル</label>
+        <name>et4ae5__Cancel_Mobile_Send</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Правила за планиране</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Правила за планиране</value>
+    </caseValues>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Режим на фиксиране</label>
+        <name>FSL__Commit_Mode__c</name>
+        <picklistValues>
+            <masterLabel>AlwaysCommit</masterLabel>
+            <translation><!-- AlwaysCommit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollback</masterLabel>
+            <translation><!-- Rollback --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Дневна оптимизация</label>
+        <name>FSL__Daily_Optimization__c</name>
+    </fields>
+    <fields>
+        <label>Описание</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Коригиране на застъпвания</label>
+        <name>FSL__Fix_Overlaps__c</name>
+    </fields>
+    <fields>
+        <label>Тежест на клъстер. услуги (затв. пилот.)</label>
+        <name>FSL__Service_Clustering_Weight__c</name>
+    </fields>
+    <fields>
+        <label>Тежест приорит. на услуги (затв. пилот.)</label>
+        <name>FSL__Service_Priority_Weight__c</name>
+    </fields>
+    <fields>
+        <label>Режим на пътуване (затв. пилот.)</label>
+        <name>FSL__Travel_Mode__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Име на правилата за планиране</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Тежестта на целите на правилата не може да бъде отрицателна</errorMessage>
+        <name>FSL__Deny_Objectives_Negative_Weight</name>
+    </validationRules>
+    <webLinks>
+        <label>Дълбоко клониране (отхвърлено)</label>
+        <name>FSL__Deep_Clone</name>
+    </webLinks>
+    <webLinks>
+        <label>Брояч на елементи (отхвърлено)</label>
+        <name>FSL__test2</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Tähän vapaaehtoisprojektiin rekisteröityneiden vapaaehtoisten määrä. Tämä kenttä lasketaan automaattisesti.</help>
+        <label><!-- Volunteers Registered --></label>
+        <name>PublicSector__VolunteersRegistered__c</name>
+    </fields>
+    <fields>
+        <help>Tähän vapaaehtoisprojektiin edelleen tarvittavien vapaaehtoisten määrä. Tämä kenttä lasketaan automaattisesti.</help>
+        <label><!-- Volunteers Still Needed --></label>
+        <name>PublicSector__VolunteersStillNeeded__c</name>
+    </fields>
+</CustomObjectTranslation>

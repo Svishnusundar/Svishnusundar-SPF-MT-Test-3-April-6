@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Operasi FSL</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Operasi FSL</value>
+    </caseValues>
+    <fields>
+        <label>Selesai</label>
+        <name>FSL__Finished__c</name>
+    </fields>
+    <fields>
+        <label>Id Metode Masa Depan</label>
+        <name>FSL__Future_Method_Id__c</name>
+    </fields>
+    <fields>
+        <label>Inisiator</label>
+        <name>FSL__Initiator__c</name>
+        <relationshipLabel>Operasi FSL</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Jenis Permintaan</label>
+        <name>FSL__Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Appointment Booking</masterLabel>
+            <translation><!-- Appointment Booking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch</masterLabel>
+            <translation><!-- Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Candidates</masterLabel>
+            <translation><!-- Get Candidates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule</masterLabel>
+            <translation><!-- Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UnSchedule</masterLabel>
+            <translation><!-- UnSchedule --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Teks Hasil</label>
+        <name>FSL__ResultText__c</name>
+    </fields>
+    <fields>
+        <label>Metrik Fitur</label>
+        <name>FSL__featureMetric__c</name>
+    </fields>
+    <nameFieldLabel>Nama Operasi FSL</nameFieldLabel>
+</CustomObjectTranslation>

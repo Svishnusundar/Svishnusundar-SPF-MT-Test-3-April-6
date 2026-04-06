@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Junção de envio</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Junções de envio</value>
+    </caseValues>
+    <fields>
+        <label>Unidade de negócios</label>
+        <name>et4ae5__Business_Unit__c</name>
+    </fields>
+    <fields>
+        <label>Campanha</label>
+        <name>et4ae5__Campaign__c</name>
+        <relationshipLabel>Definições de envio</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Data/Hora de criação</label>
+        <name>et4ae5__Created_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label>Nome do email</label>
+        <name>et4ae5__Email_Name__c</name>
+    </fields>
+    <fields>
+        <label>Email do remetente</label>
+        <name>et4ae5__From_Email__c</name>
+    </fields>
+    <fields>
+        <label>Remetente</label>
+        <name>et4ae5__From_Name__c</name>
+    </fields>
+    <fields>
+        <label>Definição de envio</label>
+        <name>et4ae5__SendDefinition__c</name>
+        <relationshipLabel>Campanhas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Status de envio</label>
+        <name>et4ae5__Send_Status__c</name>
+    </fields>
+    <fields>
+        <label>Data/hora do status</label>
+        <name>et4ae5__Status_Date_Time__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome da junção de envio</nameFieldLabel>
+</CustomObjectTranslation>

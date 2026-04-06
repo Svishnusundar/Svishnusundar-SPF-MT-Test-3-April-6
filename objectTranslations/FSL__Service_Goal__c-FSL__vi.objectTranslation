@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mục Tiêu Dịch Vụ</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Mục Tiêu Dịch Vụ --></value>
+    </caseValues>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Dữ Liệu Logic Tùy Chỉnh</label>
+        <name>FSL__Custom_Logic_Data__c</name>
+    </fields>
+    <fields>
+        <label>Loại Mục Tiêu Tùy Chỉnh</label>
+        <name>FSL__Custom_Type__c</name>
+        <picklistValues>
+            <masterLabel>ASAP</masterLabel>
+            <translation><!-- ASAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimize Engineer Idle Time</masterLabel>
+            <translation><!-- Minimize Engineer Idle Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimize Overtime</masterLabel>
+            <translation><!-- Minimize Overtime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimize Travel</masterLabel>
+            <translation><!-- Minimize Travel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimize Use Of Elasticity</masterLabel>
+            <translation><!-- Minimize Use Of Elasticity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Resource</masterLabel>
+            <translation><!-- Preferred Resource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priority By Distance To Engineer</masterLabel>
+            <translation><!-- Priority By Distance To Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Priority</masterLabel>
+            <translation><!-- Resource Priority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skill Level</masterLabel>
+            <translation><!-- Skill Level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task Priority</masterLabel>
+            <translation><!-- Task Priority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel From Home Base</masterLabel>
+            <translation><!-- Travel From Home Base --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of minutes that represent an idle time gap between service appointments. This objective minimizes gaps that are equal to or higher than the entered value. --></help>
+        <label>Thời Lượng K.Thời Gian Tối Thiểu (phút)</label>
+        <name>FSL__Gap_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sets the scheduling to include or exclude from minimize travel considerations the first and last travel of the day, to and from the service resource home base --></help>
+        <label>Ngoại Trừ Di Chuyển Tại Trụ Sở</label>
+        <name>FSL__Ignore_Home_Base_Coordinates__c</name>
+    </fields>
+    <fields>
+        <label>Object_Group_Field</label>
+        <name>FSL__Object_Group_Field__c</name>
+    </fields>
+    <fields>
+        <label>Đặt Ưu Tiên Nhân Sự</label>
+        <name>FSL__Prioritize_Resource__c</name>
+        <picklistValues>
+            <masterLabel>Least Qualified</masterLabel>
+            <translation><!-- Least Qualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Most Qualified</masterLabel>
+            <translation><!-- Most Qualified --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Resource_Group_Field</label>
+        <name>FSL__Resource_Group_Field__c</name>
+    </fields>
+    <fields>
+        <label>Trường Mức Ưu Tiên Của Nhân Sự</label>
+        <name>FSL__Resource_Priority_Field__c</name>
+    </fields>
+    <fields>
+        <label>Tên Nhà Phát Triển Loại Kỹ Năng</label>
+        <name>FSL__Skill_Type__c</name>
+    </fields>
+    <nameFieldLabel>Tên Mục Tiêu Dịch Vụ</nameFieldLabel>
+    <recordTypes>
+        <description>Lên lịch càng sớm càng tốt</description>
+        <label>Càng sớm càng tốt</label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mục Tiêu Tùy Chỉnh</description>
+        <label>Mục Tiêu Tùy Chỉnh</label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Giảm khoảng thời gian nhàn rỗi giữa các cuộc hẹn dịch vụ</description>
+        <label>Giảm Thiểu Khoảng Trống</label>
+        <name>FSL__Objective_Minimize_Gaps</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Giảm tối đa thời gian tăng ca</description>
+        <label>Giảm Tối Đa Tăng Ca</label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Giảm tối đa thời gian di chuyển</description>
+        <label>Giảm Tối Đa Thời Gian Di Chuyển</label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Đặt mức ưu tiên lên lịch theo nhân sự ưu tiên</description>
+        <label>Nhân Sự Được Ưu Tiên</label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mức ưu tiên một nhân sự dựa trên giá trị trường của nhân sự đó</description>
+        <label>Mức Ưu Tiên Của Nhân Sự</label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ưu tiên lên lịch cùng với các cuộc hẹn tại cùng một địa điểm</description>
+        <label>Cùng Một Địa Điểm</label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ưu tiên ứng viên có trình độ thấp nhất/cao nhất</description>
+        <label>Cấp Độ Kỹ Năng</label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Các Kỹ Năng Ưu Tiên với loại kỹ năng</description>
+        <label>Các Kỹ Năng Ưu Tiên</label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Không được để trống Trường Mức Ưu Tiên Của Nhân Sự</errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

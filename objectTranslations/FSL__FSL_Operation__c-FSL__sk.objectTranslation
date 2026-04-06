@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Prevádzka FSL</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Prevádzky FSL</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Prevádzku FSL</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Prevádzky FSL</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Prevádzky FSL</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Prevádzok FSL</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Prevádzke FSL</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Prevádzkam FSL</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Prevádzkou FSL</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Prevádzkami FSL</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Prevádzke FSL</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Prevádzkam FSL</value>
+    </caseValues>
+    <fields>
+        <label>Ukončené</label>
+        <name>FSL__Finished__c</name>
+    </fields>
+    <fields>
+        <label>ID budúcej metódy</label>
+        <name>FSL__Future_Method_Id__c</name>
+    </fields>
+    <fields>
+        <label>Iniciátor</label>
+        <name>FSL__Initiator__c</name>
+        <relationshipLabel>Operácie FSL</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Typ žiadosti</label>
+        <name>FSL__Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Appointment Booking</masterLabel>
+            <translation><!-- Appointment Booking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch</masterLabel>
+            <translation><!-- Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Candidates</masterLabel>
+            <translation><!-- Get Candidates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule</masterLabel>
+            <translation><!-- Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UnSchedule</masterLabel>
+            <translation><!-- UnSchedule --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Text výsledku</label>
+        <name>FSL__ResultText__c</name>
+    </fields>
+    <fields>
+        <label>Metrika funkcie</label>
+        <name>FSL__featureMetric__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Názov operácie FSL</nameFieldLabel>
+</CustomObjectTranslation>

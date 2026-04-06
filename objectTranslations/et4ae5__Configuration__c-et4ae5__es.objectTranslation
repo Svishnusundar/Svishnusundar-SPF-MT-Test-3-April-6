@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuración</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configuraciones</value>
+    </caseValues>
+    <fields>
+        <label>Seguimiento de agregación</label>
+        <name>et4ae5__Aggregate_Tracking__c</name>
+    </fields>
+    <fields>
+        <label>Permitir informes personales</label>
+        <name>et4ae5__Allow_Personal_Reports__c</name>
+    </fields>
+    <fields>
+        <label>URL de API de autenticación</label>
+        <name>et4ae5__Auth_API_URL__c</name>
+    </fields>
+    <fields>
+        <label>AwaitingBusinessUnits</label>
+        <name>et4ae5__AwaitingBusinessUnits__c</name>
+    </fields>
+    <fields>
+        <label>Días con seguimiento</label>
+        <name>et4ae5__Days_Tracked__c</name>
+    </fields>
+    <fields>
+        <label>Disponibilidad de Deep Link</label>
+        <name>et4ae5__Deep_Link_Availability__c</name>
+    </fields>
+    <fields>
+        <label>Audiencia de exclusión</label>
+        <name>et4ae5__Exclusion_Audience__c</name>
+    </fields>
+    <fields>
+        <label>Frecuencia</label>
+        <name>et4ae5__Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hourly</masterLabel>
+            <translation><!-- Hourly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Seguimiento individual</label>
+        <name>et4ae5__Individual_Tracking__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de integración</label>
+        <name>et4ae5__Integration_Type__c</name>
+    </fields>
+    <fields>
+        <label>@deprecated</label>
+        <name>et4ae5__Last_Log_Request__c</name>
+    </fields>
+    <fields>
+        <label>Seguimiento de detalles del vínculo</label>
+        <name>et4ae5__Link_Detail_Tracking__c</name>
+    </fields>
+    <fields>
+        <label>Alternar las opciones del campo De</label>
+        <name>et4ae5__MultiFrom__c</name>
+    </fields>
+    <fields>
+        <label>Alternar opciones del campo Responder a</label>
+        <name>et4ae5__MultiReplyTo__c</name>
+    </fields>
+    <fields>
+        <label>MID de cuenta principal</label>
+        <name>et4ae5__Parent_Account_MID__c</name>
+    </fields>
+    <fields>
+        <label>Contraseña</label>
+        <name>et4ae5__Password__c</name>
+    </fields>
+    <fields>
+        <label>Restringir automatización</label>
+        <name>et4ae5__Restrict_Automation__c</name>
+    </fields>
+    <fields>
+        <label>Reintentar</label>
+        <name>et4ae5__Retry__c</name>
+    </fields>
+    <fields>
+        <label>URL de la API Open Rasta raíz</label>
+        <name>et4ae5__Root_Open_Rasta_API_URL__c</name>
+    </fields>
+    <fields>
+        <label>URL de la API REST raíz</label>
+        <name>et4ae5__Root_Rest_API_URL__c</name>
+    </fields>
+    <fields>
+        <label>URL de la API SOAP raíz</label>
+        <name>et4ae5__Root_SOAP_API_URL__c</name>
+    </fields>
+    <fields>
+        <label>Tipos de envío</label>
+        <name>et4ae5__Send_Types__c</name>
+    </fields>
+    <fields>
+        <label>Seguimiento de eventos enviados</label>
+        <name>et4ae5__Sent_Events_Tracking__c</name>
+    </fields>
+    <fields>
+        <label>Destinatario de solicitud de asistencia</label>
+        <name>et4ae5__Support_Ticket_Recipient__c</name>
+    </fields>
+    <fields>
+        <label>Audiencia de destino</label>
+        <name>et4ae5__Target_Audience__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de usuario</label>
+        <name>et4ae5__Username__c</name>
+    </fields>
+    <fields>
+        <label>Objetos de automatización activados</label>
+        <name>et4ae5__automationObjects__c</name>
+    </fields>
+    <fields>
+        <label>Opciones del campo Responder a</label>
+        <name>et4ae5__replyToOptions__c</name>
+    </fields>
+    <fields>
+        <label>Parte de la URL</label>
+        <name>et4ae5__url_part__c</name>
+    </fields>
+    <fields>
+        <label>Raíz de la URL</label>
+        <name>et4ae5__url_root__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Número de configuración</nameFieldLabel>
+</CustomObjectTranslation>

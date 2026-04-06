@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>使用者區域範圍</value>
+    </caseValues>
+    <fields>
+        <label>服務區域範圍</label>
+        <name>FSL__ServiceTerritory__c</name>
+        <relationshipLabel><!-- User Territories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>區域範圍名稱</label>
+        <name>FSL__Territory_Name__c</name>
+    </fields>
+    <fields>
+        <label>使用者</label>
+        <name>FSL__User__c</name>
+        <relationshipLabel><!-- User Territories --></relationshipLabel>
+    </fields>
+    <nameFieldLabel>使用者區域範圍數量</nameFieldLabel>
+</CustomObjectTranslation>

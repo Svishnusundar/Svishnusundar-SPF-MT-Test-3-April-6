@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ET4AE 構成</value>
+    </caseValues>
+    <fields>
+        <label>設定ウィザードが完了しました</label>
+        <name>et4ae5__Configuration_Wizard_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Automatically delete parent and child tracking data records when using Tracking Data Cleanup Tool. To avoid Apex governor limits on batch delete jobs, disable cascade-delete. --></help>
+        <label>カスケード削除を有効化</label>
+        <name>et4ae5__Enable_Cascading_Delete__c</name>
+    </fields>
+    <fields>
+        <label>エンドポイント</label>
+        <name>et4ae5__Endpoint__c</name>
+    </fields>
+    <fields>
+        <label>環境</label>
+        <name>et4ae5__Environment__c</name>
+    </fields>
+    <fields>
+        <label>JB プラットフォームイベント有効</label>
+        <name>et4ae5__JBPlatformEventEnable__c</name>
+    </fields>
+    <fields>
+        <label>QA モード</label>
+        <name>et4ae5__QA_Mode__c</name>
+    </fields>
+    <fields>
+        <label>リモートサイト設定が追加されました</label>
+        <name>et4ae5__Remote_Site_Setting_Added__c</name>
+    </fields>
+    <fields>
+        <label>SessionId</label>
+        <name>et4ae5__SessionId__c</name>
+    </fields>
+    <fields>
+        <label>スタック ID</label>
+        <name>et4ae5__StackId__c</name>
+    </fields>
+    <fields>
+        <label>テナント ID (廃止)</label>
+        <name>et4ae5__TenantId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of records to delete per batch. Delete up to 2000 records per batch. --></help>
+        <label>トラッキングデータクリーンアップバッチサイズ</label>
+        <name>et4ae5__Tracking_Data_Clean_Up_Batch_Size__c</name>
+    </fields>
+</CustomObjectTranslation>

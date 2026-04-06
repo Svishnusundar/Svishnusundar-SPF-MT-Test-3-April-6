@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Området för inställningar för besättningshanteringsanvändare</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Ett område för inställningar för besättningshanteringsanvändare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Område för inställningar för besättningshanteringsanvändare</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Områdena för inställningar för besättningshanteringsanvändare</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Områden för inställningar för besättningshanteringsanvändare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Områden för inställningar för besättningshanteringsanvändare</value>
+    </caseValues>
+    <fields>
+        <label>Inställn. f besättningshanter.användare</label>
+        <name>FSL__Crew_Management_User_Settings__c</name>
+        <relationshipLabel>Område för inställningar för besättningshanteringsanvändare</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Serviceområde</label>
+        <name>FSL__Service_Territory__c</name>
+        <relationshipLabel>Område för inställningar för besättningshanteringsanvändare</relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Namn på område för inställningar för bes</nameFieldLabel>
+</CustomObjectTranslation>

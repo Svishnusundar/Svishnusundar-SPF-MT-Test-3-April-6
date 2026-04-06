@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Access_Benefits1</members>
+        <members>Constituent_Self_Service1</members>
+        <members>Do_Not_Use_SDO_B2B_Commerce1</members>
+        <members>Do_Not_Use_SDO_Commerce_for_B2B2C1</members>
+        <members>Emergency_Response_Management1</members>
+        <members>GPS_Chat_Pack_Test1</members>
+        <members>GPS_EmergencyResponseManagement1</members>
+        <members>Grantmaking1</members>
+        <members>Justice_Portal1</members>
+        <members>LPI1</members>
+        <members>OldPartner11</members>
+        <members>OldProf31</members>
+        <members>Recruitment_Applicant1</members>
+        <members>Recruitment_Employee1</members>
+        <members>SDO_B2B_Commerce_Enhanced1</members>
+        <members>SDO_Consumer1</members>
+        <members>SDO_D2C_Commerce_Enhanced1</members>
+        <members>SDO_Partner_Central1</members>
+        <members>SDO_Professional1</members>
+        <members>Service_Provider_Portal1</members>
+        <members>old_prof1</members>
+        <members>sfpwebhook1</members>
+        <name>ExperienceBundle</name>
+    </types>
+    <version>66.0</version>
+</Package>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>トリガーによる送信の実行</value>
+    </caseValues>
+    <fields>
+        <label>ビジネスユニット ID</label>
+        <name>et4ae5__Business_Unit_ID__c</name>
+    </fields>
+    <fields>
+        <label>送信者名</label>
+        <name>et4ae5__FromName__c</name>
+    </fields>
+    <fields>
+        <label>メッセージ</label>
+        <name>et4ae5__Message__c</name>
+    </fields>
+    <fields>
+        <label>受信者 ID</label>
+        <name>et4ae5__RecipientId__c</name>
+    </fields>
+    <fields>
+        <label>再試行回数</label>
+        <name>et4ae5__Retry_Count__c</name>
+    </fields>
+    <fields>
+        <label>スケジュール日時</label>
+        <name>et4ae5__Scheduled_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label>状況</label>
+        <name>et4ae5__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requeued</masterLabel>
+            <translation><!-- Requeued --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>トリガーによる送信</label>
+        <lookupFilter>
+            <errorMessage><!-- Trggered Send must be active in order to be selected. --></errorMessage>
+        </lookupFilter>
+        <name>et4ae5__Triggered_Send__c</name>
+        <relationshipLabel>トリガーによる送信の実行</relationshipLabel>
+    </fields>
+    <fields>
+        <label>トリガーオブジェクト</label>
+        <name>et4ae5__Triggering_Object__c</name>
+    </fields>
+    <fields>
+        <label>トリガーレコード ID</label>
+        <name>et4ae5__Triggering_Record_Id__c</name>
+    </fields>
+    <nameFieldLabel>トリガーによる送信実行の名前</nameFieldLabel>
+</CustomObjectTranslation>

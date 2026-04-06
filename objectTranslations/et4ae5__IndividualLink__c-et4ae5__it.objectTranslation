@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dettaglio a livello di collegamenti individuali</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dettagli a livello di collegamenti individuali</value>
+    </caseValues>
+    <fields>
+        <label>ID collegamento Marketing Cloud</label>
+        <name>et4ae5__ExactTargetLinkID__c</name>
+    </fields>
+    <fields>
+        <label>Risultato delle email individuali</label>
+        <name>et4ae5__Individual_Email_Result__c</name>
+        <relationshipLabel>Dettagli a livello di collegamenti individuali</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The date and time this link was last clicked by this subscriber --></help>
+        <label>Ultimo clic</label>
+        <name>et4ae5__Last_Clicked__c</name>
+    </fields>
+    <fields>
+        <label>URL collegamento</label>
+        <name>et4ae5__LinkURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of times this link has been clicked by this subscriber --></help>
+        <label>Numero di clic totali</label>
+        <name>et4ae5__NumberOfTotalClicks__c</name>
+    </fields>
+    <fields>
+        <label>ID collegamento unico</label>
+        <name>et4ae5__Unique_Link_ID__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome collegamento</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

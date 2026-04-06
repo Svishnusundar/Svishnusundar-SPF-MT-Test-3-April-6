@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Závislost schůzky</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Závislosti schůzky</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Závislost schůzky</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Závislosti schůzky</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Závislosti schůzky</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Závislostí schůzky</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Závislosti schůzky</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Závislostem schůzky</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Závislostí schůzky</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Závislostmi schůzky</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Závislosti schůzky</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Závislostech schůzky</value>
+    </caseValues>
+    <fields>
+        <label>Závislost</label>
+        <name>FSL__Dependency__c</name>
+        <picklistValues>
+            <masterLabel>Immediately Follow</masterLabel>
+            <translation><!-- Immediately Follow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Start</masterLabel>
+            <translation><!-- Same Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start After Finish</masterLabel>
+            <translation><!-- Start After Finish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start After Finish And Same Day</masterLabel>
+            <translation><!-- Start After Finish And Same Day --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Základní schůzka služby</label>
+        <name>FSL__Root_Service_Appointment__c</name>
+        <relationshipLabel>Závislosti jmenování (Základní schůzka služby)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Stejný zdroj</label>
+        <name>FSL__Same_Resource__c</name>
+    </fields>
+    <fields>
+        <label>Schůzka služby 1</label>
+        <name>FSL__Service_Appointment_1__c</name>
+        <relationshipLabel><!-- Appointment Dependencies (Service Appointment 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Schůzka služby 2</label>
+        <name>FSL__Service_Appointment_2__c</name>
+        <relationshipLabel><!-- Appointment Dependencies (Service Appointment 2) --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Název závislosti schůzky</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Vybrat typ závislosti</errorMessage>
+        <name>FSL__Dependency_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Nemohli jsme vytvořit závislost mezi servisními schůzkami. Požádejte správce Salesforce, aby vám udělil oprávnění pro všechna pole vlastního objektu Časová závislost.</errorMessage>
+        <name>FSL__Root_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Závislost Okamžitě sledovat vyžaduje stejný zdroj</errorMessage>
+        <name>FSL__Same_Resource_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Schůzka služby 2 je povinná.</errorMessage>
+        <name>FSL__Service_Appointment_2_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ve vztahu není povoleno měnit žádnou ze schůzek služby.</errorMessage>
+        <name>FSL__Service_Appointment_2_Not_Changed</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>优化请求队列</value>
+    </caseValues>
+    <fields>
+        <label>当前正在运行的请求</label>
+        <name>FSL__Current_Running_Requests__c</name>
+    </fields>
+    <fields>
+        <label>标识符</label>
+        <name>FSL__Identifier__c</name>
+    </fields>
+    <fields>
+        <label>与优化相关的总请求数量</label>
+        <name>FSL__Total_Related_Optimization_Requests__c</name>
+    </fields>
+    <nameFieldLabel>优化队列编号</nameFieldLabel>
+</CustomObjectTranslation>

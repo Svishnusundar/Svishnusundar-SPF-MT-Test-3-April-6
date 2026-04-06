@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MC CDC ジャーニー</value>
+    </caseValues>
+    <fields>
+        <label>変更種別</label>
+        <name>et4ae5__ChangeType__c</name>
+    </fields>
+    <fields>
+        <label>エンティティ名</label>
+        <name>et4ae5__EntityName__c</name>
+    </fields>
+    <fields>
+        <label>イベント定義キー</label>
+        <name>et4ae5__EventDefinitionKey__c</name>
+    </fields>
+    <fields>
+        <label>項目</label>
+        <name>et4ae5__Fields__c</name>
+    </fields>
+    <fields>
+        <label>フィルター項目</label>
+        <name>et4ae5__FilterFields__c</name>
+    </fields>
+    <fields>
+        <label>所有者 MID</label>
+        <name>et4ae5__OwnerMid__c</name>
+    </fields>
+    <fields>
+        <label>レコード ID</label>
+        <name>et4ae5__RecordId__c</name>
+    </fields>
+    <nameFieldLabel>ジャーニー番号</nameFieldLabel>
+</CustomObjectTranslation>

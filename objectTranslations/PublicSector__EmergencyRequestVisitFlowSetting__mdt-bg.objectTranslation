@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Настройка на поток за посещение за заявка за спешна помощ --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Настройки на поток за посещение за заявка за спешна помощ --></value>
+    </caseValues>
+    <fields>
+        <help>Задържа стойността на образеца на плана за действие, използван за създаване на посещение при спешен случай</help>
+        <label><!-- Action Plan Template Name --></label>
+        <name>PublicSector__ActionPlanTemplateName__c</name>
+    </fields>
+    <fields>
+        <help>Задържа стойността на списъка за избор за полета за типа в събитието</help>
+        <label><!-- Event Type --></label>
+        <name>PublicSector__Event_Type__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

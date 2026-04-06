@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Schemaläggningsreceptet</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Ett schemaläggningsrecept</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Schemaläggningsrecept</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Schemaläggningsrecepten</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Schemaläggningsrecept</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Schemaläggningsrecept</value>
+    </caseValues>
+    <fields>
+        <label>Aktiv</label>
+        <name>FSL__Active__c</name>
+    </fields>
+    <fields>
+        <label>Kriterier</label>
+        <name>FSL__Criteria__c</name>
+        <relationshipLabel>Schemaläggningsrecept</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Beskrivning</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Förväntat beteende</label>
+        <name>FSL__Expected_Behavior__c</name>
+    </fields>
+    <fields>
+        <label>Tröskel för senast kända plats</label>
+        <name>FSL__LKL_Threshold__c</name>
+    </fields>
+    <fields>
+        <label>Åtgärder efteråt</label>
+        <name>FSL__Post_Actions__c</name>
+    </fields>
+    <fields>
+        <label>Prioritet</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>Scenariospecifikt</label>
+        <name>FSL__Scenario_Specific__c</name>
+    </fields>
+    <fields>
+        <label>Scenariotyp</label>
+        <name>FSL__Scenario_Type__c</name>
+        <picklistValues>
+            <masterLabel>Overlap (Post-Emergency Scheduling)</masterLabel>
+            <translation><!-- Overlap (Post-Emergency Scheduling) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overlap (SA Lengthened)</masterLabel>
+            <translation><!-- Overlap (SA Lengthened) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Canceled</masterLabel>
+            <translation><!-- SA Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Shortened</masterLabel>
+            <translation><!-- SA Shortened --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Schemaläggningspolicy</label>
+        <name>FSL__Scheduling_Policy__c</name>
+        <relationshipLabel>Schemaläggningsrecept</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Semiautomatisk</label>
+        <name>FSL__Semi_Automated__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Namn på schemaläggningsrecept</nameFieldLabel>
+</CustomObjectTranslation>

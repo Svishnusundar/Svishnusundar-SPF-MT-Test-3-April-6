@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Operația FSL</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Operație FSL</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Operațiile FSL</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Operații FSL</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Operației FSL</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Operației FSL</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Operațiilor FSL</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Operațiilor FSL</value>
+    </caseValues>
+    <fields>
+        <label>terminat</label>
+        <name>FSL__Finished__c</name>
+    </fields>
+    <fields>
+        <label>ID metodă viitoare</label>
+        <name>FSL__Future_Method_Id__c</name>
+    </fields>
+    <fields>
+        <label>Inițiator</label>
+        <name>FSL__Initiator__c</name>
+        <relationshipLabel>Operații FSL</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tip de solicitare</label>
+        <name>FSL__Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Appointment Booking</masterLabel>
+            <translation><!-- Appointment Booking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch</masterLabel>
+            <translation><!-- Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Candidates</masterLabel>
+            <translation><!-- Get Candidates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule</masterLabel>
+            <translation><!-- Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UnSchedule</masterLabel>
+            <translation><!-- UnSchedule --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ResultText</label>
+        <name>FSL__ResultText__c</name>
+    </fields>
+    <fields>
+        <label>Indicator funcție</label>
+        <name>FSL__featureMetric__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nume operație FSL</nameFieldLabel>
+</CustomObjectTranslation>

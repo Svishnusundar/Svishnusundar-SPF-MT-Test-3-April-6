@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Postavka tijeka posjeta zahtjeva za hitni slučaj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Postavke tijeka posjeta zahtjeva za hitni slučaj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Postavku tijeka posjeta zahtjeva za hitni slučaj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Postavke tijeka posjeta zahtjeva za hitni slučaj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Postavke tijeka posjeta zahtjeva za hitni slučaj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Postavki tijeka posjeta zahtjeva za hitni slučaj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Postavci tijeka posjeta zahtjeva za hitni slučaj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Postavkama tijeka posjeta zahtjeva za hitni slučaj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Postavkom tijeka posjeta zahtjeva za hitni slučaj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Postavkama tijeka posjeta zahtjeva za hitni slučaj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Postavci tijeka posjeta zahtjeva za hitni slučaj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value><!-- Postavkama tijeka posjeta zahtjeva za hitni slučaj --></value>
+    </caseValues>
+    <fields>
+        <help>Zadržava vrijednost predloška akcijskog plana korištenog za kreiranje hitnog posjeta</help>
+        <label><!-- Action Plan Template Name --></label>
+        <name>PublicSector__ActionPlanTemplateName__c</name>
+    </fields>
+    <fields>
+        <help>Zadržava vrijednost popisa za odabir za polje vrste u događaju</help>
+        <label><!-- Event Type --></label>
+        <name>PublicSector__Event_Type__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

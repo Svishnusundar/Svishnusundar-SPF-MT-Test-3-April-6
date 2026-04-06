@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SLR 缓存</value>
+    </caseValues>
+    <fields>
+        <label>距离</label>
+        <name>FSL__Distance__c</name>
+    </fields>
+    <fields>
+        <label>自</label>
+        <name>FSL__From__c</name>
+    </fields>
+    <fields>
+        <label>标识符</label>
+        <name>FSL__Identifier__c</name>
+    </fields>
+    <fields>
+        <label>时间</label>
+        <name>FSL__Time__c</name>
+    </fields>
+    <fields>
+        <label>至</label>
+        <name>FSL__To__c</name>
+    </fields>
+    <nameFieldLabel>SLR 缓存编号</nameFieldLabel>
+</CustomObjectTranslation>

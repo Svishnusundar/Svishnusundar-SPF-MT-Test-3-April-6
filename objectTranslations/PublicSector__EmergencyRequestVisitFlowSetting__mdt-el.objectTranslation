@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Ρύθμιση ροής επίσκεψης αιτήματος έκτακτης ανάγκης --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Ρυθμίσεις ροής επίσκεψης αιτήματος έκτακτης ανάγκης --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Ρύθμιση ροής επίσκεψης αιτήματος έκτακτης ανάγκης --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Ρυθμίσεις ροής επίσκεψης αιτήματος έκτακτης ανάγκης --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Ρύθμισης ροής επίσκεψης αιτήματος έκτακτης ανάγκης --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Ρυθμίσεων ροής επίσκεψης αιτήματος έκτακτης ανάγκης --></value>
+    </caseValues>
+    <fields>
+        <help>Περιλαμβάνει την τιμή για το πρότυπο σχεδίου ενεργειών που χρησιμοποιείται για τη δημιουργία επίσκεψης έκτακτης ανάγκης</help>
+        <label><!-- Action Plan Template Name --></label>
+        <name>PublicSector__ActionPlanTemplateName__c</name>
+    </fields>
+    <fields>
+        <help>Περιλαμβάνει την τιμή για τη λίστα επιλογών για το πεδίο Τύπος στο Συμβάν</help>
+        <label><!-- Event Type --></label>
+        <name>PublicSector__Event_Type__c</name>
+    </fields>
+    
+    
+</CustomObjectTranslation>

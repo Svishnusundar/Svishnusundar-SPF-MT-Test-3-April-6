@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DBM Report</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DBM Reports</value>
+    </caseValues>
+    <fields>
+        <label><!-- Chart Type --></label>
+        <name>Chart_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link to Report --></label>
+        <name>Link_to_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metric Label --></label>
+        <name>Metric_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metric Type --></label>
+        <name>Metric_Type__c</name>
+        <picklistValues>
+            <masterLabel>Currency</masterLabel>
+            <translation><!-- Currency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number</masterLabel>
+            <translation><!-- Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent</masterLabel>
+            <translation><!-- Percent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Metric type enum --></label>
+        <name>Metric_type_enum__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Groupings --></label>
+        <name>Number_of_Groupings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Folder name --></label>
+        <name>Report_Folder_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report ID --></label>
+        <name>Report_ID__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dynamic Content</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dynamic Content</value>
+    </caseValues>
+    <fields>
+        <help><!-- Should this content be actively used in the Dynamic Banner component? --></help>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- What type of content does this record represent?  Different types of content are used in different ways. --></help>
+        <label><!-- Content Type --></label>
+        <name>Content_Type__c</name>
+        <picklistValues>
+            <masterLabel>Button - Flow</masterLabel>
+            <translation><!-- Button - Flow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Button - Link</masterLabel>
+            <translation><!-- Button - Link --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content Card</masterLabel>
+            <translation><!-- Content Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metric</masterLabel>
+            <translation><!-- Metric --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Order --></label>
+        <name>Display_Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flow API name or hyperlink/URL to direct the user to when they click on this content --></help>
+        <label><!-- Flow/URL --></label>
+        <name>Flow_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- SLDS icon to display --></help>
+        <label><!-- Icon --></label>
+        <name>Icon__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unique reference used to decide where this record&apos;s content should be used --></help>
+        <label><!-- Tag --></label>
+        <name>Tag__c</name>
+    </fields>
+    <fields>
+        <help><!-- Title/headline/label --></help>
+        <label><!-- Title/Label --></label>
+        <name>Title_Label__c</name>
+    </fields>
+    <fields>
+        <help><!-- When clicked, should the URL be visited in the same window/tab (_self) or a new one (_new)? --></help>
+        <label><!-- URL Behavior --></label>
+        <name>URL_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>_new</masterLabel>
+            <translation><!-- _new --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>_self</masterLabel>
+            <translation><!-- _self --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

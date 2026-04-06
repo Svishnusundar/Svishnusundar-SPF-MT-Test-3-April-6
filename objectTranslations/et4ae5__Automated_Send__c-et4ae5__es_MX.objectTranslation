@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Envío desencadenado</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Envíos desencadenados</value>
+    </caseValues>
+    <fields>
+        <label>Acción</label>
+        <name>et4ae5__Action__c</name>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>et4ae5__Active__c</name>
+    </fields>
+    <fields>
+        <label>Fecha/hora flujo trabajo copia seguridad</label>
+        <name>et4ae5__BackupWorkflow__c</name>
+    </fields>
+    <fields>
+        <label>Índice de devoluciones</label>
+        <name>et4ae5__Bounce_Rate_del__c</name>
+    </fields>
+    <fields>
+        <label>Unidad de negocio</label>
+        <name>et4ae5__Business_Unit__c</name>
+        <relationshipLabel>Envíos desencadenados</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Índice de clics</label>
+        <name>et4ae5__Click_Through_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Contact/Lead Field is used to identify the intended recipient of the email. This must be a Lookup field to the Contact or Lead Object for the respective object used in the Triggered Send Definition. If creating a Triggered Send on the Contact or Lead --></help>
+        <label>Campo Contacto/Prospecto</label>
+        <name>et4ae5__Contact_Lead_FIeld__c</name>
+    </fields>
+    <fields>
+        <label>Id. de plática</label>
+        <name>et4ae5__ConversationId__c</name>
+    </fields>
+    <fields>
+        <label>Id. de extensión de datos</label>
+        <name>et4ae5__Data_Extension_Id__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de extensión de datos</label>
+        <name>et4ae5__Data_Extension_Name__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de envío</label>
+        <name>et4ae5__DateSent__c</name>
+    </fields>
+    <fields>
+        <label>Fecha/hora</label>
+        <name>et4ae5__DateTime__c</name>
+    </fields>
+    <fields>
+        <label>Fecha</label>
+        <name>et4ae5__Date__c</name>
+    </fields>
+    <fields>
+        <label>Índice de entrega</label>
+        <name>et4ae5__Deliverability_Rate__c</name>
+    </fields>
+    <fields>
+        <label>Id. de activo de email</label>
+        <name>et4ae5__EmailAssetId__c</name>
+    </fields>
+    <fields>
+        <label>Id. de email</label>
+        <name>et4ae5__EmailId__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de email</label>
+        <name>et4ae5__EmailName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field Criteria can be used to further refine if a Triggered Send should be sent.  Criteria is evaluated when the selected Object Event occurs --></help>
+        <label>Criterios de campo</label>
+        <name>et4ae5__Filter__c</name>
+    </fields>
+    <fields>
+        <label>Email del remitente</label>
+        <name>et4ae5__FromEmail__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del remitente</label>
+        <name>et4ae5__FromName__c</name>
+    </fields>
+    <fields>
+        <label>Horas de retraso</label>
+        <name>et4ae5__Hours_Delayed__c</name>
+    </fields>
+    <fields>
+        <label>Seguimiento individual desactivado</label>
+        <name>et4ae5__Individual_Tracking_Disabled__c</name>
+    </fields>
+    <fields>
+        <label>MemberId</label>
+        <name>et4ae5__MemberId__c</name>
+    </fields>
+    <fields>
+        <label>NotificationRecipients</label>
+        <name>et4ae5__NotificationRecipients__c</name>
+    </fields>
+    <fields>
+        <label>Notificar al propietario si hay errores</label>
+        <name>et4ae5__Notify_Owner_On_Error__c</name>
+    </fields>
+    <fields>
+        <label>Notificar errores al usuario ejecución</label>
+        <name>et4ae5__Notify_Running_User_On_Error__c</name>
+    </fields>
+    <fields>
+        <label>Número de emails no seleccionados</label>
+        <name>et4ae5__NumberNotClicked__c</name>
+    </fields>
+    <fields>
+        <label>Número de envíos</label>
+        <name>et4ae5__NumberSent__c</name>
+    </fields>
+    <fields>
+        <label>Número de cancelaciones de suscripción</label>
+        <name>et4ae5__NumberUnsubscribed__c</name>
+    </fields>
+    <fields>
+        <label>Número de emails devueltos</label>
+        <name>et4ae5__Number_Bounced__c</name>
+    </fields>
+    <fields>
+        <label>Número de emails entregados</label>
+        <name>et4ae5__Number_Delivered__c</name>
+    </fields>
+    <fields>
+        <label>Número de emails no abiertos</label>
+        <name>et4ae5__Number_Not_Opened__c</name>
+    </fields>
+    <fields>
+        <label>Número no aptos para entrega existentes</label>
+        <name>et4ae5__NumberofExistingUndeliverables__c</name>
+    </fields>
+    <fields>
+        <label>Núm cancelaciones suscripción existentes</label>
+        <name>et4ae5__NumberofExistingUnsubscribes__c</name>
+    </fields>
+    <fields>
+        <label>Número de devoluciones permanentes</label>
+        <name>et4ae5__NumberofHardBounces__c</name>
+    </fields>
+    <fields>
+        <label>Número de devoluciones temporales</label>
+        <name>et4ae5__NumberofSoftBounces__c</name>
+    </fields>
+    <fields>
+        <label>Número de reenvíos de suscriptores</label>
+        <name>et4ae5__NumberofSubscribersForwardingEmail__c</name>
+    </fields>
+    <fields>
+        <label>Número total de clics</label>
+        <name>et4ae5__NumberofTotalClicks__c</name>
+    </fields>
+    <fields>
+        <label>Número total de aperturas</label>
+        <name>et4ae5__NumberofTotalOpens__c</name>
+    </fields>
+    <fields>
+        <label>Número de clics únicos</label>
+        <name>et4ae5__NumberofUniqueClicks__c</name>
+    </fields>
+    <fields>
+        <label>Número de aperturas únicas</label>
+        <name>et4ae5__NumberofUniqueOpens__c</name>
+    </fields>
+    <fields>
+        <help><!-- Object which the Triggered Send is based off of --></help>
+        <label>Objeto</label>
+        <name>et4ae5__Object__c</name>
+    </fields>
+    <fields>
+        <label>Índice de apertura</label>
+        <name>et4ae5__Open_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field value selected that looks up to person accounts. --></help>
+        <label>Campo de búsqueda de cuenta personal</label>
+        <name>et4ae5__Person_Account_Lookup_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- The string of text used to appear in the email&apos;s preheader. Note: This text contains backslashes (\) before all single quotes (&apos;) to ensure a secure experience. However, these backslashes do not appear in the email sent. --></help>
+        <label>Preencabezado</label>
+        <name>et4ae5__Preheader__c</name>
+    </fields>
+    <fields>
+        <label>RecipientsOptedIn</label>
+        <name>et4ae5__RecipientsOptedIn__c</name>
+    </fields>
+    <fields>
+        <label>Id. de clasificación del envío</label>
+        <name>et4ae5__SendClassificationId__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de clasificación de envío</label>
+        <name>et4ae5__SendClassificationName__c</name>
+    </fields>
+    <fields>
+        <label>Id. de perfil de remitente</label>
+        <name>et4ae5__SenderProfileId__c</name>
+    </fields>
+    <fields>
+        <label>SubjectBlob</label>
+        <name>et4ae5__SubjectBlob__c</name>
+    </fields>
+    <fields>
+        <help><!-- The string of text used to appear in the email&apos;s subject line. Note: This text contains backslashes (\) before all single quotes (&apos;) to ensure a secure experience. However, these backslashes do not appear in the email sent. --></help>
+        <label>Asunto</label>
+        <name>et4ae5__Subject__c</name>
+    </fields>
+    <fields>
+        <label>Suscrito para seguimiento</label>
+        <name>et4ae5__Subscribed_For_Tracking__c</name>
+    </fields>
+    <fields>
+        <label>Campo de suscriptor</label>
+        <name>et4ae5__Subscriber_Field__c</name>
+    </fields>
+    <fields>
+        <label>Solo seguimiento</label>
+        <name>et4ae5__TrackingOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Object event that will trigger the evaluation of the Triggered Send.  Options are for when a new record for respective object is created, existing record is updated, or both created and updated --></help>
+        <label>Desencadenar envío cuando</label>
+        <name>et4ae5__Trigger_send_when__c</name>
+    </fields>
+    <fields>
+        <label>Índice de cancelaciones de suscripción</label>
+        <name>et4ae5__Unsubscribe_Rate__c</name>
+    </fields>
+    <fields>
+        <label>Utilizar lista de todos los suscriptores</label>
+        <name>et4ae5__Use_All_Subscribers_List__c</name>
+    </fields>
+    <fields>
+        <label>TriggeredSendDefId</label>
+        <name>et4ae5__etTriggeredSendDefId__c</name>
+    </fields>
+    <fields>
+        <label>hasDelayedSends</label>
+        <name>et4ae5__hasDelayedSends__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de envío desencadenado</nameFieldLabel>
+    <recordTypes>
+        <label>Activo</label>
+        <name>et4ae5__Active</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Inactivo</label>
+        <name>et4ae5__Inactive</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Las horas de demora no puede ser superior a 720.</errorMessage>
+        <name>et4ae5__HoursDelayedMax</name>
+    </validationRules>
+    <webLinks>
+        <label>Activar</label>
+        <name>et4ae5__Activate</name>
+    </webLinks>
+    <webLinks>
+        <label>Desactivar</label>
+        <name>et4ae5__Deactivate</name>
+    </webLinks>
+</CustomObjectTranslation>

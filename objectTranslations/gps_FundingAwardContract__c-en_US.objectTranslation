@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Funding Award Contract</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Funding Award Contracts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Awardee --></label>
+        <name>AwardeeId__c</name>
+        <relationshipLabel><!-- Funding Award Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funding Award --></label>
+        <name>ParentId__c</name>
+        <relationshipLabel><!-- Funding Award Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>StartDate__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

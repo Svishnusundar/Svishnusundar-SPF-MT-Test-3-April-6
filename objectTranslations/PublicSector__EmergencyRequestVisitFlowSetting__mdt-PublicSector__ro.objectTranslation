@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Setarea de rând de vizită pentru solicitare de urgență</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Setare de rând de vizită pentru solicitare de urgență</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Setările de rând de vizită pentru solicitare de urgență</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Setări de rând de vizită pentru solicitare de urgență</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Setării de rând de vizită pentru solicitare de urgență</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Setării de rând de vizită pentru solicitare de urgență</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Setărilor de rând de vizită pentru solicitare de urgență</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Setărilor de rând de vizită pentru solicitare de urgență</value>
+    </caseValues>
+    <fields>
+        <help><!-- Holds the value of the Action Plan Template used for creating emergency visit --></help>
+        <label>Nume șablon de plan de măsuri</label>
+        <name>PublicSector__ActionPlanTemplateName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holds the value of the Picklist for the Type field in Event --></help>
+        <label>Tip eveniment</label>
+        <name>PublicSector__Event_Type__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

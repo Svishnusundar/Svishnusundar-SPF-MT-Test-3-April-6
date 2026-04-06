@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Application Source --></label>
+        <name>Application_Source__c</name>
+        <picklistValues>
+            <masterLabel>Bot</masterLabel>
+            <translation><!-- Bot --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business Site Address --></label>
+        <name>Business_Site_Address__c</name>
+        <relationshipLabel><!-- Business License Applications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Coordinates --></label>
+        <name>Coordinates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delete BLA --></label>
+        <name>Delete_BLA__c</name>
+    </fields>
+    <fields>
+        <label><!-- HasCoordinates --></label>
+        <name>HasCoordinates__c</name>
+    </fields>
+    <fields>
+        <label>コーディネータのメール</label>
+        <name>PublicSector__CoordinatorEmail__c</name>
+    </fields>
+    <fields>
+        <label>コーディネータの名前</label>
+        <name>PublicSector__CoordinatorName__c</name>
+    </fields>
+    <fields>
+        <label>コーディネータの電話</label>
+        <name>PublicSector__CoordinatorPhone__c</name>
+    </fields>
+    <fields>
+        <label>コーディネータの役職</label>
+        <name>PublicSector__CoordinatorTitle__c</name>
+    </fields>
+    <fields>
+        <label>施設面積</label>
+        <name>PublicSector__FacilitySquareFootage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Employee Screening (temperature checks, health checks, etc.) --></help>
+        <label>従業員スクリーニング計画</label>
+        <name>PublicSector__HasEmployeeScreeningPlan__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cleaning / Sanitation (thorough cleaning in high traffic areas, with frequent disinfection of commonly used surfaces) --></help>
+        <label>施設衛生計画あり</label>
+        <name>PublicSector__HasFacilitySanitationPlan__c</name>
+    </fields>
+    <fields>
+        <help><!-- Personal protective equipment (PPE) for employees (face coverings and all required protective equipment, including eye protection and gloves, where necessary) --></help>
+        <label>個人防護具あり</label>
+        <name>PublicSector__HasPersonalProtectiveEquipment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Social distancing (measures to ensure physical distancing of at least six feet between workers and customers) --></help>
+        <label>ソーシャルディスタンス計画あり</label>
+        <name>PublicSector__HasSocialDistancingPlan__c</name>
+    </fields>
+    <fields>
+        <help><!-- Vulnerable population accommodations such as special hours for seniors or medically vulnerable individuals --></help>
+        <label>弱者集団計画</label>
+        <name>PublicSector__HasVulnerablePopulationPlan__c</name>
+    </fields>
+    <fields>
+        <help><!-- Facility Capacity (maximum per fire marshall) --></help>
+        <label>最大許容収容人数</label>
+        <name>PublicSector__MaximumApprovedOccupancy__c</name>
+    </fields>
+    <fields>
+        <help><!-- Facility Capacity with Social Distancing Measures --></help>
+        <label>ソーシャルディスタンス対策を実施した場合の収容人数</label>
+        <name>PublicSector__OccupancySocialDistancing__c</name>
+    </fields>
+    <fields>
+        <label>再開日</label>
+        <name>PublicSector__ReopeningDate__c</name>
+    </fields>
+    <fields>
+        <label>再開許可種別</label>
+        <name>PublicSector__ReopeningPermitType__c</name>
+        <picklistValues>
+            <masterLabel>Curbside Service</masterLabel>
+            <translation><!-- Curbside Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indoor Operation</masterLabel>
+            <translation><!-- Indoor Operation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outdoor Operation</masterLabel>
+            <translation><!-- Outdoor Operation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Describe the steps you are taking to ensure social distancing both inside and outside your location --></help>
+        <label>ソーシャルディスタンス計画の説明</label>
+        <name>PublicSector__SocialDistancingPlanDesc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Work --></label>
+        <name>Type_of_Work__c</name>
+        <picklistValues>
+            <masterLabel>Building Demolition</masterLabel>
+            <translation><!-- Building Demolition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building Expansion</masterLabel>
+            <translation><!-- Building Expansion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Removal of a Tree</masterLabel>
+            <translation><!-- Removal of a Tree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Removal of a Tree Stump</masterLabel>
+            <translation><!-- Removal of a Tree Stump --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Entity Information --></label>
+        <name>Work_Entity_Information__c</name>
+        <picklistValues>
+            <masterLabel>General Contractor</masterLabel>
+            <translation><!-- General Contractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property Owner</masterLabel>
+            <translation><!-- Property Owner --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <description><!-- Used for all BLAs --></description>
+        <label><!-- License or Permit --></label>
+        <name>License_or_Permit</name>
+    </recordTypes>
+    <recordTypes>
+        <label>再開許可要求</label>
+        <name>PublicSector__Reopening_Permit_Request</name>
+    </recordTypes>
+</CustomObjectTranslation>

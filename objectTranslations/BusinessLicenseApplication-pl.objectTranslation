@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Application Source --></label>
+        <name>Application_Source__c</name>
+        <picklistValues>
+            <masterLabel>Bot</masterLabel>
+            <translation><!-- Bot --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business Site Address --></label>
+        <name>Business_Site_Address__c</name>
+        <relationshipLabel><!-- Business License Applications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Coordinates --></label>
+        <name>Coordinates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delete BLA --></label>
+        <name>Delete_BLA__c</name>
+    </fields>
+    <fields>
+        <label><!-- HasCoordinates --></label>
+        <name>HasCoordinates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coordinator Email --></label>
+        <name>PublicSector__CoordinatorEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coordinator Name --></label>
+        <name>PublicSector__CoordinatorName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coordinator Phone --></label>
+        <name>PublicSector__CoordinatorPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coordinator Title --></label>
+        <name>PublicSector__CoordinatorTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facility Square Footage --></label>
+        <name>PublicSector__FacilitySquareFootage__c</name>
+    </fields>
+    <fields>
+        <help>Kontrola zdrowia pracowników (temperatura, zdrowie)</help>
+        <label><!-- Has Employee Screening Plan --></label>
+        <name>PublicSector__HasEmployeeScreeningPlan__c</name>
+    </fields>
+    <fields>
+        <help>Sprzątanie / Dezynfekcja (sprzątanie w często używanych miejscach, dezynfekcja często używanych powierzchni)</help>
+        <label><!-- Has Facility Sanitation Plan --></label>
+        <name>PublicSector__HasFacilitySanitationPlan__c</name>
+    </fields>
+    <fields>
+        <help>Sprzęt ochrony osobistej dla pracowników (do zakrywania twarzy i inny wymagany sprzęt ochronny, w tym ochrona oczu i rękawiczki, jeżeli konieczne)</help>
+        <label><!-- Has Personal Protective Equipment --></label>
+        <name>PublicSector__HasPersonalProtectiveEquipment__c</name>
+    </fields>
+    <fields>
+        <help>Dystansowanie społeczne (środki umożliwiające utrzymywanie przynajmniej 2-metrowego dystansu pomiędzy pracownikami i klientami)</help>
+        <label><!-- Has Social Distancing Plan --></label>
+        <name>PublicSector__HasSocialDistancingPlan__c</name>
+    </fields>
+    <fields>
+        <help>Udogodnienia dla grup wysokiego ryzyka, np. godziny tylko dla seniorów lub osób z problemami zdrowotnymi</help>
+        <label><!-- Has Vulnerable Population Plan --></label>
+        <name>PublicSector__HasVulnerablePopulationPlan__c</name>
+    </fields>
+    <fields>
+        <help>Wielkość obiektu (maks. na szefa pożarnictwa)</help>
+        <label><!-- Maximum Approved Occupancy --></label>
+        <name>PublicSector__MaximumApprovedOccupancy__c</name>
+    </fields>
+    <fields>
+        <help>Wielkość obiektu ze środkami dystansowania społecznego</help>
+        <label><!-- Occupancy with Social Distancing Measure --></label>
+        <name>PublicSector__OccupancySocialDistancing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reopening Date --></label>
+        <name>PublicSector__ReopeningDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reopening Permit Type --></label>
+        <name>PublicSector__ReopeningPermitType__c</name>
+        <picklistValues>
+            <masterLabel>Curbside Service</masterLabel>
+            <translation>Usługi wykonywane na ulicy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indoor Operation</masterLabel>
+            <translation>Czynności wykonywane w budynku</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outdoor Operation</masterLabel>
+            <translation>Czynności wykonywane na zewnątrz</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Opisz kroki, jakie wykonasz w celu zapewnienia dystansowania społecznego w swojej lokalizacji i poza nią</help>
+        <label><!-- Describe Social Distancing Plan --></label>
+        <name>PublicSector__SocialDistancingPlanDesc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Work --></label>
+        <name>Type_of_Work__c</name>
+        <picklistValues>
+            <masterLabel>Building Demolition</masterLabel>
+            <translation><!-- Building Demolition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building Expansion</masterLabel>
+            <translation><!-- Building Expansion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Removal of a Tree</masterLabel>
+            <translation><!-- Removal of a Tree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Removal of a Tree Stump</masterLabel>
+            <translation><!-- Removal of a Tree Stump --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Entity Information --></label>
+        <name>Work_Entity_Information__c</name>
+        <picklistValues>
+            <masterLabel>General Contractor</masterLabel>
+            <translation><!-- General Contractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property Owner</masterLabel>
+            <translation><!-- Property Owner --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <description><!-- Used for all BLAs --></description>
+        <label><!-- License or Permit --></label>
+        <name>License_or_Permit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Reopening Permit Request --></label>
+        <name>PublicSector__Reopening_Permit_Request</name>
+    </recordTypes>
+</CustomObjectTranslation>
