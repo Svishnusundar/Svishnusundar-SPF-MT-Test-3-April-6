@@ -108,7 +108,7 @@
     <description>Default category for gps</description>
     <label>Government of the Future</label>
     <objectUsage>
-        <object>KnowledgeArticleVersion</object>
         <object>SvcCatalogItemDef</object>
+        <object>KnowledgeArticleVersion</object>
     </objectUsage>
 </DataCategoryGroup>

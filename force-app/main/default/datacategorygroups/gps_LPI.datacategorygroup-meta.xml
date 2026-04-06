@@ -32,7 +32,7 @@
     <description>For Licensing and Permitting articles</description>
     <label>LPI</label>
     <objectUsage>
-        <object>SvcCatalogItemDef</object>
         <object>KnowledgeArticleVersion</object>
+        <object>SvcCatalogItemDef</object>
     </objectUsage>
 </DataCategoryGroup>
